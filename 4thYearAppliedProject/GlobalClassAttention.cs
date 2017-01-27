@@ -8,7 +8,7 @@ namespace _4thYearAppliedProject
 {
     class GlobalClassAttention
     {
-        //Variables if porpoise tapped
+        //Variables for score
         public static int score;
     }
 }

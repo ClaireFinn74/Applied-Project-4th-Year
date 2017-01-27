@@ -1,0 +1,33 @@
+﻿<Page
+    x:Class="_4thYearAppliedProject.AttentionLevels.Picture_Perect.Tea"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:_4thYearAppliedProject.AttentionLevels.Picture_Perect"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:Name="txtbScore" Margin="1,12,12,0" Opacity="0.5" Text="" Height="52" VerticalAlignment="Top" Grid.Column="3" d:LayoutOverrides="HorizontalAlignment"/>
+        <Button x:Name="btnFiveTeas" Background="Pink" Opacity="1" HorizontalAlignment="Left" Margin="20,52,0,0" VerticalAlignment="Top" Click="btnFiveTeas_Click" IsEnabled="True" Height="74" Width="140" RenderTransformOrigin="0.5,0.5"
+         Content="Five Teas"/>
+        <Button x:Name="btnThreeCoffees" Background="Pink" Opacity="1" HorizontalAlignment="Left" Margin="19,238,0,0" VerticalAlignment="Top" Click="btnThreeCoffees_Click" IsEnabled="True" Height="74" Width="140" RenderTransformOrigin="0.5,0.5"
+         Content="Three Coffees"/>
+        <Button x:Name="btnMilk" Background="Pink" Opacity="1" HorizontalAlignment="Left" Margin="27,438,0,0" VerticalAlignment="Top" Click="btnMilk_Click" IsEnabled="True" Height="74" Width="140" RenderTransformOrigin="0.5,0.5"
+         Content="Milk"/>
+        <Button x:Name="btnTeapot" Background="Pink" Opacity="1" HorizontalAlignment="Left" Margin="190,331,0,0" VerticalAlignment="Top" Click="btnTeapot_Click" IsEnabled="True" Height="74" Width="140" RenderTransformOrigin="0.5,0.5"
+         Content="Teapot"/>
+        <Button x:Name="btnCutlery" Background="Pink" Opacity="1" HorizontalAlignment="Left" Margin="182,52,0,0" VerticalAlignment="Top" Click="btnCutlery_Click" IsEnabled="True" Height="74" Width="140" RenderTransformOrigin="0.5,0.5"
+         Content="Cutlery"/>
+        <Button x:Name="btnBuscuits" Background="Pink" Opacity="1" HorizontalAlignment="Left" Margin="190,240,0,0" VerticalAlignment="Top" Click="btnBuscuits_Click" IsEnabled="True" Height="74" Width="140" RenderTransformOrigin="0.5,0.5"
+         Content="Buscuits"/>
+        <Button x:Name="btnShirt" Background="Pink" Opacity="1" HorizontalAlignment="Left" Margin="192,143,0,0" VerticalAlignment="Top" Click="btnShirt_Click" IsEnabled="True" Height="74" Width="140" RenderTransformOrigin="0.5,0.5"
+         Content="Shirt"/>
+        <Button x:Name="btnSugar" Background="Pink" Opacity="1" HorizontalAlignment="Left" Margin="199,435,-2,0" VerticalAlignment="Top" Click="btnSugar_Click" IsEnabled="True" Height="74" Width="163" RenderTransformOrigin="0.5,0.5"
+         Content="Sugar"/>
+        <Button x:Name="btnSugarBowl" Background="Pink" Opacity="1" HorizontalAlignment="Left" Margin="28,336,0,0" VerticalAlignment="Top" Click="btnSugarBowl_Click" IsEnabled="True" Height="74" Width="140" RenderTransformOrigin="0.5,0.5"
+         Content="Sugar Bowl"/>
+        <Button x:Name="btnSun" Background="Pink" Opacity="1" HorizontalAlignment="Left" Margin="17,144,0,0" VerticalAlignment="Top" Click="btnSun_Click" IsEnabled="True" Height="74" Width="140" RenderTransformOrigin="0.5,0.5"
+         Content="Sun"/>
+    </Grid>
+</Page>

@@ -11,7 +11,7 @@
     <AssemblyName>4thYearAppliedProject</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
-    <TargetPlatformVersion>10.0.10586.0</TargetPlatformVersion>
+    <TargetPlatformVersion>10.0.10240.0</TargetPlatformVersion>
     <TargetPlatformMinVersion>10.0.10240.0</TargetPlatformMinVersion>
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <FileAlignment>512</FileAlignment>
@@ -91,35 +91,143 @@
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
+    <None Include="Images\Thumbs.db" />
+    <None Include="Service References\MyServices\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\MyServices\configuration.svcinfo" />
+    <None Include="Service References\MyServices\configuration91.svcinfo" />
     <None Include="project.json" />
+    <None Include="Properties\ServiceReferences.Designer.ClientConfig" />
+    <None Include="Service References\MyServices\service.wsdl" />
+    <None Include="Service References\MyServices\service.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\MyServices\service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\MyServices\WcfService.Common.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\MyServices\_4thYearAppliedProject.MyServices.User.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="BarnDance.xaml.cs" />
-    <Compile Include="BearlyWorking.xaml.cs" />
-    <Compile Include="BrainFall.xaml.cs">
+    <Compile Include="AttentionLevels\Everything has a porpoise\MainPage.cs" />
+    <Compile Include="AttentionLevels\Everything has a porpoise\PorpoiseLevel10.xaml.cs">
+      <DependentUpon>PorpoiseLevel10.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AttentionLevels\Everything has a porpoise\PorpoiseLevel2.xaml.cs">
+      <DependentUpon>PorpoiseLevel2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AttentionLevels\Everything has a porpoise\PorpoiseLevel3.xaml.cs">
+      <DependentUpon>PorpoiseLevel3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AttentionLevels\Everything has a porpoise\PorpoiseLevel4.xaml.cs">
+      <DependentUpon>PorpoiseLevel4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AttentionLevels\Everything has a porpoise\PorpoiseLevel5.xaml.cs">
+      <DependentUpon>PorpoiseLevel5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AttentionLevels\Everything has a porpoise\PorpoiseLevel6.xaml.cs">
+      <DependentUpon>PorpoiseLevel6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AttentionLevels\Everything has a porpoise\PorpoiseLevel7.xaml.cs">
+      <DependentUpon>PorpoiseLevel7.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AttentionLevels\Everything has a porpoise\PorpoiseLevel8.xaml.cs">
+      <DependentUpon>PorpoiseLevel8.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AttentionLevels\Everything has a porpoise\PorpoiseLevel9.xaml.cs">
+      <DependentUpon>PorpoiseLevel9.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AttentionLevels\Picture Perfect\CoffeeArt.xaml.cs">
+      <DependentUpon>CoffeeArt.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AttentionLevels\Picture Perfect\Hare.xaml.cs">
+      <DependentUpon>Hare.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AttentionLevels\Picture Perfect\House.xaml.cs">
+      <DependentUpon>House.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AttentionLevels\Picture Perfect\PicturePerfect2.xaml.cs">
+      <DependentUpon>PicturePerfect2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AttentionLevels\Picture Perfect\PicturePerfect3.xaml.cs">
+      <DependentUpon>PicturePerfect3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AttentionLevels\Picture Perfect\PicturePerfect4.xaml.cs">
+      <DependentUpon>PicturePerfect4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AttentionLevels\Picture Perfect\PicturePerfect5.xaml.cs">
+      <DependentUpon>PicturePerfect5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AttentionLevels\Picture Perfect\PicturePerfect6.xaml.cs">
+      <DependentUpon>PicturePerfect6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AttentionLevels\Picture Perfect\PicturePerfect7.xaml.cs">
+      <DependentUpon>PicturePerfect7.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AttentionLevels\Picture Perfect\PicturePerfect8.xaml.cs">
+      <DependentUpon>PicturePerfect8.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AttentionLevels\Picture Perfect\PicturePerfect9.xaml.cs">
+      <DependentUpon>PicturePerfect9.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AttentionLevels\Picture Perfect\School.xaml.cs">
+      <DependentUpon>School.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AttentionLevels\Picture Perfect\SickBoy.xaml.cs">
+      <DependentUpon>SickBoy.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AttentionLevels\Picture Perfect\SmartPhone.xaml.cs">
+      <DependentUpon>SmartPhone.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AttentionLevels\Picture Perfect\Street.xaml.cs">
+      <DependentUpon>Street.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AttentionLevels\Picture Perfect\Tea.xaml.cs">
+      <DependentUpon>Tea.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AttentionLevels\Picture Perfect\Zoo.xaml.cs">
+      <DependentUpon>Zoo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="HighScores.xaml.cs">
+      <DependentUpon>HighScores.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="JsonObjectsClass.cs" />
+    <Compile Include="Problem-Solving Levels\BrainFall.xaml.cs">
       <DependentUpon>BrainFall.xaml</DependentUpon>
     </Compile>
-    <Compile Include="BrainGains.xaml.cs">
+    <Compile Include="Problem-Solving Levels\BrainGains.xaml.cs">
       <DependentUpon>BrainGains.xaml</DependentUpon>
     </Compile>
-    <Compile Include="EverythingHasAPorpoise.xaml.cs" />
+    <Compile Include="AttentionLevels\Everything has a porpoise\EverythingHasAPorpoise.xaml.cs" />
     <Compile Include="GlobalClassAttention.cs" />
-    <Compile Include="HigherOrLower.xaml.cs">
+    <Compile Include="Problem-Solving Levels\HigherOrLower.xaml.cs">
       <DependentUpon>HigherOrLower.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ManicMaths.xaml.cs">
+    <Compile Include="Problem-Solving Levels\ManicMaths.xaml.cs">
       <DependentUpon>ManicMaths.xaml</DependentUpon>
     </Compile>
-    <Compile Include="PicturePerfect.xaml.cs" />
+    <Compile Include="AttentionLevels\Picture Perfect\PicturePerfect.xaml.cs" />
     <Compile Include="ProblemSolvingGames.xaml.cs">
       <DependentUpon>ProblemSolvingGames.xaml</DependentUpon>
     </Compile>
-    <Compile Include="QuickRPG.xaml.cs">
+    <Compile Include="Problem-Solving Levels\QuickRPG.xaml.cs">
       <DependentUpon>QuickRPG.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\MyServices\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
     <Compile Include="SpeedLevels\BrainBox\BrainBox.xaml.cs">
       <DependentUpon>BrainBox.xaml</DependentUpon>
@@ -139,11 +247,11 @@
     <Compile Include="SpeedLevels\SpotTheDifference\SpotTheDifference.xaml.cs">
       <DependentUpon>SpotTheDifference.xaml</DependentUpon>
     </Compile>
-    <Compile Include="TotalRecall.xaml.cs" />
+    <Compile Include="AttentionLevels\Total Recall\TotalRecall.xaml.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="AttentionPage.xaml.cs" />
+    <Compile Include="AttentionLevels\AttentionPage.xaml.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -154,8 +262,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Images\article.jpg" />
-    <Content Include="Images\BarnOwlMainPage.jpg" />
-    <Content Include="Images\BearMainPage.jpg" />
     <Content Include="Images\brain-lifting-weight.jpg" />
     <Content Include="Images\BrainBox.jpg" />
     <Content Include="Images\Brainfall.jpg" />
@@ -195,35 +301,135 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="BarnDance.xaml">
+    <Page Include="AttentionLevels\Everything has a porpoise\PorpoiseLevel10.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AttentionLevels\Everything has a porpoise\PorpoiseLevel2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AttentionLevels\Everything has a porpoise\PorpoiseLevel3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AttentionLevels\Everything has a porpoise\PorpoiseLevel4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AttentionLevels\Everything has a porpoise\PorpoiseLevel5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AttentionLevels\Everything has a porpoise\PorpoiseLevel6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AttentionLevels\Everything has a porpoise\PorpoiseLevel7.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AttentionLevels\Everything has a porpoise\PorpoiseLevel8.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AttentionLevels\Everything has a porpoise\PorpoiseLevel9.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AttentionLevels\Picture Perfect\CoffeeArt.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AttentionLevels\Picture Perfect\Hare.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AttentionLevels\Picture Perfect\House.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AttentionLevels\Picture Perfect\PicturePerfect2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AttentionLevels\Picture Perfect\PicturePerfect3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AttentionLevels\Picture Perfect\PicturePerfect4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AttentionLevels\Picture Perfect\PicturePerfect5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AttentionLevels\Picture Perfect\PicturePerfect6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AttentionLevels\Picture Perfect\PicturePerfect7.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AttentionLevels\Picture Perfect\PicturePerfect8.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AttentionLevels\Picture Perfect\PicturePerfect9.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AttentionLevels\Picture Perfect\School.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AttentionLevels\Picture Perfect\SickBoy.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AttentionLevels\Picture Perfect\SmartPhone.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AttentionLevels\Picture Perfect\Street.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AttentionLevels\Picture Perfect\Tea.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AttentionLevels\Picture Perfect\Zoo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="HighScores.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Problem-Solving Levels\BrainFall.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="BearlyWorking.xaml">
+    <Page Include="Problem-Solving Levels\BrainGains.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="BrainFall.xaml">
+    <Page Include="AttentionLevels\Everything has a porpoise\EverythingHasAPorpoise.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="BrainGains.xaml">
+    <Page Include="Problem-Solving Levels\HigherOrLower.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="EverythingHasAPorpoise.xaml">
+    <Page Include="Problem-Solving Levels\ManicMaths.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="HigherOrLower.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="ManicMaths.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="PicturePerfect.xaml">
+    <Page Include="AttentionLevels\Picture Perfect\PicturePerfect.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -231,7 +437,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="QuickRPG.xaml">
+    <Page Include="Problem-Solving Levels\QuickRPG.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -259,7 +465,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="TotalRecall.xaml">
+    <Page Include="AttentionLevels\Total Recall\TotalRecall.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -267,12 +473,17 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="AttentionPage.xaml">
+    <Page Include="AttentionLevels\AttentionPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\MyServices\" />
+  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

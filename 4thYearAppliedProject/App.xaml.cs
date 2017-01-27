@@ -1,4 +1,5 @@
 ﻿using AppliedProject4thYear;
+using Microsoft.WindowsAzure.MobileServices;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -76,7 +77,7 @@ namespace _4thYearAppliedProject
                 // When the navigation stack isn't restored navigate to the first page,
                 // configuring the new page by passing required information as a navigation
                 // parameter
-                rootFrame.Navigate(typeof(MainPage), e.Arguments);
+                rootFrame.Navigate(typeof(AppliedProject4thYear.MainPage), e.Arguments);
             }
             // Ensure the current window is active
             Window.Current.Activate();
@@ -105,5 +106,7 @@ namespace _4thYearAppliedProject
             //TODO: Save application state and stop any background activity
             deferral.Complete();
         }
+
+        public static MobileServiceClient MobileService = new MobileServiceClient("https://brainworksapp.azurewebsites.net");
     }
 }

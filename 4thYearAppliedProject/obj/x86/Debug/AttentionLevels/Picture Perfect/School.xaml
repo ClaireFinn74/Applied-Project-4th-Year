@@ -1,0 +1,34 @@
+﻿<Page
+    x:Class="_4thYearAppliedProject.AttentionLevels.Picture_Perect.School"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:_4thYearAppliedProject.AttentionLevels.Picture_Perect"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:ConnectionId='1' x:Name="btnRedBook" Background="Pink" Opacity="1" HorizontalAlignment="Left" Margin="20,52,0,0" VerticalAlignment="Top"                          IsEnabled="True" Height="74" Width="140" RenderTransformOrigin="0.5,0.5"
+         Content="Red Book"/>
+        <Button x:ConnectionId='2' x:Name="btnBrownBook" Background="Pink" Opacity="1" HorizontalAlignment="Left" Margin="19,238,0,0" VerticalAlignment="Top"                            IsEnabled="True" Height="74" Width="140" RenderTransformOrigin="0.5,0.5"
+         Content="Brown Book"/>
+        <Button x:ConnectionId='3' x:Name="btnLeaf" Background="Pink" Opacity="1" HorizontalAlignment="Left" Margin="27,438,0,0" VerticalAlignment="Top"                       IsEnabled="True" Height="74" Width="140" RenderTransformOrigin="0.5,0.5"
+         Content="Leaf"/>
+        <Button x:ConnectionId='4' x:Name="btnTwoChalks" Background="Pink" Opacity="1" HorizontalAlignment="Left" Margin="190,331,0,0" VerticalAlignment="Top"                            IsEnabled="True" Height="74" Width="140" RenderTransformOrigin="0.5,0.5"
+         Content="Two Chalks"/>
+        <Button x:ConnectionId='5' x:Name="btnApple" Background="Pink" Opacity="1" HorizontalAlignment="Left" Margin="182,52,0,0" VerticalAlignment="Top"                        IsEnabled="True" Height="74" Width="140" RenderTransformOrigin="0.5,0.5"
+         Content="Apple"/>
+        <Button x:ConnectionId='6' x:Name="btnWhiteBoard" Background="Pink" Opacity="1" HorizontalAlignment="Left" Margin="190,240,0,0" VerticalAlignment="Top"                             IsEnabled="True" Height="74" Width="140" RenderTransformOrigin="0.5,0.5"
+         Content="White Board"/>
+        <Button x:ConnectionId='7' x:Name="btnBlueBook" Background="Pink" Opacity="1" HorizontalAlignment="Left" Margin="192,143,0,0" VerticalAlignment="Top"                           IsEnabled="True" Height="74" Width="140" RenderTransformOrigin="0.5,0.5"
+         Content="Blue Book"/>
+        <Button x:ConnectionId='8' x:Name="btnWritingOnBoard" Background="Pink" Opacity="1" HorizontalAlignment="Left" Margin="199,435,-2,0" VerticalAlignment="Top"                                 IsEnabled="True" Height="74" Width="163" RenderTransformOrigin="0.5,0.5"
+         Content="Writing on the Board"/>
+        <Button x:ConnectionId='9' x:Name="btnTable" Background="Pink" Opacity="1" HorizontalAlignment="Left" Margin="28,336,0,0" VerticalAlignment="Top"                        IsEnabled="True" Height="74" Width="140" RenderTransformOrigin="0.5,0.5"
+         Content="Table"/>
+        <Button x:ConnectionId='10' x:Name="btnFourBooks" Background="Pink" Opacity="1" HorizontalAlignment="Left" Margin="17,144,0,0" VerticalAlignment="Top"                            IsEnabled="True" Height="74" Width="140" RenderTransformOrigin="0.5,0.5"
+         Content="Four Books"/>
+        <TextBlock x:ConnectionId='11' x:Name="txtbScore" Margin="1,12,12,0" Opacity="0.5" Text="" Height="52" VerticalAlignment="Top" Grid.Column="3" d:LayoutOverrides="HorizontalAlignment"/>
+    </Grid>
+</Page>
+

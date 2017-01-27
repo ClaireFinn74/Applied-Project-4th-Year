@@ -1,0 +1,116 @@
+﻿<Page
+    x:Class="_4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise.PorpoiseLevel2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:_4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <Storyboard x:Name="sbPorpoiseLevel1" RepeatBehavior="Forever" AutoReverse="True">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="imgporpoise">
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="111.158"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="16.842"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="imgporpoise">
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="-112.841"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="311.58"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="imgporpoise3">
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="-180.211"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="-32"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="imgporpoise3">
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="-168.421"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="-1.684"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="imgporpoise2">
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="10.105"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="65.684"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="imgporpoise2">
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="309.895"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="-23.579"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="sbPorpoiseLevel2" RepeatBehavior="Forever" AutoReverse="True">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="imgporpoise">
+                <EasingDoubleKeyFrame KeyTime="0" Value="5.333"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="111.158"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="16.842"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="imgporpoise">
+                <EasingDoubleKeyFrame KeyTime="0" Value="21.333"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="-112.841"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="311.58"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="imgporpoise3">
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="-180.211"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="-32"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="imgporpoise3">
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="-168.421"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="-1.684"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="imgporpoise2">
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="10.105"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="65.684"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="imgporpoise2">
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="309.895"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="-23.579"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="imgporpoise4">
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.6" Value="149.333"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="-32"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:6" Value="184"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="imgporpoise4">
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="125.333"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.6" Value="-77.334"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="37.333"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:6" Value="320"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </Page.Resources>
+
+    <Grid Background="LightBlue">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="213*"/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="8*"/>
+            <ColumnDefinition Width="139*"/>
+        </Grid.ColumnDefinitions>
+        <Image x:Name="imgporpoise" Source="/Images/imgporpoise.png" HorizontalAlignment="Left" Height="66" VerticalAlignment="Top" Width="72" Margin="79,73,0,0" RenderTransformOrigin="0.5,0.5" Tapped="imgporpoise_Tapped">
+            <Image.RenderTransform>
+                <CompositeTransform/>
+            </Image.RenderTransform>
+            <Image.Projection>
+                <PlaneProjection RotationX="20" RotationY="180"/>
+            </Image.Projection>
+        </Image>
+        <Image x:Name="imgporpoise2" Source="/Images/imgporpoise.png" HorizontalAlignment="Left" Height="66" VerticalAlignment="Top" Width="72" Margin="-5,95,0,0" RenderTransformOrigin="-0.467,1.574" Tapped="imgporpoise2_Tapped" Grid.Column="3" d:LayoutOverrides="HorizontalAlignment">
+            <Image.RenderTransform>
+                <CompositeTransform/>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="imgporpoise3" Source="/Images/imgporpoise.png" HorizontalAlignment="Left" Width="72" Margin="39,208,0,0" RenderTransformOrigin="1.955,1.778" Tapped="imgporpoise3_Tapped" Grid.Column="3" Height="66" VerticalAlignment="Top">
+            <Image.RenderTransform>
+                <CompositeTransform/>
+            </Image.RenderTransform>
+            <Image.Projection>
+                <PlaneProjection RotationX="180"/>
+            </Image.Projection>
+        </Image>
+
+        <TextBlock x:Name="txtbScore" Margin="1,12,12,0" Opacity="0.5" Text="" Height="52" VerticalAlignment="Top" Grid.Column="3" d:LayoutOverrides="HorizontalAlignment"/>
+       
+        <Image x:Name="imgporpoise4" Source="/Images/imgporpoise.png" HorizontalAlignment="Left" Height="66" VerticalAlignment="Top" Width="72" Margin="54,172,0,0" RenderTransformOrigin="-0.467,1.574" Visibility="Visible" Tapped="imgporpoise4_Tapped">
+            <Image.RenderTransform>
+                <CompositeTransform/>
+            </Image.RenderTransform>
+        </Image>
+    </Grid>
+</Page>

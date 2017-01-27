@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="AppliedProject4thYear.AttentionLevels.TotalRecall"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppliedProject4thYear.AttentionLevels"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid x:Name="LayoutRoot" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBox x:Name="txtUserInput" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" RenderTransformOrigin="2.575,3.016" Margin="35,132,0,0" Width="297" Height="70"/>
+        <TextBlock x:Name="txtblUserInput" HorizontalAlignment="Left" TextWrapping="Wrap" Text="How many words can you think of?" VerticalAlignment="Top" Height="58" Width="153" Margin="112,270,0,0"/>
+        <TextBox x:Name="txtScore" HorizontalAlignment="Left" IsReadOnly="True" TextWrapping="Wrap" Text="" VerticalAlignment="Top" RenderTransformOrigin="2.575,3.016" Margin="18,10,0,0" Width="99" Height="47"/>
+        <Button x:Name="btnEnter" Background="#33EE40BE" BorderBrush="#FF39498F" HorizontalAlignment="Left" Margin="370,600,-345.2,0" VerticalAlignment="Top" Height="58" Width="488" Click="btnEnter_Click" Grid.Column="1"/>
+
+    </Grid>
+</Page>

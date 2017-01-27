@@ -132,27 +132,101 @@ namespace _4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[9];
-            _typeNameTable[0] = "AppliedProject4thYear.AttentionLevels.BarnDance";
+            _typeNameTable = new string[46];
+            _typeNameTable[0] = "_4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise.PorpoiseLevel10";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "AppliedProject4thYear.AttentionLevels.BearlyWorking";
-            _typeNameTable[4] = "AppliedProject4thYear.AttentionLevels.Everything_Has_A_Purpoise";
-            _typeNameTable[5] = "AppliedProject4thYear.AttentionLevels.PicturePerfect";
-            _typeNameTable[6] = "AppliedProject4thYear.AttentionLevels.TotalRecall";
-            _typeNameTable[7] = "_4thYearAppliedProject.MainPage";
-            _typeNameTable[8] = "AppliedProject4thYear.MainPages.AttentionPage";
+            _typeNameTable[3] = "_4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise.PorpoiseLevel2";
+            _typeNameTable[4] = "_4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise.PorpoiseLevel3";
+            _typeNameTable[5] = "_4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise.PorpoiseLevel4";
+            _typeNameTable[6] = "_4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise.PorpoiseLevel5";
+            _typeNameTable[7] = "_4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise.PorpoiseLevel6";
+            _typeNameTable[8] = "_4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise.PorpoiseLevel7";
+            _typeNameTable[9] = "_4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise.PorpoiseLevel8";
+            _typeNameTable[10] = "_4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise.PorpoiseLevel9";
+            _typeNameTable[11] = "_4thYearAppliedProject.AttentionLevels.Picture_Perect.CoffeeArt";
+            _typeNameTable[12] = "_4thYearAppliedProject.AttentionLevels.Picture_Perect.Hare";
+            _typeNameTable[13] = "_4thYearAppliedProject.AttentionLevels.Picture_Perect.House";
+            _typeNameTable[14] = "_4thYearAppliedProject.AttentionLevels.Picture_Perect.PicturePerfect2";
+            _typeNameTable[15] = "_4thYearAppliedProject.AttentionLevels.Picture_Perect.PicturePerfect3";
+            _typeNameTable[16] = "_4thYearAppliedProject.AttentionLevels.Picture_Perect.PicturePerfect4";
+            _typeNameTable[17] = "_4thYearAppliedProject.AttentionLevels.Picture_Perect.PicturePerfect5";
+            _typeNameTable[18] = "_4thYearAppliedProject.AttentionLevels.Picture_Perect.PicturePerfect6";
+            _typeNameTable[19] = "_4thYearAppliedProject.AttentionLevels.Picture_Perect.PicturePerfect7";
+            _typeNameTable[20] = "_4thYearAppliedProject.AttentionLevels.Picture_Perect.PicturePerfect8";
+            _typeNameTable[21] = "_4thYearAppliedProject.AttentionLevels.Picture_Perect.PicturePerfect9";
+            _typeNameTable[22] = "_4thYearAppliedProject.AttentionLevels.Picture_Perect.School";
+            _typeNameTable[23] = "_4thYearAppliedProject.AttentionLevels.Picture_Perect.SickBoy";
+            _typeNameTable[24] = "_4thYearAppliedProject.AttentionLevels.Picture_Perect.SmartPhone";
+            _typeNameTable[25] = "_4thYearAppliedProject.AttentionLevels.Picture_Perect.Street";
+            _typeNameTable[26] = "_4thYearAppliedProject.AttentionLevels.Picture_Perect.Tea";
+            _typeNameTable[27] = "_4thYearAppliedProject.AttentionLevels.Picture_Perect.Zoo";
+            _typeNameTable[28] = "_4thYearAppliedProject.HighScores";
+            _typeNameTable[29] = "AppliedProject4thYear.BrainFall";
+            _typeNameTable[30] = "AppliedProject4thYear.BrainGains";
+            _typeNameTable[31] = "AppliedProject4thYear.AttentionLevels.Everything_Has_A_Purpoise";
+            _typeNameTable[32] = "AppliedProject4thYear.HigherOrLower";
+            _typeNameTable[33] = "AppliedProject4thYear.ManicMath";
+            _typeNameTable[34] = "AppliedProject4thYear.AttentionLevels.PicturePerfect";
+            _typeNameTable[35] = "AppliedProject4thYear.ProblemSolvingGames";
+            _typeNameTable[36] = "AppliedProject4thYear.QuickRPG";
+            _typeNameTable[37] = "AppliedProject4thYear.SpeedLevels.BrainBox.BrainBox";
+            _typeNameTable[38] = "AppliedProject4thYear.SpeedLevels.DownToATea.DownToATea";
+            _typeNameTable[39] = "AppliedProject4thYear.SpeedLevels.FoalShadow.FoalShadow";
+            _typeNameTable[40] = "AppliedProject4thYear.SpeedLevels.GoWithTheBuffLow.GoWithTheBuffLow";
+            _typeNameTable[41] = "AppliedProject4thYear.SpeedLevels.SpeedLevelsMainPage";
+            _typeNameTable[42] = "AppliedProject4thYear.SpeedLevels.SpotTheDifference.SpotTheDifference";
+            _typeNameTable[43] = "AppliedProject4thYear.AttentionLevels.TotalRecall";
+            _typeNameTable[44] = "AppliedProject4thYear.MainPage";
+            _typeNameTable[45] = "AppliedProject4thYear.MainPages.AttentionPage";
 
-            _typeTable = new global::System.Type[9];
-            _typeTable[0] = typeof(global::AppliedProject4thYear.AttentionLevels.BarnDance);
+            _typeTable = new global::System.Type[46];
+            _typeTable[0] = typeof(global::_4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise.PorpoiseLevel10);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::AppliedProject4thYear.AttentionLevels.BearlyWorking);
-            _typeTable[4] = typeof(global::AppliedProject4thYear.AttentionLevels.Everything_Has_A_Purpoise);
-            _typeTable[5] = typeof(global::AppliedProject4thYear.AttentionLevels.PicturePerfect);
-            _typeTable[6] = typeof(global::AppliedProject4thYear.AttentionLevels.TotalRecall);
-            _typeTable[7] = typeof(global::_4thYearAppliedProject.MainPage);
-            _typeTable[8] = typeof(global::AppliedProject4thYear.MainPages.AttentionPage);
+            _typeTable[3] = typeof(global::_4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise.PorpoiseLevel2);
+            _typeTable[4] = typeof(global::_4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise.PorpoiseLevel3);
+            _typeTable[5] = typeof(global::_4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise.PorpoiseLevel4);
+            _typeTable[6] = typeof(global::_4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise.PorpoiseLevel5);
+            _typeTable[7] = typeof(global::_4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise.PorpoiseLevel6);
+            _typeTable[8] = typeof(global::_4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise.PorpoiseLevel7);
+            _typeTable[9] = typeof(global::_4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise.PorpoiseLevel8);
+            _typeTable[10] = typeof(global::_4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise.PorpoiseLevel9);
+            _typeTable[11] = typeof(global::_4thYearAppliedProject.AttentionLevels.Picture_Perect.CoffeeArt);
+            _typeTable[12] = typeof(global::_4thYearAppliedProject.AttentionLevels.Picture_Perect.Hare);
+            _typeTable[13] = typeof(global::_4thYearAppliedProject.AttentionLevels.Picture_Perect.House);
+            _typeTable[14] = typeof(global::_4thYearAppliedProject.AttentionLevels.Picture_Perect.PicturePerfect2);
+            _typeTable[15] = typeof(global::_4thYearAppliedProject.AttentionLevels.Picture_Perect.PicturePerfect3);
+            _typeTable[16] = typeof(global::_4thYearAppliedProject.AttentionLevels.Picture_Perect.PicturePerfect4);
+            _typeTable[17] = typeof(global::_4thYearAppliedProject.AttentionLevels.Picture_Perect.PicturePerfect5);
+            _typeTable[18] = typeof(global::_4thYearAppliedProject.AttentionLevels.Picture_Perect.PicturePerfect6);
+            _typeTable[19] = typeof(global::_4thYearAppliedProject.AttentionLevels.Picture_Perect.PicturePerfect7);
+            _typeTable[20] = typeof(global::_4thYearAppliedProject.AttentionLevels.Picture_Perect.PicturePerfect8);
+            _typeTable[21] = typeof(global::_4thYearAppliedProject.AttentionLevels.Picture_Perect.PicturePerfect9);
+            _typeTable[22] = typeof(global::_4thYearAppliedProject.AttentionLevels.Picture_Perect.School);
+            _typeTable[23] = typeof(global::_4thYearAppliedProject.AttentionLevels.Picture_Perect.SickBoy);
+            _typeTable[24] = typeof(global::_4thYearAppliedProject.AttentionLevels.Picture_Perect.SmartPhone);
+            _typeTable[25] = typeof(global::_4thYearAppliedProject.AttentionLevels.Picture_Perect.Street);
+            _typeTable[26] = typeof(global::_4thYearAppliedProject.AttentionLevels.Picture_Perect.Tea);
+            _typeTable[27] = typeof(global::_4thYearAppliedProject.AttentionLevels.Picture_Perect.Zoo);
+            _typeTable[28] = typeof(global::_4thYearAppliedProject.HighScores);
+            _typeTable[29] = typeof(global::AppliedProject4thYear.BrainFall);
+            _typeTable[30] = typeof(global::AppliedProject4thYear.BrainGains);
+            _typeTable[31] = typeof(global::AppliedProject4thYear.AttentionLevels.Everything_Has_A_Purpoise);
+            _typeTable[32] = typeof(global::AppliedProject4thYear.HigherOrLower);
+            _typeTable[33] = typeof(global::AppliedProject4thYear.ManicMath);
+            _typeTable[34] = typeof(global::AppliedProject4thYear.AttentionLevels.PicturePerfect);
+            _typeTable[35] = typeof(global::AppliedProject4thYear.ProblemSolvingGames);
+            _typeTable[36] = typeof(global::AppliedProject4thYear.QuickRPG);
+            _typeTable[37] = typeof(global::AppliedProject4thYear.SpeedLevels.BrainBox.BrainBox);
+            _typeTable[38] = typeof(global::AppliedProject4thYear.SpeedLevels.DownToATea.DownToATea);
+            _typeTable[39] = typeof(global::AppliedProject4thYear.SpeedLevels.FoalShadow.FoalShadow);
+            _typeTable[40] = typeof(global::AppliedProject4thYear.SpeedLevels.GoWithTheBuffLow.GoWithTheBuffLow);
+            _typeTable[41] = typeof(global::AppliedProject4thYear.SpeedLevels.SpeedLevelsMainPage);
+            _typeTable[42] = typeof(global::AppliedProject4thYear.SpeedLevels.SpotTheDifference.SpotTheDifference);
+            _typeTable[43] = typeof(global::AppliedProject4thYear.AttentionLevels.TotalRecall);
+            _typeTable[44] = typeof(global::AppliedProject4thYear.MainPage);
+            _typeTable[45] = typeof(global::AppliedProject4thYear.MainPages.AttentionPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -187,13 +261,50 @@ namespace _4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_BarnDance() { return new global::AppliedProject4thYear.AttentionLevels.BarnDance(); }
-        private object Activate_3_BearlyWorking() { return new global::AppliedProject4thYear.AttentionLevels.BearlyWorking(); }
-        private object Activate_4_Everything_Has_A_Purpoise() { return new global::AppliedProject4thYear.AttentionLevels.Everything_Has_A_Purpoise(); }
-        private object Activate_5_PicturePerfect() { return new global::AppliedProject4thYear.AttentionLevels.PicturePerfect(); }
-        private object Activate_6_TotalRecall() { return new global::AppliedProject4thYear.AttentionLevels.TotalRecall(); }
-        private object Activate_7_MainPage() { return new global::_4thYearAppliedProject.MainPage(); }
-        private object Activate_8_AttentionPage() { return new global::AppliedProject4thYear.MainPages.AttentionPage(); }
+        private object Activate_0_PorpoiseLevel10() { return new global::_4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise.PorpoiseLevel10(); }
+        private object Activate_3_PorpoiseLevel2() { return new global::_4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise.PorpoiseLevel2(); }
+        private object Activate_4_PorpoiseLevel3() { return new global::_4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise.PorpoiseLevel3(); }
+        private object Activate_5_PorpoiseLevel4() { return new global::_4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise.PorpoiseLevel4(); }
+        private object Activate_6_PorpoiseLevel5() { return new global::_4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise.PorpoiseLevel5(); }
+        private object Activate_7_PorpoiseLevel6() { return new global::_4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise.PorpoiseLevel6(); }
+        private object Activate_8_PorpoiseLevel7() { return new global::_4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise.PorpoiseLevel7(); }
+        private object Activate_9_PorpoiseLevel8() { return new global::_4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise.PorpoiseLevel8(); }
+        private object Activate_10_PorpoiseLevel9() { return new global::_4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise.PorpoiseLevel9(); }
+        private object Activate_11_CoffeeArt() { return new global::_4thYearAppliedProject.AttentionLevels.Picture_Perect.CoffeeArt(); }
+        private object Activate_12_Hare() { return new global::_4thYearAppliedProject.AttentionLevels.Picture_Perect.Hare(); }
+        private object Activate_13_House() { return new global::_4thYearAppliedProject.AttentionLevels.Picture_Perect.House(); }
+        private object Activate_14_PicturePerfect2() { return new global::_4thYearAppliedProject.AttentionLevels.Picture_Perect.PicturePerfect2(); }
+        private object Activate_15_PicturePerfect3() { return new global::_4thYearAppliedProject.AttentionLevels.Picture_Perect.PicturePerfect3(); }
+        private object Activate_16_PicturePerfect4() { return new global::_4thYearAppliedProject.AttentionLevels.Picture_Perect.PicturePerfect4(); }
+        private object Activate_17_PicturePerfect5() { return new global::_4thYearAppliedProject.AttentionLevels.Picture_Perect.PicturePerfect5(); }
+        private object Activate_18_PicturePerfect6() { return new global::_4thYearAppliedProject.AttentionLevels.Picture_Perect.PicturePerfect6(); }
+        private object Activate_19_PicturePerfect7() { return new global::_4thYearAppliedProject.AttentionLevels.Picture_Perect.PicturePerfect7(); }
+        private object Activate_20_PicturePerfect8() { return new global::_4thYearAppliedProject.AttentionLevels.Picture_Perect.PicturePerfect8(); }
+        private object Activate_21_PicturePerfect9() { return new global::_4thYearAppliedProject.AttentionLevels.Picture_Perect.PicturePerfect9(); }
+        private object Activate_22_School() { return new global::_4thYearAppliedProject.AttentionLevels.Picture_Perect.School(); }
+        private object Activate_23_SickBoy() { return new global::_4thYearAppliedProject.AttentionLevels.Picture_Perect.SickBoy(); }
+        private object Activate_24_SmartPhone() { return new global::_4thYearAppliedProject.AttentionLevels.Picture_Perect.SmartPhone(); }
+        private object Activate_25_Street() { return new global::_4thYearAppliedProject.AttentionLevels.Picture_Perect.Street(); }
+        private object Activate_26_Tea() { return new global::_4thYearAppliedProject.AttentionLevels.Picture_Perect.Tea(); }
+        private object Activate_27_Zoo() { return new global::_4thYearAppliedProject.AttentionLevels.Picture_Perect.Zoo(); }
+        private object Activate_28_HighScores() { return new global::_4thYearAppliedProject.HighScores(); }
+        private object Activate_29_BrainFall() { return new global::AppliedProject4thYear.BrainFall(); }
+        private object Activate_30_BrainGains() { return new global::AppliedProject4thYear.BrainGains(); }
+        private object Activate_31_Everything_Has_A_Purpoise() { return new global::AppliedProject4thYear.AttentionLevels.Everything_Has_A_Purpoise(); }
+        private object Activate_32_HigherOrLower() { return new global::AppliedProject4thYear.HigherOrLower(); }
+        private object Activate_33_ManicMath() { return new global::AppliedProject4thYear.ManicMath(); }
+        private object Activate_34_PicturePerfect() { return new global::AppliedProject4thYear.AttentionLevels.PicturePerfect(); }
+        private object Activate_35_ProblemSolvingGames() { return new global::AppliedProject4thYear.ProblemSolvingGames(); }
+        private object Activate_36_QuickRPG() { return new global::AppliedProject4thYear.QuickRPG(); }
+        private object Activate_37_BrainBox() { return new global::AppliedProject4thYear.SpeedLevels.BrainBox.BrainBox(); }
+        private object Activate_38_DownToATea() { return new global::AppliedProject4thYear.SpeedLevels.DownToATea.DownToATea(); }
+        private object Activate_39_FoalShadow() { return new global::AppliedProject4thYear.SpeedLevels.FoalShadow.FoalShadow(); }
+        private object Activate_40_GoWithTheBuffLow() { return new global::AppliedProject4thYear.SpeedLevels.GoWithTheBuffLow.GoWithTheBuffLow(); }
+        private object Activate_41_SpeedLevelsMainPage() { return new global::AppliedProject4thYear.SpeedLevels.SpeedLevelsMainPage(); }
+        private object Activate_42_SpotTheDifference() { return new global::AppliedProject4thYear.SpeedLevels.SpotTheDifference.SpotTheDifference(); }
+        private object Activate_43_TotalRecall() { return new global::AppliedProject4thYear.AttentionLevels.TotalRecall(); }
+        private object Activate_44_MainPage() { return new global::AppliedProject4thYear.MainPage(); }
+        private object Activate_45_AttentionPage() { return new global::AppliedProject4thYear.MainPages.AttentionPage(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -205,9 +316,9 @@ namespace _4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  AppliedProject4thYear.AttentionLevels.BarnDance
+            case 0:   //  _4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise.PorpoiseLevel10
                 userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_0_BarnDance;
+                userType.Activator = Activate_0_PorpoiseLevel10;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -220,44 +331,303 @@ namespace _4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo
                 xamlType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 3:   //  AppliedProject4thYear.AttentionLevels.BearlyWorking
+            case 3:   //  _4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise.PorpoiseLevel2
                 userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_3_BearlyWorking;
+                userType.Activator = Activate_3_PorpoiseLevel2;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 4:   //  AppliedProject4thYear.AttentionLevels.Everything_Has_A_Purpoise
+            case 4:   //  _4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise.PorpoiseLevel3
                 userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_4_Everything_Has_A_Purpoise;
+                userType.Activator = Activate_4_PorpoiseLevel3;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 5:   //  AppliedProject4thYear.AttentionLevels.PicturePerfect
+            case 5:   //  _4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise.PorpoiseLevel4
                 userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_5_PicturePerfect;
+                userType.Activator = Activate_5_PorpoiseLevel4;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 6:   //  AppliedProject4thYear.AttentionLevels.TotalRecall
+            case 6:   //  _4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise.PorpoiseLevel5
                 userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_6_TotalRecall;
+                userType.Activator = Activate_6_PorpoiseLevel5;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 7:   //  _4thYearAppliedProject.MainPage
+            case 7:   //  _4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise.PorpoiseLevel6
                 userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_7_MainPage;
+                userType.Activator = Activate_7_PorpoiseLevel6;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 8:   //  AppliedProject4thYear.MainPages.AttentionPage
+            case 8:   //  _4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise.PorpoiseLevel7
                 userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_8_AttentionPage;
+                userType.Activator = Activate_8_PorpoiseLevel7;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 9:   //  _4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise.PorpoiseLevel8
+                userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_9_PorpoiseLevel8;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 10:   //  _4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise.PorpoiseLevel9
+                userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_10_PorpoiseLevel9;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 11:   //  _4thYearAppliedProject.AttentionLevels.Picture_Perect.CoffeeArt
+                userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_11_CoffeeArt;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 12:   //  _4thYearAppliedProject.AttentionLevels.Picture_Perect.Hare
+                userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_12_Hare;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 13:   //  _4thYearAppliedProject.AttentionLevels.Picture_Perect.House
+                userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_13_House;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 14:   //  _4thYearAppliedProject.AttentionLevels.Picture_Perect.PicturePerfect2
+                userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_14_PicturePerfect2;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 15:   //  _4thYearAppliedProject.AttentionLevels.Picture_Perect.PicturePerfect3
+                userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_15_PicturePerfect3;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 16:   //  _4thYearAppliedProject.AttentionLevels.Picture_Perect.PicturePerfect4
+                userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_16_PicturePerfect4;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 17:   //  _4thYearAppliedProject.AttentionLevels.Picture_Perect.PicturePerfect5
+                userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_17_PicturePerfect5;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 18:   //  _4thYearAppliedProject.AttentionLevels.Picture_Perect.PicturePerfect6
+                userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_18_PicturePerfect6;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 19:   //  _4thYearAppliedProject.AttentionLevels.Picture_Perect.PicturePerfect7
+                userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_19_PicturePerfect7;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 20:   //  _4thYearAppliedProject.AttentionLevels.Picture_Perect.PicturePerfect8
+                userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_20_PicturePerfect8;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 21:   //  _4thYearAppliedProject.AttentionLevels.Picture_Perect.PicturePerfect9
+                userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_21_PicturePerfect9;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 22:   //  _4thYearAppliedProject.AttentionLevels.Picture_Perect.School
+                userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_22_School;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 23:   //  _4thYearAppliedProject.AttentionLevels.Picture_Perect.SickBoy
+                userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_23_SickBoy;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 24:   //  _4thYearAppliedProject.AttentionLevels.Picture_Perect.SmartPhone
+                userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_24_SmartPhone;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 25:   //  _4thYearAppliedProject.AttentionLevels.Picture_Perect.Street
+                userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_25_Street;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 26:   //  _4thYearAppliedProject.AttentionLevels.Picture_Perect.Tea
+                userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_26_Tea;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 27:   //  _4thYearAppliedProject.AttentionLevels.Picture_Perect.Zoo
+                userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_27_Zoo;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 28:   //  _4thYearAppliedProject.HighScores
+                userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_28_HighScores;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 29:   //  AppliedProject4thYear.BrainFall
+                userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_29_BrainFall;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 30:   //  AppliedProject4thYear.BrainGains
+                userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_30_BrainGains;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 31:   //  AppliedProject4thYear.AttentionLevels.Everything_Has_A_Purpoise
+                userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_31_Everything_Has_A_Purpoise;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 32:   //  AppliedProject4thYear.HigherOrLower
+                userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_32_HigherOrLower;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 33:   //  AppliedProject4thYear.ManicMath
+                userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_33_ManicMath;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 34:   //  AppliedProject4thYear.AttentionLevels.PicturePerfect
+                userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_34_PicturePerfect;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 35:   //  AppliedProject4thYear.ProblemSolvingGames
+                userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_35_ProblemSolvingGames;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 36:   //  AppliedProject4thYear.QuickRPG
+                userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_36_QuickRPG;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 37:   //  AppliedProject4thYear.SpeedLevels.BrainBox.BrainBox
+                userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_37_BrainBox;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 38:   //  AppliedProject4thYear.SpeedLevels.DownToATea.DownToATea
+                userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_38_DownToATea;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 39:   //  AppliedProject4thYear.SpeedLevels.FoalShadow.FoalShadow
+                userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_39_FoalShadow;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 40:   //  AppliedProject4thYear.SpeedLevels.GoWithTheBuffLow.GoWithTheBuffLow
+                userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_40_GoWithTheBuffLow;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 41:   //  AppliedProject4thYear.SpeedLevels.SpeedLevelsMainPage
+                userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_41_SpeedLevelsMainPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 42:   //  AppliedProject4thYear.SpeedLevels.SpotTheDifference.SpotTheDifference
+                userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_42_SpotTheDifference;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 43:   //  AppliedProject4thYear.AttentionLevels.TotalRecall
+                userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_43_TotalRecall;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 44:   //  AppliedProject4thYear.MainPage
+                userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_44_MainPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 45:   //  AppliedProject4thYear.MainPages.AttentionPage
+                userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_45_AttentionPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

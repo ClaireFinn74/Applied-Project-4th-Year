@@ -1,0 +1,33 @@
+﻿<Page
+    x:Class="_4thYearAppliedProject.AttentionLevels.Picture_Perect.House"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:_4thYearAppliedProject.AttentionLevels.Picture_Perect"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:Name="btnChimney" Background="Pink" Opacity="1" HorizontalAlignment="Left" Margin="20,52,0,0" VerticalAlignment="Top" Click="btnChimney_Click" IsEnabled="True" Height="74" Width="140" RenderTransformOrigin="0.5,0.5"
+         Content="Chimney"/>
+        <Button x:Name="btnCar" Background="Pink" Opacity="1" HorizontalAlignment="Left" Margin="19,238,0,0" VerticalAlignment="Top" Click="btnCar_Click" IsEnabled="True" Height="74" Width="140" RenderTransformOrigin="0.5,0.5"
+         Content="One Car"/>
+        <Button x:Name="btnSixHouses" Background="Pink" Opacity="1" HorizontalAlignment="Left" Margin="27,438,0,0" VerticalAlignment="Top" Click="btnSixHouses_Click" IsEnabled="True" Height="74" Width="140" RenderTransformOrigin="0.5,0.5"
+         Content="Six Houses"/>
+        <Button x:Name="btnFiveHouses" Background="Pink" Opacity="1" HorizontalAlignment="Left" Margin="190,331,0,0" VerticalAlignment="Top" Click="btnFiveHouses_Click" IsEnabled="True" Height="74" Width="140" RenderTransformOrigin="0.5,0.5"
+         Content="Five Houses"/>
+        <Button x:Name="btnFourteenHouseWindows" Background="Pink" Opacity="1" HorizontalAlignment="Left" Margin="182,52,-23,0" VerticalAlignment="Top" Click="btnFourteenHouseWindows_Click" IsEnabled="True" Height="74" Width="201" RenderTransformOrigin="0.5,0.5"
+         Content="Fourteen House Windows"/>
+        <Button x:Name="btnThirteenHouseWindows" Background="Pink" Opacity="1" HorizontalAlignment="Left" Margin="190,240,-31,0" VerticalAlignment="Top" Click="btnThirteenHouseWindows_Click" IsEnabled="True" Height="74" Width="201" RenderTransformOrigin="0.5,0.5"
+         Content="Thirteen House Windows"/>
+        <Button x:Name="btnTwoDoors" Background="Pink" Opacity="1" HorizontalAlignment="Left" Margin="192,143,0,0" VerticalAlignment="Top" Click="btnTwoDoors_Click" IsEnabled="True" Height="74" Width="140" RenderTransformOrigin="0.5,0.5"
+         Content="Two Doors"/>
+        <Button x:Name="btnWoodenFence" Background="Pink" Opacity="1" HorizontalAlignment="Left" Margin="199,435,0,0" VerticalAlignment="Top" Click="btnWoodenFence_Click" IsEnabled="True" Height="74" Width="140" RenderTransformOrigin="0.5,0.5"
+         Content="Wooden Fence"/>
+        <Button x:Name="btnTwoCars" Background="Pink" Opacity="1" HorizontalAlignment="Left" Margin="28,336,0,0" VerticalAlignment="Top" Click="btnTwoCars_Click" IsEnabled="True" Height="74" Width="140" RenderTransformOrigin="0.5,0.5"
+         Content="Two Cars"/>
+        <Button x:Name="btnFiveBushes" Background="Pink" Opacity="1" HorizontalAlignment="Left" Margin="17,144,0,0" VerticalAlignment="Top" Click="btnFiveBushes_Click" IsEnabled="True" Height="74" Width="140" RenderTransformOrigin="0.5,0.5"
+         Content="Five Bushes"/>
+        <TextBlock x:Name="txtbScore" Margin="1,12,12,0" Opacity="0.5" Text="" Height="52" VerticalAlignment="Top" Grid.Column="3" d:LayoutOverrides="HorizontalAlignment"/>
+    </Grid>
+</Page>
