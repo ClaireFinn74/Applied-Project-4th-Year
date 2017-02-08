@@ -6,6 +6,9 @@
     <RootPropertyPathName Name="link" />
     <RootPropertyPathName Name="category" />
     <RootPropertyPathName Name="username" />
+    <RootPropertyPathName Name="attack" />
+    <RootPropertyPathName Name="health" />
+    <RootPropertyPathName Name="enemy" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application">
@@ -72,12 +75,17 @@
       <RootProperty Name="Text" />
       <RootProperty Name="Height" />
       <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Width" />
-      <RootProperty Name="Inlines" />
-      <RootProperty Name="TextWrapping" />
-      <RootProperty Name="FontSize" />
       <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="RenderTransformOrigin" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Inlines" />
       <RootProperty Name="Padding" />
+      <RootProperty Name="FontWeight" />
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="Foreground" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.CompositeTransform" />
     <RootType FullName="Windows.UI.Xaml.Media.PlaneProjection">
@@ -106,10 +114,11 @@
       <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="Content" />
       <RootProperty Name="Visibility" />
+      <RootProperty Name="BorderBrush" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="VerticalContentAlignment" />
       <RootProperty Name="Foreground" />
-      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="FontWeight" />
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="_4thYearAppliedProject.AttentionLevels.Picture_Perect.CoffeeArt" />
@@ -129,9 +138,44 @@
     <RootType FullName="_4thYearAppliedProject.AttentionLevels.Picture_Perect.Street" />
     <RootType FullName="_4thYearAppliedProject.AttentionLevels.Picture_Perect.Tea" />
     <RootType FullName="_4thYearAppliedProject.AttentionLevels.Picture_Perect.Zoo" />
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="RenderTransformOrigin" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="IsReadOnly" />
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="Opacity" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="RenderTransform" />
+      <RootProperty Name="Name" />
+      <RootProperty Name="FontWeight" />
+      <RootProperty Name="Visibility" />
+    </RootType>
+    <RootType FullName="_4thYearAppliedProject.AttentionLevels.Total_Recall.TotalRecallLevel2" />
+    <RootType FullName="_4thYearAppliedProject.AttentionLevels.Total_Recall.TotalRecallLevel3" />
     <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
       <RootProperty Name="Height" />
     </RootType>
+    <RootType FullName="_4thYearAppliedProject.AttentionLevels.Total_Recall.TotalRecallLevel4" />
+    <RootType FullName="_4thYearAppliedProject.AttentionLevels.Total_Recall.TotalRecallLevel5" />
+    <RootType FullName="_4thYearAppliedProject.AttentionLevels.Total_Recall.TotalRecallLevel6" />
+    <RootType FullName="_4thYearAppliedProject.AttentionLevels.Total_Recall.TotalRecallLevel7" />
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.ObjectAnimationUsingKeyFrames">
+      <RootProperty Name="KeyFrames" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.DiscreteObjectKeyFrame">
+      <RootProperty Name="KeyTime" />
+      <RootProperty Name="Value" />
+    </RootType>
+    <RootType FullName="_4thYearAppliedProject.CreditsPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
       <RootProperty Name="Margin" />
       <RootProperty Name="Children" />
@@ -145,37 +189,86 @@
       <RootProperty Name="IsIndeterminate" />
       <RootProperty Name="Visibility" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
-      <RootProperty Name="Name" />
-      <RootProperty Name="Width" />
-      <RootProperty Name="Text" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="TextWrapping" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="IsReadOnly" />
-      <RootProperty Name="FontWeight" />
-      <RootProperty Name="Visibility" />
-      <RootProperty Name="RenderTransformOrigin" />
-    </RootType>
     <RootType FullName="_4thYearAppliedProject.HighScores" />
-    <RootType FullName="AppliedProject4thYear.BrainFall" />
-    <RootType FullName="AppliedProject4thYear.BrainGains" />
     <RootType FullName="AppliedProject4thYear.AttentionLevels.Everything_Has_A_Purpoise" />
-    <RootType FullName="AppliedProject4thYear.HigherOrLower" />
-    <RootType FullName="AppliedProject4thYear.ManicMath" />
     <RootType FullName="AppliedProject4thYear.AttentionLevels.PicturePerfect" />
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
+    <RootType FullName="AppliedProject4thYear.HigherOrLower" />
+    <RootType FullName="Windows.UI.Xaml.Automation.AutomationProperties">
+      <RootMethod Name="GetAcceleratorKey" />
+      <RootMethod Name="SetAcceleratorKey" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.LinearGradientBrush">
+      <RootProperty Name="EndPoint" />
+      <RootProperty Name="StartPoint" />
+      <RootProperty Name="GradientStops" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.GradientStop">
+      <RootProperty Name="Color" />
+      <RootProperty Name="Offset" />
+    </RootType>
+    <RootType FullName="AppliedProject4thYear.ManicMath" />
     <RootType FullName="AppliedProject4thYear.ProblemSolvingGames" />
+    <RootType FullName="Windows.UI.Xaml.Controls.GridView">
+      <RootProperty Name="ItemContainerStyle" />
+      <RootProperty Name="Items" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Shapes.Rectangle">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Stroke" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Opacity" />
+      <RootProperty Name="Fill" />
+      <RootProperty Name="RadiusY" />
+      <RootProperty Name="RadiusX" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Control" />
+    <RootType FullName="Windows.UI.Xaml.FrameworkElement">
+      <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Setter">
+      <RootProperty Name="Property" />
+      <RootProperty Name="Value" />
+      <RootProperty Name="Target" />
+    </RootType>
     <RootType FullName="AppliedProject4thYear.QuickRPG" />
-    <RootType FullName="AppliedProject4thYear.SpeedLevels.BrainBox.BrainBox" />
-    <RootType FullName="AppliedProject4thYear.SpeedLevels.DownToATea.DownToATea" />
-    <RootType FullName="AppliedProject4thYear.SpeedLevels.FoalShadow.FoalShadow" />
-    <RootType FullName="AppliedProject4thYear.SpeedLevels.GoWithTheBuffLow.GoWithTheBuffLow" />
-    <RootType FullName="AppliedProject4thYear.SpeedLevels.SpeedLevelsMainPage" />
-    <RootType FullName="AppliedProject4thYear.SpeedLevels.SpotTheDifference.SpotTheDifference" />
     <RootType FullName="AppliedProject4thYear.AttentionLevels.TotalRecall" />
     <RootType FullName="AppliedProject4thYear.MainPage" />
     <RootType FullName="AppliedProject4thYear.MainPages.AttentionPage" />
+    <RootType FullName="AppliedProject4thYear.SpeedLevels.FoalShadow.FoalShadow" />
+    <RootType FullName="_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl2" />
+    <RootType FullName="_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl3" />
+    <RootType FullName="_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl4" />
+    <RootType FullName="_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl5" />
+    <RootType FullName="_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl6" />
+    <RootType FullName="_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl7" />
+    <RootType FullName="Windows.UI.Xaml.VisualStateManager">
+      <RootMethod Name="GetVisualStateGroups" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.VisualStateGroup">
+      <RootProperty Name="States" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.VisualState">
+      <RootProperty Name="StateTriggers" />
+      <RootProperty Name="Setters" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.AdaptiveTrigger">
+      <RootProperty Name="MinWindowWidth" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
+      <RootProperty Name="HorizontalScrollMode" />
+      <RootProperty Name="VerticalScrollBarVisibility" />
+      <RootProperty Name="HorizontalScrollBarVisibility" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="AppliedProject4thYear.SpeedLevels.SpeedLevelsMainPage" />
+    <RootType FullName="AppliedProject4thYear.SpeedLevels.SpotTheDifference.SpotTheDifference" />
+    <RootType FullName="AppliedProject4thYear.SpeedLevels.SpotTheDifference.SpotTheDifference2" />
   </Roots.RootTypes>
 </Roots>

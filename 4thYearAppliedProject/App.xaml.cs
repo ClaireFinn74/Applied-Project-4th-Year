@@ -107,6 +107,6 @@ namespace _4thYearAppliedProject
             deferral.Complete();
         }
 
-        public static MobileServiceClient MobileService = new MobileServiceClient("https://brainworksapp.azurewebsites.net");
+        public static MobileServiceClient MobileService = new MobileServiceClient("https://brainworksappservice.azurewebsites.net");
     }
 }

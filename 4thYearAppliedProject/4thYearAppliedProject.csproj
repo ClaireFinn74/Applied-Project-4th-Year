@@ -199,53 +199,42 @@
     <Compile Include="AttentionLevels\Picture Perfect\Zoo.xaml.cs">
       <DependentUpon>Zoo.xaml</DependentUpon>
     </Compile>
+    <Compile Include="AttentionLevels\Total Recall\TotalRecallLevel2.xaml.cs">
+      <DependentUpon>TotalRecallLevel2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AttentionLevels\Total Recall\TotalRecallLevel3.xaml.cs">
+      <DependentUpon>TotalRecallLevel3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AttentionLevels\Total Recall\TotalRecallLevel4.xaml.cs">
+      <DependentUpon>TotalRecallLevel4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AttentionLevels\Total Recall\TotalRecallLevel5.xaml.cs">
+      <DependentUpon>TotalRecallLevel5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AttentionLevels\Total Recall\TotalRecallLevel6.xaml.cs">
+      <DependentUpon>TotalRecallLevel6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AttentionLevels\Total Recall\TotalRecallLevel7.xaml.cs">
+      <DependentUpon>TotalRecallLevel7.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CreditsPage.xaml.cs" />
+    <Compile Include="Enemy.cs" />
     <Compile Include="HighScores.xaml.cs">
       <DependentUpon>HighScores.xaml</DependentUpon>
     </Compile>
     <Compile Include="JsonObjectsClass.cs" />
-    <Compile Include="Problem-Solving Levels\BrainFall.xaml.cs">
-      <DependentUpon>BrainFall.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Problem-Solving Levels\BrainGains.xaml.cs">
-      <DependentUpon>BrainGains.xaml</DependentUpon>
-    </Compile>
     <Compile Include="AttentionLevels\Everything has a porpoise\EverythingHasAPorpoise.xaml.cs" />
     <Compile Include="GlobalClassAttention.cs" />
-    <Compile Include="Problem-Solving Levels\HigherOrLower.xaml.cs">
-      <DependentUpon>HigherOrLower.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Problem-Solving Levels\ManicMaths.xaml.cs">
-      <DependentUpon>ManicMaths.xaml</DependentUpon>
-    </Compile>
     <Compile Include="AttentionLevels\Picture Perfect\PicturePerfect.xaml.cs" />
-    <Compile Include="ProblemSolvingGames.xaml.cs">
-      <DependentUpon>ProblemSolvingGames.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Problem-Solving Levels\QuickRPG.xaml.cs">
-      <DependentUpon>QuickRPG.xaml</DependentUpon>
-    </Compile>
+    <Compile Include="Player.cs" />
+    <Compile Include="ProblemSolvingLevels\HigherOrLower.xaml.cs" />
+    <Compile Include="ProblemSolvingLevels\ManicMaths.xaml.cs" />
+    <Compile Include="ProblemSolvingLevels\ProblemSolvingGames.xaml.cs" />
+    <Compile Include="ProblemSolvingLevels\QuickRPG.xaml.cs" />
     <Compile Include="Service References\MyServices\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
-    </Compile>
-    <Compile Include="SpeedLevels\BrainBox\BrainBox.xaml.cs">
-      <DependentUpon>BrainBox.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="SpeedLevels\DownToATea\DownToATea.xaml.cs">
-      <DependentUpon>DownToATea.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="SpeedLevels\FoalShadow\FoalShadow.xaml.cs">
-      <DependentUpon>FoalShadow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="SpeedLevels\GoWithTheBuffLow\GoWithTheBuffLow.xaml.cs">
-      <DependentUpon>GoWithTheBuffLow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="SpeedLevels\SpeedLevelsMainPage.xaml.cs">
-      <DependentUpon>SpeedLevelsMainPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="SpeedLevels\SpotTheDifference\SpotTheDifference.xaml.cs">
-      <DependentUpon>SpotTheDifference.xaml</DependentUpon>
     </Compile>
     <Compile Include="AttentionLevels\Total Recall\TotalRecall.xaml.cs" />
     <Compile Include="MainPage.xaml.cs">
@@ -253,6 +242,18 @@
     </Compile>
     <Compile Include="AttentionLevels\AttentionPage.xaml.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SpeedLevels\FoalShadow\FoalShadow.xaml.cs" />
+    <Compile Include="SpeedLevels\FoalShadow\FoalShadowLvl2.xaml.cs" />
+    <Compile Include="SpeedLevels\FoalShadow\FoalShadowLvl3.xaml.cs" />
+    <Compile Include="SpeedLevels\FoalShadow\FoalShadowLvl4.xaml.cs" />
+    <Compile Include="SpeedLevels\FoalShadow\FoalShadowLvl5.xaml.cs" />
+    <Compile Include="SpeedLevels\FoalShadow\FoalShadowLvl6.xaml.cs" />
+    <Compile Include="SpeedLevels\FoalShadow\FoalShadowLvl7.xaml.cs" />
+    <Compile Include="SpeedLevels\FoalShadow\GlobalClass.cs" />
+    <Compile Include="SpeedLevels\Spot The Difference\GlobalClassSpotted.cs" />
+    <Compile Include="SpeedLevels\SpeedLevelsMainPage.xaml %281%29.cs" />
+    <Compile Include="SpeedLevels\Spot The Difference\SpotTheDifference.xaml.cs" />
+    <Compile Include="SpeedLevels\Spot The Difference\SpotTheDifference2.xaml.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -262,17 +263,35 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Images\article.jpg" />
+    <Content Include="Images\BarnOwlMainPage.jpg" />
+    <Content Include="Images\Bear-flipped.jpg" />
+    <Content Include="Images\Bear.jpg" />
+    <Content Include="Images\Bear2.jpg" />
+    <Content Include="Images\Bear3.png" />
+    <Content Include="Images\BearMainPage.jpg" />
     <Content Include="Images\brain-lifting-weight.jpg" />
     <Content Include="Images\BrainBox.jpg" />
     <Content Include="Images\Brainfall.jpg" />
     <Content Include="Images\BrainWorks.jpg" />
+    <Content Include="Images\Buffalo.jpg" />
+    <Content Include="Images\Deer-flipped.jpg" />
+    <Content Include="Images\Deer.jpg" />
     <Content Include="Images\DownToATea.jpg" />
+    <Content Include="Images\Elephant-flipped.jpg" />
+    <Content Include="Images\Elephant.jpg" />
+    <Content Include="Images\FoalShadow-flipped.png" />
     <Content Include="Images\FoalShadow.png" />
+    <Content Include="Images\Giraffe-flipped.jpg" />
+    <Content Include="Images\Giraffe.jpg" />
     <Content Include="Images\GoWithTheBuffLow.jpg" />
     <Content Include="Images\higherOrLower.jpg" />
     <Content Include="Images\imgAttentionMainPage.png" />
+    <Content Include="Images\imgCorrectSign.png" />
     <Content Include="Images\imgporpoise.png" />
+    <Content Include="Images\imgX.png" />
     <Content Include="Images\MainPage.png" />
+    <Content Include="Images\Penquin-flipped.png" />
+    <Content Include="Images\Penquin.png" />
     <Content Include="Images\PicturePerfectCoffeeArt.jpg" />
     <Content Include="Images\PicturePerfectHare.jpg" />
     <Content Include="Images\PicturePerfectHouse.jpg" />
@@ -284,9 +303,24 @@
     <Content Include="Images\PicturePerfectTea.jpg" />
     <Content Include="Images\PicturePerfectZoo.jpg" />
     <Content Include="Images\PorpoiseMainPage.jpg" />
+    <Content Include="Images\Rabbit-flipped.jpg" />
+    <Content Include="Images\Rabbit.jpg" />
+    <Content Include="Images\Rhino-flipped.png" />
+    <Content Include="Images\Rhino.png" />
     <Content Include="Images\SpotTheDifference.png" />
+    <Content Include="Images\SpotTheDifference2.png" />
+    <Content Include="Images\SpotTheDifference3.png" />
+    <Content Include="Images\SpotTheDifference4.png" />
+    <Content Include="Images\SpotTheDifferenceSpotted.png" />
+    <Content Include="Images\SpotTheDifferenceSpotted2.png" />
+    <Content Include="Images\SpotTheDifferenceSpotted3.png" />
+    <Content Include="Images\SpotTheDifferenceSpotted4.png" />
+    <Content Include="Images\SpotTheDifferenceSpotted5.png" />
+    <Content Include="Images\SpotTheDifferenceSpotted6.png" />
     <Content Include="Images\Timer.jpg" />
     <Content Include="Images\TotalRecallMainPage.jpg" />
+    <Content Include="Images\Wolf-flipped.jpg" />
+    <Content Include="Images\Wolf.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -405,27 +439,39 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="AttentionLevels\Total Recall\TotalRecallLevel2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AttentionLevels\Total Recall\TotalRecallLevel3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AttentionLevels\Total Recall\TotalRecallLevel4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AttentionLevels\Total Recall\TotalRecallLevel5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AttentionLevels\Total Recall\TotalRecallLevel6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AttentionLevels\Total Recall\TotalRecallLevel7.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CreditsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="HighScores.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Problem-Solving Levels\BrainFall.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Problem-Solving Levels\BrainGains.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Page Include="AttentionLevels\Everything has a porpoise\EverythingHasAPorpoise.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Problem-Solving Levels\HigherOrLower.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Problem-Solving Levels\ManicMaths.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -433,35 +479,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="ProblemSolvingGames.xaml">
+    <Page Include="ProblemSolvingLevels\HigherOrLower.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Problem-Solving Levels\QuickRPG.xaml">
+    <Page Include="ProblemSolvingLevels\ManicMaths.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SpeedLevels\BrainBox\BrainBox.xaml">
+    <Page Include="ProblemSolvingLevels\ProblemSolvingGames.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SpeedLevels\DownToATea\DownToATea.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="SpeedLevels\FoalShadow\FoalShadow.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="SpeedLevels\GoWithTheBuffLow\GoWithTheBuffLow.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="SpeedLevels\SpeedLevelsMainPage.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="SpeedLevels\SpotTheDifference\SpotTheDifference.xaml">
+    <Page Include="ProblemSolvingLevels\QuickRPG.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -477,6 +507,46 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="SpeedLevels\FoalShadow\FoalShadow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SpeedLevels\FoalShadow\FoalShadowLvl2.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SpeedLevels\FoalShadow\FoalShadowLvl3.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SpeedLevels\FoalShadow\FoalShadowLvl4.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SpeedLevels\FoalShadow\FoalShadowLvl5.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SpeedLevels\FoalShadow\FoalShadowLvl6.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SpeedLevels\FoalShadow\FoalShadowLvl7.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SpeedLevels\SpeedLevelsMainPage %281%29.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SpeedLevels\Spot The Difference\SpotTheDifference.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SpeedLevels\Spot The Difference\SpotTheDifference2.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
@@ -484,6 +554,7 @@
   <ItemGroup>
     <WCFMetadataStorage Include="Service References\MyServices\" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

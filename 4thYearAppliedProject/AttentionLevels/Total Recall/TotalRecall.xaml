@@ -8,10 +8,17 @@
     mc:Ignorable="d">
 
     <Grid x:Name="LayoutRoot" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBox x:Name="txtUserInput" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" RenderTransformOrigin="2.575,3.016" Margin="35,132,0,0" Width="297" Height="70"/>
-        <TextBlock x:Name="txtblUserInput" HorizontalAlignment="Left" TextWrapping="Wrap" Text="How many words can you think of?" VerticalAlignment="Top" Height="58" Width="153" Margin="112,270,0,0"/>
-        <TextBox x:Name="txtScore" HorizontalAlignment="Left" IsReadOnly="True" TextWrapping="Wrap" Text="" VerticalAlignment="Top" RenderTransformOrigin="2.575,3.016" Margin="18,10,0,0" Width="99" Height="47"/>
-        <Button x:Name="btnEnter" Background="#33EE40BE" BorderBrush="#FF39498F" HorizontalAlignment="Left" Margin="370,600,-345.2,0" VerticalAlignment="Top" Height="58" Width="488" Click="btnEnter_Click" Grid.Column="1"/>
+        <Image x:Name="imgCorrectSign" Visibility="Collapsed" Source="/Images/imgCorrectSign.png" HorizontalAlignment="Left" Width="72" Margin="264,99,0,0" RenderTransformOrigin="1.955,1.778" Height="66" VerticalAlignment="Top"/>
+        <Image x:Name="imgX" Visibility="Collapsed" Source="/Images/imgX.png" HorizontalAlignment="Left" Width="72" Margin="265,113,0,0" RenderTransformOrigin="1.955,1.778" Height="66" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtUserInput" FontSize="39" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" RenderTransformOrigin="2.575,3.016" Margin="68,173,-5,0" Width="297" Height="70"/>
+        <TextBlock x:Name="txtblUserInput" HorizontalAlignment="Left" TextWrapping="Wrap" Text="How many words can you think of?" VerticalAlignment="Top" Height="58" Width="153" Margin="113,341,0,0"/>
+        <TextBox x:Name="txtScore" HorizontalAlignment="Left" IsReadOnly="True" TextWrapping="Wrap" Text="" VerticalAlignment="Top" RenderTransformOrigin="2.575,3.016" Margin="244,46,0,0" Width="99" Height="47"/>
+        <Button x:Name="btnEnter" Content="Submit Word" Background="#33EE40BE" BorderBrush="#FF39498F" HorizontalAlignment="Left" Margin="31,277,0,0" VerticalAlignment="Top" Height="58" Width="303" Click="btnEnter_Click"/>
+        <TextBox x:Name="txtAc" HorizontalAlignment="Left" TextWrapping="Wrap" FontSize="39" Text="Ac" VerticalAlignment="Top" Height="70" Width="10" Margin="3,174,0,0" RenderTransformOrigin="0.453,0.9"/>
+        <TextBlock x:Name="txtTimer" FontSize="25" Margin="110,105,152,487"/>
+        <TextBlock x:Name="txtLog" FontSize="45" Margin="13,109,267,488"/>
+        <TextBlock x:Name="txtbScore" FontSize="39" HorizontalAlignment="Left" Margin="126,41,0,0" TextWrapping="Wrap" Text="Score:" VerticalAlignment="Top"/>
+        <Button x:Name="btnLevel2" Visibility="Collapsed" Content="Level 2" Background="#33EE40BE" BorderBrush="#FF39498F" HorizontalAlignment="Left" Margin="109,405,0,0" VerticalAlignment="Top" Height="58" Width="147" Click="btnLevel2_Click"/>
 
     </Grid>
 </Page>

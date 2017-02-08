@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="AppliedProject4thYear.ProblemSolvingGames"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppliedProject4thYear"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="301*"/>
+            <ColumnDefinition Width="59*"/>
+        </Grid.ColumnDefinitions>
+        <Image x:ConnectionId='1' x:Name="ManicMathImg" Source="ms-appx:///Images/article.jpg" Height="177"  Margin="104,28,0,435" HorizontalAlignment="Left" Width="165" />
+        <Image x:ConnectionId='2' x:Name="QuickRPGImg" Source="ms-appx:///Images/Timer.jpg" Height="177"  Margin="119,463,0,0" HorizontalAlignment="Left" Width="165" />
+
+        <Image x:ConnectionId='3' x:Name="HigherOrLowerImg" Source="ms-appx:///Images/higherOrLower.jpg" Height="177"  Margin="109,241,0,222" HorizontalAlignment="Left" Width="165" />
+        <Button x:ConnectionId='4' x:Name="HigherOrLowerGameBtn" Content="Higher or Lower" HorizontalAlignment="Left" Height="177" Margin="113,253,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.424,0.554" Width="165"                                    VerticalContentAlignment="Bottom"/>
+        <Button x:ConnectionId='5' x:Name="ManicMathsbtn" Content="Manic Maths" HorizontalAlignment="Left" Height="177" Margin="106,38,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.424,0.554"                             VerticalContentAlignment="Bottom" Width="165"/>
+        <Button x:ConnectionId='6' x:Name="QuickRPG" Content="Quick RPG" HorizontalAlignment="Left" Margin="120,456,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.424,0.554" Width="165"                        VerticalContentAlignment="Bottom" Height="177"/>
+    </Grid>
+</Page>
+

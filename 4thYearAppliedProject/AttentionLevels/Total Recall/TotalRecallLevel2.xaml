@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="_4thYearAppliedProject.AttentionLevels.Total_Recall.TotalRecallLevel2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:_4thYearAppliedProject.AttentionLevels.Total_Recall"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Image x:Name="imgCorrectSign" Visibility="Collapsed" Source="/Images/imgCorrectSign.png" HorizontalAlignment="Left" Width="72" Margin="265,113,0,0" RenderTransformOrigin="1.955,1.778" Height="66" VerticalAlignment="Top"/>
+        <Image x:Name="imgX" Visibility="Collapsed" Source="/Images/imgX.png" HorizontalAlignment="Left" Width="72" Margin="265,113,0,0" RenderTransformOrigin="1.955,1.778" Height="66" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtUserInput" FontSize="39" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" RenderTransformOrigin="2.575,3.016" Margin="96,216,-5,0" Width="269" Height="70"/>
+        <TextBlock x:Name="txtblUserInput" HorizontalAlignment="Left" TextWrapping="Wrap" Text="How many words can you think of?" VerticalAlignment="Top" Height="58" Width="153" Margin="104,516,0,0" RenderTransformOrigin="0.917,1.313"/>
+        <TextBox x:Name="txtScore" HorizontalAlignment="Left" IsReadOnly="True" TextWrapping="Wrap" Text="" VerticalAlignment="Top" RenderTransformOrigin="2.575,3.016" Margin="251,123,0,0" Width="99" Height="47"/>
+        <Button x:Name="btnEnter" Content="Submit Word" Background="#33EE40BE" BorderBrush="#FF39498F" HorizontalAlignment="Left" Margin="36,326,0,0" VerticalAlignment="Top" Height="58" Width="303" Click="btnEnter_Click"/>
+        <TextBox x:Name="txtBra" HorizontalAlignment="Left" TextWrapping="Wrap" FontSize="39" Text="Bra" VerticalAlignment="Top" Height="70" Width="94" Margin="4,216,0,0" RenderTransformOrigin="0.453,0.9"/>
+        <TextBlock x:Name="txtTimer" FontSize="25" Margin="110,105,152,487"/>
+        <TextBlock x:Name="txtLog" FontSize="45" Margin="13,109,267,488"/>
+        <TextBlock x:Name="txtbScore" FontSize="39" HorizontalAlignment="Left" Margin="144,122,0,0" TextWrapping="Wrap" Text="Score:" VerticalAlignment="Top" RenderTransformOrigin="0.451,-0.824"/>
+        <Button x:Name="btnLevel3" Visibility="Collapsed" Content="Level 3" Background="#33EE40BE" BorderBrush="#FF39498F" HorizontalAlignment="Left" Margin="109,405,0,0" VerticalAlignment="Top" Height="58" Width="147" Click="btnLevel3_Click"/>
+    </Grid>
+</Page>
