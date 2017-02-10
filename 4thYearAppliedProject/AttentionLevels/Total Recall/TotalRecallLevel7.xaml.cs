@@ -95,7 +95,8 @@ namespace _4thYearAppliedProject.AttentionLevels.Total_Recall
                 var dialog = new MessageDialog("Well done, you have reached the end!"
                                    + GlobalClassAttention.totalRecallScore);
                 var result = await dialog.ShowAsync();
-        }
+                Frame.Navigate(typeof(CreditsPage));
+            }
 
         if (WordsWithSome.ContainsKey(txtUserInput.Text))
         {

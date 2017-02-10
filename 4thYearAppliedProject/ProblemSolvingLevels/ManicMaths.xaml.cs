@@ -16,6 +16,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using _4thYearAppliedProject;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -53,7 +54,7 @@ namespace AppliedProject4thYear
                 var dialog = new Windows.UI.Popups.MessageDialog
                 ("Out of time! You scored a total of: " + score);
                 var result = await dialog.ShowAsync();
-                this.Frame.Navigate(typeof(ProblemSolvingGames), null);
+                Frame.Navigate(typeof(CreditsPage));
             }
         }
         private void TimerStart_Click_1(object sender, RoutedEventArgs e)

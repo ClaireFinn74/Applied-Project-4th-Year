@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _4thYearAppliedProject;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -440,7 +441,7 @@ namespace AppliedProject4thYear
                     var dialog = new Windows.UI.Popups.MessageDialog(
                     "You have lost! You scored a total of: " + HoLScore);
                     var result = await dialog.ShowAsync();
-                    this.Frame.Navigate(typeof(MainPage), null);
+                    Frame.Navigate(typeof(CreditsPage));
                 }
             }
 

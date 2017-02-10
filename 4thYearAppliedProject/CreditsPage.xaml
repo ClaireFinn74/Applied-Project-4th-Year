@@ -111,6 +111,6 @@
                 <CompositeTransform/>
             </TextBox.RenderTransform>
         </TextBox>
-
+        <Button x:Name="btnMainPage" Foreground="White" FontSize="32" Content="Thanks for Playing!" Click="btnMainPage_Click" Margin="46,571,0,35" Height="69"/>
     </Grid>
 </Page>

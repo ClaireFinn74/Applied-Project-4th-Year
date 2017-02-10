@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -29,5 +30,9 @@ namespace _4thYearAppliedProject
             SB_Credits.Begin();
         }
 
+        private void btnMainPage_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(MainPage));
+        }
     }
 }

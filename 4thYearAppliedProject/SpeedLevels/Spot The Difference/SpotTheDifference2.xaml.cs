@@ -1,4 +1,5 @@
-﻿using _4thYearAppliedProject.SpeedLevels.SpotTheDifference;
+﻿using _4thYearAppliedProject;
+using _4thYearAppliedProject.SpeedLevels.SpotTheDifference;
 using System;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
@@ -385,7 +386,7 @@ namespace AppliedProject4thYear.SpeedLevels.SpotTheDifference
                 var dialog = new Windows.UI.Popups.MessageDialog
                 ("Out of time! You scored a total of: " + GlobalClassSpotted.globalHighscore);
                 var result = await dialog.ShowAsync();
-                this.Frame.Navigate(typeof(SpeedLevelsMainPage), null);
+                Frame.Navigate(typeof(CreditsPage));
             }
         }
 

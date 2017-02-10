@@ -137,7 +137,7 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
             {
                 var dialog = new MessageDialog("Well Done, you've completed all 9 levels!" + "\n" + "You've reached your maximum level of attention!!");
                 await dialog.ShowAsync();
-                Frame.Navigate(typeof(PicturePerfect));
+                Frame.Navigate(typeof(CreditsPage));
             }
         }
 

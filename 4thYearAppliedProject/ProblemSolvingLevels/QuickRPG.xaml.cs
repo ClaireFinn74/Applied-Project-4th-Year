@@ -1,4 +1,5 @@
-﻿using MVVMJSON;
+﻿using _4thYearAppliedProject;
+using MVVMJSON;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -202,7 +203,7 @@ namespace AppliedProject4thYear
             {
                 var dialog = new Windows.UI.Popups.MessageDialog("You Have Been Slain. To Bad! The good news is you defeated " + _player.DefEnemies + " enemies! :D");
                 var result = await dialog.ShowAsync();
-                Frame.Navigate(typeof(MainPage)); // displays the above message and sends the player back to the home page of the app
+                Frame.Navigate(typeof(CreditsPage));// displays the above message and sends the player to the Credits Page of the app
             }
         }
         // button to level up the player

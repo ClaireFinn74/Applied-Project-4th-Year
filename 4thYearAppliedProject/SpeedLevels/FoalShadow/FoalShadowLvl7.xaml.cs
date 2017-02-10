@@ -97,7 +97,7 @@ namespace _4thYearAppliedProject.SpeedLevels.FoalShadow
                 var dialog = new Windows.UI.Popups.MessageDialog
                 ("Out of time! You scored a total of: " + GlobalClass.globalHighscore);
                 var result = await dialog.ShowAsync();
-                this.Frame.Navigate(typeof(SpeedLevelsMainPage), null);
+                Frame.Navigate(typeof(CreditsPage));
             }
         }
         /*private void TimerStart_Click_1(object sender, RoutedEventArgs e)

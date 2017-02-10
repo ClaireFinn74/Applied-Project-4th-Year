@@ -430,6 +430,7 @@ namespace _4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise
                 sbPorpoiseLevel10.Stop();
                 var dialog = new MessageDialog("Well Done! You have reached maximum attention for today!");
                 await dialog.ShowAsync();
+                Frame.Navigate(typeof(CreditsPage));
             }
             else if (porpoiseTapped12 == 2)
             {
