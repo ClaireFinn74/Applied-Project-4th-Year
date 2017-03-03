@@ -19,6 +19,8 @@ using AppliedProject4thYear.MainPages;
 using _4thYearAppliedProject;
 using Microsoft.WindowsAzure.MobileServices;
 using Windows.Security.Credentials;
+using _4thYearAppliedProject.AttentionLevels;
+using _4thYearAppliedProject.Common;
 
 namespace AppliedProject4thYear
 {
@@ -32,30 +34,25 @@ namespace AppliedProject4thYear
             this.InitializeComponent();
         }
 
-        private void btnAttention_Click(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(AttentionPage));
-        }
+          private void btnAttention_Click(object sender, RoutedEventArgs e)
+          {
+              Frame.Navigate(typeof(AttentionPage));
+          }
 
-        private void btnProblemSolving_Click(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(ProblemSolvingGames), null);
-        }
+          private void btnProblemSolving_Click(object sender, RoutedEventArgs e)
+          {
+              this.Frame.Navigate(typeof(ProblemSolvingGames), null);
+          }
 
-        private void btnSpeed_Click(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(SpeedLevels.SpeedLevelsMainPage));
-        }
+          private void btnSpeed_Click(object sender, RoutedEventArgs e)
+          {
+              Frame.Navigate(typeof(SpeedLevels.SpeedLevelsMainPage));
+          }
 
-        private void btnMemory_Click(object sender, RoutedEventArgs e)
-        {
-            //Frame.Navigate(typeof(MemoryLevels.MemoryMainPage));
-        }
-
-        private void btnGoToScores_Click(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(HighScores));
-        }
+          private void btnMemory_Click(object sender, RoutedEventArgs e)
+          {
+              Frame.Navigate(typeof(MemoryLevels.MemoryNav));
+          }
 
         // Define a member variable for storing the signed-in user. 
         private MobileServiceUser user;
@@ -96,8 +93,18 @@ namespace AppliedProject4thYear
                 // Switch the buttons and load items from the mobile app.
                 btnFbLogin.Visibility = Visibility.Collapsed;
                 //await InitLocalStoreAsync(); //offline sync support.
-                // await RefreshTodoItems();
+                //await RefreshTodoItems();
             }
+        }
+
+       private void btnCredits_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(CreditsPage));
+        }
+
+        public void btnHighScores_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(SQLiteScores));
         }
     }
 }

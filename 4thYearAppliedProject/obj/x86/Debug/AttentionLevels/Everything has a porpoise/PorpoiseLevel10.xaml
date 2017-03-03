@@ -629,9 +629,6 @@
             <Image.RenderTransform>
                 <CompositeTransform/>
             </Image.RenderTransform>
-            <Image.Projection>
-                <PlaneProjection RotationX="20" RotationY="180"/>
-            </Image.Projection>
         </Image>
         <Image x:ConnectionId='12' x:Name="imgporpoise2" Source="/Images/imgporpoise.png" HorizontalAlignment="Left" Height="66" VerticalAlignment="Top" Width="72" Margin="-5,95,0,0" RenderTransformOrigin="-0.467,1.574"                              Grid.Column="3" d:LayoutOverrides="HorizontalAlignment">
             <Image.RenderTransform>
@@ -642,9 +639,6 @@
             <Image.RenderTransform>
                 <CompositeTransform/>
             </Image.RenderTransform>
-            <Image.Projection>
-                <PlaneProjection RotationX="180"/>
-            </Image.Projection>
         </Image>
 
         <TextBlock x:ConnectionId='14' x:Name="txtbScore" Margin="1,12,12,0" Opacity="0.5" Text="" Height="52" VerticalAlignment="Top" Grid.Column="3" d:LayoutOverrides="HorizontalAlignment"/>

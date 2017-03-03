@@ -27,6 +27,7 @@ namespace _4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise
         public PorpoiseLevel2()
         {
             this.InitializeComponent();
+            GlobalClassAttention.gameName = "Everything Has A Porpoise Score:";
             //Begin the Porpoise Level 1 Storyboard as soon as the page renders/Initializes
             sbPorpoiseLevel1.Begin();
             sbPorpoiseLevel2.Begin();
@@ -63,13 +64,11 @@ namespace _4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise
             //Otherwise, If the image is tapped twice the game ends
             else if (porpoiseTapped1 == 2)
             {
-                //Reset Score to 0
-                GlobalClassAttention.score = 0;
                 //Message box displays
                 var dialog = new MessageDialog("Too Bad, you already clicked that porpoise! Game Over");
                 await dialog.ShowAsync();
-                //Go back to Mainpage
-                Frame.Navigate(typeof(MainPage));
+                //Go back to SQLiteScores
+                Frame.Navigate(typeof(SQLiteScores));
             }
         }
 
@@ -96,12 +95,10 @@ namespace _4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise
             }
             else if (porpoiseTapped2 == 2)
             {
-                //Reset Score to 0
-                GlobalClassAttention.score = 0;
                 var dialog = new MessageDialog("Too Bad, you already clicked that porpoise! Game Over");
                 await dialog.ShowAsync();
-                //Go back to Mainpage
-                Frame.Navigate(typeof(MainPage));
+                //Go back to SQLiteScores
+                Frame.Navigate(typeof(SQLiteScores));
             }
         }
 
@@ -128,12 +125,10 @@ namespace _4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise
             }
             else if (porpoiseTapped3 == 2)
             {
-                //Reset Score to 0
-                GlobalClassAttention.score = 0;
                 var dialog = new MessageDialog("Too Bad, you already clicked that porpoise! Game Over");
                 await dialog.ShowAsync();
-                //Go back to Mainpage
-                Frame.Navigate(typeof(MainPage));
+                //Go back to SQLiteScores
+                Frame.Navigate(typeof(SQLiteScores));
             }
         }
 
@@ -156,12 +151,10 @@ namespace _4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise
             }
             else if (porpoiseTapped4 == 2)
             {
-                //Reset Score to 0
-                GlobalClassAttention.score = 0;
                 var dialog = new MessageDialog("Too Bad, you already clicked that porpoise! Game Over");
                 await dialog.ShowAsync();
-                //Go back to Mainpage
-                Frame.Navigate(typeof(MainPage));
+                //Go back to SQLiteScores
+                Frame.Navigate(typeof(SQLiteScores));
             }
         }
     }

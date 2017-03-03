@@ -1,4 +1,5 @@
 ﻿using _4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise;
+using AppliedProject4thYear;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -26,10 +27,10 @@ namespace _4thYearAppliedProject
     {
         public CreditsPage()
         {
-            this.InitializeComponent();
+            InitializeComponent();
             SB_Credits.Begin();
         }
-
+        
         private void btnMainPage_Click(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(MainPage));

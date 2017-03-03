@@ -28,7 +28,14 @@
             </StackPanel>
 
         </StackPanel>
-        <Button x:Name="btnGoToScores" Background="LemonChiffon" Content="Game Stats!" HorizontalAlignment="Left" Margin="114,7,0,0" Grid.Row="2" VerticalAlignment="Top" Width="119" Height="45" Click="btnGoToScores_Click"/>
+        <StackPanel>
+            <Button x:Name="btnHighScores" Background="LemonChiffon" FontSize="45" Content="Stats" Margin="400,7,0,402" Width="141" Click="btnHighScores_Click" Height="61"/>
+        </StackPanel>
+        <StackPanel>
         <Button x:Name="btnFbLogin" FontSize="45" Foreground="White" Content="f" Background="Blue" HorizontalAlignment="Left" Margin="271,21,0,402" Width="51" Click="btnFbLogin_Click" Grid.RowSpan="2" RenderTransformOrigin="2.379,0.258"/>
+        </StackPanel>
+        <StackPanel>
+            <Button x:Name="btnCredits" Content="Credits" Background="LemonChiffon" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Center" Height="136" Width="168" Click="btnCredits_Click"/>
+        </StackPanel>
     </Grid>
 </Page>

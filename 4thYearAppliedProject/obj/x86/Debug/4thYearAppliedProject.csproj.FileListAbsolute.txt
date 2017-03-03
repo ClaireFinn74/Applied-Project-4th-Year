@@ -312,7 +312,6 @@ C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\b
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\System.Numerics.Vectors.WindowsRuntime.dll
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\System.ObjectModel.dll
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\System.Private.DataContractSerialization.dll
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\System.Private.Networking.dll
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\System.Private.ServiceModel.dll
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\System.Private.Uri.dll
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\System.Reflection.dll
@@ -361,7 +360,6 @@ C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\b
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\ResourceHandlingTask.state
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\FxResources.Microsoft.CSharp.SR.resw
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\FxResources.Microsoft.VisualBasic.SR.resw
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\FxResources.System.AppContext.SR.resw
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\FxResources.System.Collections.SR.resw
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\FxResources.System.Collections.Concurrent.SR.resw
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\FxResources.System.Collections.Immutable.SR.resw
@@ -389,10 +387,8 @@ C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\o
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\FxResources.System.Numerics.Vectors.SR.resw
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\FxResources.System.ObjectModel.SR.resw
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\FxResources.System.Private.DataContractSerialization.SR.resw
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\FxResources.System.Private.Networking.SR.resw
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\FxResources.System.Private.ServiceModel.SR.resw
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\FxResources.System.Private.Uri.SR.resw
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\FxResources.System.Reflection.Context.SR.resw
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\FxResources.System.Reflection.DispatchProxy.SR.resw
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\FxResources.System.Reflection.Metadata.SR.resw
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\FxResources.System.Runtime.Extensions.SR.resw
@@ -492,11 +488,6 @@ C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\b
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel7.xbf
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel8.xbf
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel9.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\HighScores.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\HighScores.g.i.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\HighScores.g.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\HighScores.xaml
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\HighScores.xbf
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\CoffeeArt.g.i.cs
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\CoffeeArt.g.cs
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\Hare.g.i.cs
@@ -687,4 +678,97 @@ C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\b
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\SpeedLevels\SpeedLevelsMainPage (1).xbf
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\SpeedLevels\Spot The Difference\SpotTheDifference.xbf
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\SpeedLevels\Spot The Difference\SpotTheDifference2.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\4thYearAppliedProject.csprojResolveAssemblyReference.cache
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\MemoryLevels\MemoryNav.g.i.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\MemoryLevels\MemoryNav.g.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\MemoryLevels\Sequential.g.i.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\MemoryLevels\Sequential.g.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\MemoryLevels\ShoppingList.g.i.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\MemoryLevels\ShoppingList.g.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\MemoryLevels\MemoryNav.xaml
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\MemoryLevels\Sequential.xaml
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\MemoryLevels\ShoppingList.xaml
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\MemoryLevels\MemoryNav.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\MemoryLevels\Sequential.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\MemoryLevels\ShoppingList.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\MemoryLevels\MemoryNav.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\MemoryLevels\Sequential.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\MemoryLevels\ShoppingList.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\4thYearAppliedProject.exe.config
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\Microsoft.Data.Sqlite.dll
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\Microsoft.Extensions.Options.dll
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\Remotion.Linq.dll
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\System.Console.dll
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\clrjit.dll
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\sqlite3.dll
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\System.Buffers.dll
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\System.Interactive.Async.dll
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\System.Net.NameResolution.dll
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\System.Net.WebSockets.dll
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\System.Net.WebSockets.Client.dll
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\System.Security.Cryptography.Cng.dll
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\System.Text.Encodings.Web.dll
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\FxResources.System.Console.SR.resw
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\FxResources.System.Net.Primitives.SR.resw
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\FxResources.System.Net.Sockets.SR.resw
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\FxResources.System.Buffers.SR.resw
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\FxResources.System.Net.NameResolution.SR.resw
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\FxResources.System.Net.NetworkInformation.SR.resw
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\FxResources.System.Net.WebSockets.SR.resw
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\FxResources.System.Net.WebSockets.Client.SR.resw
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\FxResources.System.Runtime.InteropServices.RuntimeInformation.SR.resw
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\FxResources.System.Security.Cryptography.Algorithms.SR.resw
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\FxResources.System.Security.Cryptography.Cng.SR.resw
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\FxResources.System.Security.Cryptography.Encoding.SR.resw
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\FxResources.System.Security.Cryptography.Primitives.SR.resw
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\FxResources.System.Security.Cryptography.X509Certificates.SR.resw
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\FxResources.System.Text.Encodings.Web.SR.resw
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\Microsoft.AspNetCore.Http.Abstractions\en-us\Microsoft.AspNetCore.Http.Abstractions.Resources.resw
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\Microsoft.Data.Sqlite\en-US\Microsoft.Data.Sqlite.Strings.resw
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\Microsoft.EntityFrameworkCore\en-US\Microsoft.EntityFrameworkCore.Properties.CoreStrings.resw
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\Microsoft.EntityFrameworkCore.Design\en-US\Microsoft.EntityFrameworkCore.Design.Properties.DesignStrings.resw
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\Microsoft.EntityFrameworkCore.Relational\en-US\Microsoft.EntityFrameworkCore.Relational.Properties.RelationalStrings.resw
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\Microsoft.EntityFrameworkCore.Relational.Design\en-US\Microsoft.EntityFrameworkCore.Relational.Design.Properties.RelationalDesignStrings.resw
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\Microsoft.EntityFrameworkCore.Sqlite\en-US\Microsoft.EntityFrameworkCore.Sqlite.Properties.SqliteStrings.resw
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\Microsoft.Extensions.DependencyInjection\en-us\Microsoft.Extensions.DependencyInjection.Resources.resw
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\Microsoft.Extensions.DependencyInjection.Abstractions\en-us\Microsoft.Extensions.DependencyInjection.Abstractions.Resources.resw
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\Microsoft.Extensions.Logging.Abstractions\en-us\Microsoft.Extensions.Logging.Abstractions.Resource.resw
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\Microsoft.Extensions.Options\en-us\Microsoft.Extensions.Options.Resources.resw
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\Microsoft.Extensions.Primitives\en-us\Microsoft.Extensions.Primitives.Resources.resw
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\SQLite.Net.Platform.WinRT.dll
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\SQLite.Net.dll
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\Common\QuickStartTask.g.i.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\Common\QuickStartTask.g.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\Common\QuickStartTask.xaml
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\Common\QuickStartTask.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\Common\QuickStartTask.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SQLiteScores.g.i.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SQLiteScores.g.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SQLiteScores.xaml
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SQLiteScores.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\SQLiteScores.xbf

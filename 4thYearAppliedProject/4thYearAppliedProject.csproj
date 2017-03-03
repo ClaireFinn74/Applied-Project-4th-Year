@@ -93,6 +93,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <SubType>Designer</SubType>
     </Content>
+    <None Include="App.config" />
     <None Include="Images\Thumbs.db" />
     <None Include="Service References\MyServices\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
@@ -120,7 +121,6 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="AttentionLevels\Everything has a porpoise\MainPage.cs" />
     <Compile Include="AttentionLevels\Everything has a porpoise\PorpoiseLevel10.xaml.cs">
       <DependentUpon>PorpoiseLevel10.xaml</DependentUpon>
     </Compile>
@@ -217,15 +217,18 @@
     <Compile Include="AttentionLevels\Total Recall\TotalRecallLevel7.xaml.cs">
       <DependentUpon>TotalRecallLevel7.xaml</DependentUpon>
     </Compile>
-    <Compile Include="CreditsPage.xaml.cs" />
-    <Compile Include="Enemy.cs" />
-    <Compile Include="HighScores.xaml.cs">
-      <DependentUpon>HighScores.xaml</DependentUpon>
+    <Compile Include="Common\QuickStartTask.xaml.cs">
+      <DependentUpon>QuickStartTask.xaml</DependentUpon>
     </Compile>
-    <Compile Include="JsonObjectsClass.cs" />
+    <Compile Include="CreditsPage.xaml.cs" />
+    <Compile Include="DataModel\TodoItem.cs" />
+    <Compile Include="Enemy.cs" />
     <Compile Include="AttentionLevels\Everything has a porpoise\EverythingHasAPorpoise.xaml.cs" />
     <Compile Include="GlobalClassAttention.cs" />
     <Compile Include="AttentionLevels\Picture Perfect\PicturePerfect.xaml.cs" />
+    <Compile Include="MemoryLevels\MemoryNav.xaml.cs" />
+    <Compile Include="MemoryLevels\Sequential.xaml.cs" />
+    <Compile Include="MemoryLevels\ShoppingList.xaml.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="ProblemSolvingLevels\HigherOrLower.xaml.cs" />
     <Compile Include="ProblemSolvingLevels\ManicMaths.xaml.cs" />
@@ -254,6 +257,9 @@
     <Compile Include="SpeedLevels\SpeedLevelsMainPage.xaml %281%29.cs" />
     <Compile Include="SpeedLevels\Spot The Difference\SpotTheDifference.xaml.cs" />
     <Compile Include="SpeedLevels\Spot The Difference\SpotTheDifference2.xaml.cs" />
+    <Compile Include="SQLiteScores.xaml.cs">
+      <DependentUpon>SQLiteScores.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -321,6 +327,19 @@
     <Content Include="Images\TotalRecallMainPage.jpg" />
     <Content Include="Images\Wolf-flipped.jpg" />
     <Content Include="Images\Wolf.jpg" />
+    <Content Include="MemoryLevels\Images\Bread.png" />
+    <Content Include="MemoryLevels\Images\Carrot.png" />
+    <Content Include="MemoryLevels\Images\Cereal.png" />
+    <Content Include="MemoryLevels\Images\CheckMark.png" />
+    <Content Include="MemoryLevels\Images\Chocolate.png" />
+    <Content Include="MemoryLevels\Images\Cookie.png" />
+    <Content Include="MemoryLevels\Images\JuiceBox.png" />
+    <Content Include="MemoryLevels\Images\Milk.png" />
+    <Content Include="MemoryLevels\Images\Orange.png" />
+    <Content Include="MemoryLevels\Images\Pasta.png" />
+    <Content Include="MemoryLevels\Images\ShoppingListLogo.png" />
+    <Content Include="MemoryLevels\Images\Steak.png" />
+    <Content Include="MemoryLevels\Images\XMark.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -463,19 +482,31 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Common\QuickStartTask.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="CreditsPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </Page>
-    <Page Include="HighScores.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="AttentionLevels\Everything has a porpoise\EverythingHasAPorpoise.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
     <Page Include="AttentionLevels\Picture Perfect\PicturePerfect.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MemoryLevels\MemoryNav.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MemoryLevels\Sequential.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MemoryLevels\ShoppingList.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -547,6 +578,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="SQLiteScores.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
@@ -554,7 +589,11 @@
   <ItemGroup>
     <WCFMetadataStorage Include="Service References\MyServices\" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <SDKReference Include="Microsoft.VCLibs, Version=14.0">
+      <Name>Visual C++ 2015 Runtime for Universal Windows Platform Apps</Name>
+    </SDKReference>
+  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

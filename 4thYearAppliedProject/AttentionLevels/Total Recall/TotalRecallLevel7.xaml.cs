@@ -1,4 +1,5 @@
 ﻿using _4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise;
+using AppliedProject4thYear;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -104,7 +105,6 @@ namespace _4thYearAppliedProject.AttentionLevels.Total_Recall
             txtScore.Text = GlobalClassAttention.totalRecallScore.ToString();
             imgCorrectSign.Visibility = Visibility.Visible;
             imgX.Visibility = Visibility.Collapsed;
-            WordsWithSome.Remove(txtUserInput.Text);
         }
         else
         {

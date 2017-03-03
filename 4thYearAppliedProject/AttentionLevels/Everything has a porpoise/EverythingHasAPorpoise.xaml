@@ -46,9 +46,6 @@
             <Image.RenderTransform>
                 <CompositeTransform/>
             </Image.RenderTransform>
-            <Image.Projection>
-                <PlaneProjection RotationX="20" RotationY="180"/>
-            </Image.Projection>
         </Image>
         <Image x:Name="imgporpoise2" Source="/Images/imgporpoise.png" HorizontalAlignment="Left" Height="66" VerticalAlignment="Top" Width="72" Margin="-5,95,0,0" RenderTransformOrigin="-0.467,1.574" Tapped="imgporpoise2_Tapped" Grid.Column="3" d:LayoutOverrides="HorizontalAlignment">
             <Image.RenderTransform>
@@ -59,56 +56,7 @@
             <Image.RenderTransform>
                 <CompositeTransform/>
             </Image.RenderTransform>
-            <Image.Projection>
-                <PlaneProjection RotationX="180"/>
-            </Image.Projection>
         </Image>
-
         <TextBlock x:Name="txtbScore" Margin="1,12,12,0" Opacity="0.5" Text="" Height="52" VerticalAlignment="Top" Grid.Column="3" d:LayoutOverrides="HorizontalAlignment"/>
-      <!-- <Image x:Name="imgporpoise4" Source="/Images/imgporpoise.png" HorizontalAlignment="Left" Height="66" VerticalAlignment="Top" Width="72" Margin="54,172,0,0" RenderTransformOrigin="-0.467,1.574" Visibility="Collapsed" Tapped="imgporpoise4_Tapped">
-            <Image.RenderTransform>
-                <CompositeTransform/>
-            </Image.RenderTransform>
-        </Image>
-        <Image x:Name="imgporpoise5" Source="/Images/imgporpoise.png" HorizontalAlignment="Left" Height="66" VerticalAlignment="Top" Width="72" Margin="-58,246,-6,0" RenderTransformOrigin="-0.467,1.574" Visibility="Collapsed" Tapped="imgporpoise5_Tapped" Grid.ColumnSpan="2" Grid.Column="1">
-            <Image.RenderTransform>
-                <CompositeTransform/>
-            </Image.RenderTransform>
-        </Image>
-        <Image x:Name="imgporpoise6" Source="/Images/imgporpoise.png" HorizontalAlignment="Left" Width="72" Margin="62,319,0,255" RenderTransformOrigin="-0.467,1.574" Tapped="imgporpoise6_Tapped" Visibility="Collapsed" d:LayoutOverrides="TopPosition, BottomPosition">
-            <Image.RenderTransform>
-                <CompositeTransform/>
-            </Image.RenderTransform>
-        </Image>
-        <Image x:Name="imgporpoise7" Source="/Images/imgporpoise.png" HorizontalAlignment="Left" Height="66" VerticalAlignment="Bottom" Width="72" Margin="-2,0,0,70" Visibility="Collapsed" RenderTransformOrigin="-0.467,1.574" Tapped="imgporpoise7_Tapped" Grid.Column="3">
-            <Image.RenderTransform>
-                <CompositeTransform/>
-            </Image.RenderTransform>
-        </Image>
-        <Image x:Name="imgporpoise8" Source="/Images/imgporpoise.png" HorizontalAlignment="Left" Height="66" VerticalAlignment="Bottom" Width="72" Margin="-70,0,0,213" Visibility="Collapsed" RenderTransformOrigin="-0.467,1.574" Tapped="imgporpoise8_Tapped" Grid.Column="3" d:LayoutOverrides="LeftMargin, RightMargin">
-            <Image.RenderTransform>
-                <CompositeTransform/>
-            </Image.RenderTransform>zontalAlignment="Left" Height="66" VerticalAlignment="Bottom" Width="72" Margin="20,0,0,420" Visibility="Collapsed" RenderTransformOrigin="-0.467,1.574" Tapped="imgporpoise9_Tapped" Grid.Column="3" d:LayoutOverrides="LeftMargin, RightMargin">
-            <Image.RenderTransform>
-        </Image>
-        <Image x:Name="imgporpoise9" Source="/Images/imgporpoise.png" Hori
-                <CompositeTransform/>
-            </Image.RenderTransform>
-        </Image>
-        <Image x:Name="imgporpoise10" Source="/Images/imgporpoise.png" HorizontalAlignment="Left" Visibility="Collapsed" Height="66" VerticalAlignment="Bottom" Width="72" Margin="70,0,0,213" RenderTransformOrigin="-0.467,1.574" Tapped="imgporpoise10_Tapped" Grid.Column="3" d:LayoutOverrides="LeftMargin, RightMargin">
-            <Image.RenderTransform>
-                <CompositeTransform/>
-            </Image.RenderTransform>
-        </Image>
-        <Image x:Name="imgporpoise11" Visibility="Collapsed" Source="/Images/imgporpoise.png" Height="66" VerticalAlignment="Bottom" Margin="6,0,69,213" RenderTransformOrigin="-0.467,1.574" Tapped="imgporpoise11_Tapped" Grid.Column="2" Grid.ColumnSpan="2">
-            <Image.RenderTransform>
-                <CompositeTransform/>
-            </Image.RenderTransform>
-        </Image>
-        <Image x:Name="imgporpoise12" Visibility="Collapsed" Source="/Images/imgporpoise.png" HorizontalAlignment="Left" Width="72" Margin="21,0,0,179" RenderTransformOrigin="-0.467,1.574" Tapped="imgporpoise12_Tapped" Height="66" VerticalAlignment="Bottom" d:LayoutOverrides="HorizontalAlignment">
-            <Image.RenderTransform>
-                <CompositeTransform/>
-            </Image.RenderTransform>
-        </Image> -->
     </Grid>
 </Page>

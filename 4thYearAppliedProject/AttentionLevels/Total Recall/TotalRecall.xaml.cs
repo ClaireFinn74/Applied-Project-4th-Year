@@ -71,7 +71,7 @@ namespace AppliedProject4thYear.AttentionLevels
 
         public void Dictionary()
         {
-            Dictionary<string, int> WordsWithAc = new Dictionary<string, int>();
+            Dictionary<string, int> WordsWithAc = new Dictionary<string, int>(); 
             WordsWithAc.Add("e", 1); WordsWithAc.Add("t", 2); WordsWithAc.Add("ed", 3); WordsWithAc.Add("es", 4);
             WordsWithAc.Add("he", 5); WordsWithAc.Add("hy", 6); WordsWithAc.Add("id", 7); WordsWithAc.Add("me", 8);
             WordsWithAc.Add("ne", 9); WordsWithAc.Add("re", 10); WordsWithAc.Add("ta", 11); WordsWithAc.Add("ts", 12);
@@ -203,7 +203,6 @@ namespace AppliedProject4thYear.AttentionLevels
                 txtScore.Text = GlobalClassAttention.totalRecallScore.ToString();
                 imgCorrectSign.Visibility = Visibility.Visible;
                 imgX.Visibility = Visibility.Collapsed;
-                WordsWithAc.Remove(txtUserInput.Text);
             }
             else
             {

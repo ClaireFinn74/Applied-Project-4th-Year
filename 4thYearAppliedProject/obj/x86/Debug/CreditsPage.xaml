@@ -111,7 +111,7 @@
                 <CompositeTransform/>
             </TextBox.RenderTransform>
         </TextBox>
-
+        <Button x:ConnectionId='11' x:Name="btnMainPage" Foreground="White" FontSize="32" Content="Back"                           Margin="38,556,0,50" Height="69"/>
     </Grid>
 </Page>
 

@@ -35,9 +35,12 @@ AttentionLevels\Total Recall\TotalRecallLevel4.xbf
 AttentionLevels\Total Recall\TotalRecallLevel5.xbf
 AttentionLevels\Total Recall\TotalRecallLevel6.xbf
 AttentionLevels\Total Recall\TotalRecallLevel7.xbf
+Common\QuickStartTask.xbf
 CreditsPage.xbf
-HighScores.xbf
 MainPage.xbf
+MemoryLevels\MemoryNav.xbf
+MemoryLevels\Sequential.xbf
+MemoryLevels\ShoppingList.xbf
 ProblemSolvingLevels\HigherOrLower.xbf
 ProblemSolvingLevels\ManicMaths.xbf
 ProblemSolvingLevels\ProblemSolvingGames.xbf
@@ -52,3 +55,4 @@ SpeedLevels\FoalShadow\FoalShadowLvl7.xbf
 SpeedLevels\SpeedLevelsMainPage (1).xbf
 SpeedLevels\Spot The Difference\SpotTheDifference.xbf
 SpeedLevels\Spot The Difference\SpotTheDifference2.xbf
+SQLiteScores.xbf

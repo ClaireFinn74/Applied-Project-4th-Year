@@ -7,14 +7,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4thYearAppliedProject", "4t
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
 		Debug|ARM = Debug|ARM
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
 		Release|ARM = Release|ARM
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B183E94-F764-401F-9669-095F1675C3DD}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{1B183E94-F764-401F-9669-095F1675C3DD}.Debug|ARM.ActiveCfg = Debug|ARM
 		{1B183E94-F764-401F-9669-095F1675C3DD}.Debug|ARM.Build.0 = Debug|ARM
 		{1B183E94-F764-401F-9669-095F1675C3DD}.Debug|ARM.Deploy.0 = Debug|ARM
@@ -24,6 +27,7 @@ Global
 		{1B183E94-F764-401F-9669-095F1675C3DD}.Debug|x86.ActiveCfg = Debug|x86
 		{1B183E94-F764-401F-9669-095F1675C3DD}.Debug|x86.Build.0 = Debug|x86
 		{1B183E94-F764-401F-9669-095F1675C3DD}.Debug|x86.Deploy.0 = Debug|x86
+		{1B183E94-F764-401F-9669-095F1675C3DD}.Release|Any CPU.ActiveCfg = Release|x86
 		{1B183E94-F764-401F-9669-095F1675C3DD}.Release|ARM.ActiveCfg = Release|ARM
 		{1B183E94-F764-401F-9669-095F1675C3DD}.Release|ARM.Build.0 = Release|ARM
 		{1B183E94-F764-401F-9669-095F1675C3DD}.Release|ARM.Deploy.0 = Release|ARM

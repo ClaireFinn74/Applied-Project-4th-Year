@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AppliedProject4thYear;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -26,6 +27,7 @@ namespace _4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise
         public PorpoiseLevel10()
         {
             this.InitializeComponent();
+            GlobalClassAttention.gameName = "Everything Has A Porpoise Score:";
             sbPorpoiseLevel1.Begin();
             sbPorpoiseLevel2.Begin();
             sbPorpoiseLevel3.Begin();
@@ -73,12 +75,11 @@ namespace _4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise
                 sbPorpoiseLevel10.Stop();
                 var dialog = new MessageDialog("Well Done! You have reached maximum attention for today!");
                 await dialog.ShowAsync();
+                Frame.Navigate(typeof(CreditsPage));
             }
             //Otherwise, If the image is tapped twice the game ends
             else if (porpoiseTapped1 == 2)
             {
-                //Reset Score to 0
-                GlobalClassAttention.score = 0;
                 //Message box displays
                 var dialog = new MessageDialog("Too Bad, you already clicked that porpoise! Game Over");
                 await dialog.ShowAsync();
@@ -108,11 +109,10 @@ namespace _4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise
                 sbPorpoiseLevel10.Stop();
                 var dialog = new MessageDialog("Well Done! You have reached maximum attention for today!");
                 await dialog.ShowAsync();
+                Frame.Navigate(typeof(CreditsPage));
             }
             else if (porpoiseTapped2 == 2)
             {
-                //Reset Score to 0
-                GlobalClassAttention.score = 0;
                 var dialog = new MessageDialog("Too Bad, you already clicked that porpoise! Game Over");
                 await dialog.ShowAsync();
                 //Go back to Mainpage
@@ -141,11 +141,10 @@ namespace _4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise
                 sbPorpoiseLevel10.Stop();
                 var dialog = new MessageDialog("Well Done! You have reached maximum attention for today!");
                 await dialog.ShowAsync();
+                Frame.Navigate(typeof(CreditsPage));
             }
             else if (porpoiseTapped3 == 2)
             {
-                //Reset Score to 0
-                GlobalClassAttention.score = 0;
                 var dialog = new MessageDialog("Too Bad, you already clicked that porpoise! Game Over");
                 await dialog.ShowAsync();
                 //Go back to Mainpage
@@ -173,12 +172,11 @@ namespace _4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise
                 sbPorpoiseLevel10.Stop();
                 var dialog = new MessageDialog("Well Done! You have reached maximum attention for today!");
                 await dialog.ShowAsync();
+                Frame.Navigate(typeof(CreditsPage));
 
             }
             else if (porpoiseTapped4 == 2)
             {
-                //Reset Score to 0
-                GlobalClassAttention.score = 0;
                 var dialog = new MessageDialog("Too Bad, you already clicked that porpoise! Game Over");
                 await dialog.ShowAsync();
                 //Go back to Mainpage
@@ -206,11 +204,10 @@ namespace _4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise
                 sbPorpoiseLevel10.Stop();
                 var dialog = new MessageDialog("Well Done! You have reached maximum attention for today!");
                 await dialog.ShowAsync();
+                Frame.Navigate(typeof(CreditsPage));
             }
             else if (porpoiseTapped5 == 2)
             {
-                //Reset Score to 0
-                GlobalClassAttention.score = 0;
                 var dialog = new MessageDialog("Too Bad, you already clicked that porpoise! Game Over");
                 await dialog.ShowAsync();
                 //Go back to Mainpage
@@ -238,11 +235,10 @@ namespace _4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise
                 sbPorpoiseLevel10.Stop();
                 var dialog = new MessageDialog("Well Done! You have reached maximum attention for today!");
                 await dialog.ShowAsync();
+                Frame.Navigate(typeof(CreditsPage));
             }
             else if (porpoiseTapped6 == 2)
             {
-                //Reset Score to 0
-                GlobalClassAttention.score = 0;
                 var dialog = new MessageDialog("Too Bad, you already clicked that porpoise! Game Over");
                 await dialog.ShowAsync();
                 //Go back to Mainpage
@@ -270,11 +266,10 @@ namespace _4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise
                 sbPorpoiseLevel10.Stop();
                 var dialog = new MessageDialog("Well Done! You have reached maximum attention for today!");
                 await dialog.ShowAsync();
+                Frame.Navigate(typeof(CreditsPage));
             }
             else if (porpoiseTapped7 == 2)
             {
-                //Reset Score to 0
-                GlobalClassAttention.score = 0;
                 var dialog = new MessageDialog("Too Bad, you already clicked that porpoise! Game Over");
                 await dialog.ShowAsync();
                 //Go back to Mainpage
@@ -302,11 +297,10 @@ namespace _4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise
                 sbPorpoiseLevel10.Stop();
                 var dialog = new MessageDialog("Well Done! You have reached maximum attention for today!");
                 await dialog.ShowAsync();
+                Frame.Navigate(typeof(CreditsPage));
             }
             else if (porpoiseTapped8 == 2)
             {
-                //Reset Score to 0
-                GlobalClassAttention.score = 0;
                 var dialog = new MessageDialog("Too Bad, you already clicked that porpoise! Game Over");
                 await dialog.ShowAsync();
                 //Go back to Mainpage
@@ -334,11 +328,10 @@ namespace _4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise
                 sbPorpoiseLevel10.Stop();
                 var dialog = new MessageDialog("Well Done! You have reached maximum attention for today!");
                 await dialog.ShowAsync();
+                Frame.Navigate(typeof(CreditsPage));
             }
             else if (porpoiseTapped9 == 2)
             {
-                //Reset Score to 0
-                GlobalClassAttention.score = 0;
                 var dialog = new MessageDialog("Too Bad, you already clicked that porpoise! Game Over");
                 await dialog.ShowAsync();
                 //Go back to Mainpage
@@ -366,11 +359,10 @@ namespace _4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise
                 sbPorpoiseLevel10.Stop();
                 var dialog = new MessageDialog("Well Done! You have reached maximum attention for today!");
                 await dialog.ShowAsync();
+                Frame.Navigate(typeof(CreditsPage));
             }
             else if (porpoiseTapped10 == 2)
             {
-                //Reset Score to 0
-                GlobalClassAttention.score = 0;
                 var dialog = new MessageDialog("Too Bad, you already clicked that porpoise! Game Over");
                 await dialog.ShowAsync();
                 //Go back to Mainpage
@@ -398,11 +390,10 @@ namespace _4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise
                 sbPorpoiseLevel10.Stop();
                 var dialog = new MessageDialog("Well Done! You have reached maximum attention for today!");
                 await dialog.ShowAsync();
+                Frame.Navigate(typeof(CreditsPage));
             }
             else if (porpoiseTapped11 == 2)
             {
-                //Reset Score to 0
-                GlobalClassAttention.score = 0;
                 var dialog = new MessageDialog("Too Bad, you already clicked that porpoise! Game Over");
                 await dialog.ShowAsync();
                 //Go back to Mainpage
@@ -434,8 +425,6 @@ namespace _4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise
             }
             else if (porpoiseTapped12 == 2)
             {
-                //Reset Score to 0
-                GlobalClassAttention.score = 0;
                 var dialog = new MessageDialog("Too Bad, you already clicked that porpoise! Game Over");
                 await dialog.ShowAsync();
                 //Go back to Mainpage

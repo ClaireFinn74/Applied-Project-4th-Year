@@ -1,4 +1,5 @@
 ﻿using _4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise;
+using AppliedProject4thYear;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -80,49 +81,47 @@ namespace _4thYearAppliedProject.AttentionLevels.Total_Recall
  
         private void btnEnter_Click(object sender, RoutedEventArgs e)
         {
-            Dictionary<string, int> WordsWith  = new Dictionary<string, int>();
-            WordsWith .Add("", 1); WordsWith .Add("d", 2); WordsWith .Add("k", 3); WordsWith .Add("s", 4);
-            WordsWith .Add("di", 5); WordsWith .Add("ds", 6); WordsWith .Add("gi", 7); WordsWith .Add("go", 8);
-            WordsWith .Add("ks", 9); WordsWith .Add("ky", 10); WordsWith .Add("ny", 11); WordsWith .Add("ded", 12);
-            WordsWith .Add("dic", 13); WordsWith .Add("dus", 14); WordsWith .Add("est", 15); WordsWith .Add("gal", 16);
-            WordsWith .Add("gic", 17); WordsWith .Add("gus", 18); WordsWith .Add("ked", 19); WordsWith .Add("ker", 20);
-            WordsWith .Add("kia", 22); WordsWith .Add("ned", 23); WordsWith .Add("nel", 24);
-            WordsWith .Add("ner", 25); WordsWith .Add("ctor", 26); WordsWith .Add("ding", 27); WordsWith .Add("eral", 28);
-            WordsWith .Add("fair", 29); WordsWith .Add("gals", 30); WordsWith .Add("goes", 31); WordsWith .Add("goid", 32);
-            WordsWith .Add("gous", 33); WordsWith .Add("icle", 34); WordsWith .Add("kers", 35); WordsWith .Add("kias", 36);
-            WordsWith .Add("kier", 39); WordsWith .Add("king", 40);
-            WordsWith .Add("nels", 41); WordsWith .Add("nest", 42); WordsWith .Add("nier", 43); WordsWith .Add("nies", 44);
-            WordsWith .Add("nily", 45); WordsWith .Add("ning", 46); WordsWith .Add("ction", 47); WordsWith .Add("ctors", 48);
-            WordsWith .Add("erals", 49); WordsWith .Add("erary", 50); WordsWith .Add("ereal", 51); WordsWith .Add("fairs", 52);
-            WordsWith .Add("gible", 53); WordsWith .Add("goids", 54); WordsWith .Add("guses", 55); WordsWith .Add("icles", 56);
-            WordsWith .Add("iculi", 57); WordsWith .Add("kiest", 58); WordsWith .Add("neled", 59); WordsWith .Add("niest", 60);
-            WordsWith .Add("nyman", 61); WordsWith .Add("nymen", 62); WordsWith .Add("ctions", 63); WordsWith .Add("dament", 64);
-            WordsWith .Add("gibles", 65); WordsWith .Add("gicide", 66); WordsWith .Add("giform", 67); WordsWith .Add("icular", 68);
-            WordsWith .Add("iculus", 69); WordsWith .Add("kiness", 70); WordsWith .Add("neling", 71); WordsWith .Add("nelled", 72);
-            WordsWith .Add("niness", 73); WordsWith .Add("ctional", 74); WordsWith .Add("ctioned", 75); WordsWith .Add("daments", 76);
-            WordsWith .Add("draiser", 77); WordsWith .Add("ereally", 78); WordsWith .Add("gicidal", 79); WordsWith .Add("dicides", 80);
-            WordsWith .Add("iculars", 81); WordsWith .Add("nelform", 82); WordsWith .Add("nelling", 83); WordsWith .Add("ambulism", 84);
-            WordsWith .Add("ambulist", 85); WordsWith .Add("ctionary", 86); WordsWith .Add("ctioning", 87); WordsWith .Add("damental", 88);
-            WordsWith .Add("draisers", 89); WordsWith .Add("draising", 90); WordsWith .Add("gibility", 91); WordsWith .Add("gistatic", 92);
-            WordsWith .Add("kinesses", 93); WordsWith .Add("ninesses", 94); WordsWith .Add("ambulisms", 95); WordsWith .Add("ambulists", 96);
-            WordsWith .Add("ctionally", 97); WordsWith .Add("ctionless", 98); WordsWith .Add("damentals", 99); WordsWith .Add("draisings", 100);
-            WordsWith .Add("gicidally", 101); WordsWith .Add("ctionalism", 102); WordsWith .Add("ctionalist", 103); WordsWith .Add("ctionality", 104);
-            WordsWith .Add("ctionaries", 105); WordsWith .Add("damentally", 106); WordsWith .Add("gibilities", 107); WordsWith .Add("ctionalisms", 108);
-            WordsWith .Add("ctionalists", 109); WordsWith .Add("damentalism", 110); WordsWith .Add("damentalist", 111); WordsWith .Add("ctionalistic", 112);
-            WordsWith .Add("ctionalities", 113); WordsWith .Add("damentalisms", 114); WordsWith.Add("damentalists", 114); WordsWith.Add("damentalistic", 114);
-
+            Dictionary<string, int> WordsWithFun  = new Dictionary<string, int>();
+            WordsWithFun.Add("", 1); WordsWithFun.Add("d", 2); WordsWithFun.Add("k", 3); WordsWithFun.Add("s", 4);
+            WordsWithFun.Add("di", 5); WordsWithFun.Add("ds", 6); WordsWithFun.Add("gi", 7); WordsWithFun.Add("go", 8);
+            WordsWithFun.Add("ks", 9); WordsWithFun.Add("ky", 10); WordsWithFun.Add("ny", 11); WordsWithFun.Add("ded", 12);
+            WordsWithFun.Add("dic", 13); WordsWithFun.Add("dus", 14); WordsWithFun.Add("est", 15); WordsWithFun.Add("gal", 16);
+            WordsWithFun.Add("gic", 17); WordsWithFun.Add("gus", 18); WordsWithFun.Add("ked", 19); WordsWithFun.Add("ker", 20);
+            WordsWithFun.Add("kia", 22); WordsWithFun.Add("ned", 23); WordsWithFun.Add("nel", 24);
+            WordsWithFun.Add("ner", 25); WordsWithFun.Add("ctor", 26); WordsWithFun.Add("ding", 27); WordsWithFun.Add("eral", 28);
+            WordsWithFun.Add("fair", 29); WordsWithFun.Add("gals", 30); WordsWithFun.Add("goes", 31); WordsWithFun.Add("goid", 32);
+            WordsWithFun.Add("gous", 33); WordsWithFun.Add("icle", 34); WordsWithFun.Add("kers", 35); WordsWithFun.Add("kias", 36);
+            WordsWithFun.Add("kier", 39); WordsWithFun.Add("king", 40);
+            WordsWithFun.Add("nels", 41); WordsWithFun.Add("nest", 42); WordsWithFun.Add("nier", 43); WordsWithFun.Add("nies", 44);
+            WordsWithFun.Add("nily", 45); WordsWithFun.Add("ning", 46); WordsWithFun.Add("ction", 47); WordsWithFun.Add("ctors", 48);
+            WordsWithFun.Add("erals", 49); WordsWithFun.Add("erary", 50); WordsWithFun.Add("ereal", 51); WordsWithFun.Add("fairs", 52);
+            WordsWithFun.Add("gible", 53); WordsWithFun.Add("goids", 54); WordsWithFun.Add("guses", 55); WordsWithFun.Add("icles", 56);
+            WordsWithFun.Add("iculi", 57); WordsWithFun.Add("kiest", 58); WordsWithFun.Add("neled", 59); WordsWithFun.Add("niest", 60);
+            WordsWithFun.Add("nyman", 61); WordsWithFun.Add("nymen", 62); WordsWithFun.Add("ctions", 63); WordsWithFun.Add("dament", 64);
+            WordsWithFun.Add("gibles", 65); WordsWithFun.Add("gicide", 66); WordsWithFun.Add("giform", 67); WordsWithFun.Add("icular", 68);
+            WordsWithFun.Add("iculus", 69); WordsWithFun.Add("kiness", 70); WordsWithFun.Add("neling", 71); WordsWithFun.Add("nelled", 72);
+            WordsWithFun.Add("niness", 73); WordsWithFun.Add("ctional", 74); WordsWithFun.Add("ctioned", 75); WordsWithFun.Add("daments", 76);
+            WordsWithFun.Add("draiser", 77); WordsWithFun.Add("ereally", 78); WordsWithFun.Add("gicidal", 79); WordsWithFun.Add("dicides", 80);
+            WordsWithFun.Add("iculars", 81); WordsWithFun.Add("nelform", 82); WordsWithFun.Add("nelling", 83); WordsWithFun.Add("ambulism", 84);
+            WordsWithFun.Add("ambulist", 85); WordsWithFun.Add("ctionary", 86); WordsWithFun.Add("ctioning", 87); WordsWithFun.Add("damental", 88);
+            WordsWithFun.Add("draisers", 89); WordsWithFun.Add("draising", 90); WordsWithFun.Add("gibility", 91); WordsWithFun.Add("gistatic", 92);
+            WordsWithFun.Add("kinesses", 93); WordsWithFun.Add("ninesses", 94); WordsWithFun.Add("ambulisms", 95); WordsWithFun.Add("ambulists", 96);
+            WordsWithFun.Add("ctionally", 97); WordsWithFun.Add("ctionless", 98); WordsWithFun.Add("damentals", 99); WordsWithFun.Add("draisings", 100);
+            WordsWithFun.Add("gicidally", 101); WordsWithFun.Add("ctionalism", 102); WordsWithFun.Add("ctionalist", 103); WordsWithFun.Add("ctionality", 104);
+            WordsWithFun.Add("ctionaries", 105); WordsWithFun.Add("damentally", 106); WordsWithFun.Add("gibilities", 107); WordsWithFun.Add("ctionalisms", 108);
+            WordsWithFun.Add("ctionalists", 109); WordsWithFun.Add("damentalism", 110); WordsWithFun.Add("damentalist", 111); WordsWithFun.Add("ctionalistic", 112);
+            WordsWithFun.Add("ctionalities", 113); WordsWithFun.Add("damentalisms", 114); WordsWithFun.Add("damentalists", 114); WordsWithFun.Add("damentalistic", 114);
             if (GlobalClassAttention.totalRecallScore == 750)
             {
                 btnLevel7.Visibility = Visibility.Visible;
             }
 
-            if (WordsWith .ContainsKey(txtUserInput.Text))
+            if (WordsWithFun .ContainsKey(txtUserInput.Text))
             {
                 GlobalClassAttention.totalRecallScore += 10;
                 txtScore.Text = GlobalClassAttention.totalRecallScore.ToString();
                 imgCorrectSign.Visibility = Visibility.Visible;
                 imgX.Visibility = Visibility.Collapsed;
-                WordsWith .Remove(txtUserInput.Text);
             }
             else
             {

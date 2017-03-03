@@ -11,5 +11,6 @@ namespace _4thYearAppliedProject
         //Variables for score
         public static int score;
         public static int totalRecallScore;
+        public static string gameName;
     }
 }
