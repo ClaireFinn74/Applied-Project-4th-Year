@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>6d9544bb-16b3-4864-b98d-40eb8d91f94f</PackageIdentityName>
     <PackageIdentityPublisher>CN=owner</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -25,18 +25,18 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-04-11T17:55:14.802</Modified>
+      <Modified>2017-04-12T16:10:13.434</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\4thYearAppliedProject.exe">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\bin\x86\Debug\4thYearAppliedProject.exe">
       <PackagePath>entrypoint\4thYearAppliedProject.exe</PackagePath>
-      <Modified>2017-04-11T17:55:11.719</Modified>
+      <Modified>2017-04-12T16:10:08.062</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\4thYearAppliedProject.exe.config">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\bin\x86\Debug\4thYearAppliedProject.exe.config">
       <PackagePath>4thYearAppliedProject.exe.config</PackagePath>
       <Modified>2017-02-26T16:57:25.240</Modified>
     </AppxPackagedFile>
@@ -644,349 +644,349 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-11T22:15:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\ApplicationInsights.config">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\ApplicationInsights.config">
       <PackagePath>ApplicationInsights.config</PackagePath>
       <Modified>2016-11-14T18:50:44.506</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Assets\kmss.mp3">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Assets\kmss.mp3">
       <PackagePath>Assets\kmss.mp3</PackagePath>
       <Modified>2017-04-10T19:27:44.814</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\12-vector-game-backgrounds-8320_imgs_8320_7.png">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\12-vector-game-backgrounds-8320_imgs_8320_7.png">
       <PackagePath>Images\12-vector-game-backgrounds-8320_imgs_8320_7.png</PackagePath>
       <Modified>2017-04-10T19:15:49.490</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\applogo.png">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\applogo.png">
       <PackagePath>Images\applogo.png</PackagePath>
       <Modified>2017-04-10T19:15:42.607</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Bear3.png">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\Bear3.png">
       <PackagePath>Images\Bear3.png</PackagePath>
       <Modified>2017-02-08T20:54:00.337</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\FoalShadow-flipped.png">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\FoalShadow-flipped.png">
       <PackagePath>Images\FoalShadow-flipped.png</PackagePath>
       <Modified>2017-02-08T20:54:21.718</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\FoalShadow.png">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\FoalShadow.png">
       <PackagePath>Images\FoalShadow.png</PackagePath>
       <Modified>2017-02-08T20:54:21.707</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\imgAttentionMainPage.png">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\imgAttentionMainPage.png">
       <PackagePath>Images\imgAttentionMainPage.png</PackagePath>
       <Modified>2017-02-08T20:54:23.973</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\imgCorrectSign.png">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\imgCorrectSign.png">
       <PackagePath>Images\imgCorrectSign.png</PackagePath>
       <Modified>2017-01-28T21:08:17.992</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\imgporpoise.png">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\imgporpoise.png">
       <PackagePath>Images\imgporpoise.png</PackagePath>
       <Modified>2017-02-10T12:30:11.484</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\imgX.png">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\imgX.png">
       <PackagePath>Images\imgX.png</PackagePath>
       <Modified>2017-01-28T21:15:27.699</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\MainPage.png">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\MainPage.png">
       <PackagePath>Images\MainPage.png</PackagePath>
       <Modified>2017-02-08T20:54:25.264</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Penquin-flipped.png">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\Penquin-flipped.png">
       <PackagePath>Images\Penquin-flipped.png</PackagePath>
       <Modified>2017-02-08T20:54:25.334</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Penquin.png">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\Penquin.png">
       <PackagePath>Images\Penquin.png</PackagePath>
       <Modified>2017-02-08T20:54:25.308</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\PicturePerfectSickBoy.png">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\PicturePerfectSickBoy.png">
       <PackagePath>Images\PicturePerfectSickBoy.png</PackagePath>
       <Modified>2017-02-08T20:54:31.312</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Rhino-flipped.png">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\Rhino-flipped.png">
       <PackagePath>Images\Rhino-flipped.png</PackagePath>
       <Modified>2017-02-08T20:54:31.451</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Rhino.png">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\Rhino.png">
       <PackagePath>Images\Rhino.png</PackagePath>
       <Modified>2017-02-08T20:54:31.441</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\SpotTheDifference.png">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\SpotTheDifference.png">
       <PackagePath>Images\SpotTheDifference.png</PackagePath>
       <Modified>2017-02-08T20:54:31.463</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\SpotTheDifference2.png">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\SpotTheDifference2.png">
       <PackagePath>Images\SpotTheDifference2.png</PackagePath>
       <Modified>2017-02-08T20:54:31.471</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\SpotTheDifference3.png">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\SpotTheDifference3.png">
       <PackagePath>Images\SpotTheDifference3.png</PackagePath>
       <Modified>2017-02-08T20:54:31.481</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\SpotTheDifference4.png">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\SpotTheDifference4.png">
       <PackagePath>Images\SpotTheDifference4.png</PackagePath>
       <Modified>2017-02-08T20:54:31.492</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\SpotTheDifferenceSpotted.png">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\SpotTheDifferenceSpotted.png">
       <PackagePath>Images\SpotTheDifferenceSpotted.png</PackagePath>
       <Modified>2017-02-08T20:54:31.501</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\SpotTheDifferenceSpotted2.png">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\SpotTheDifferenceSpotted2.png">
       <PackagePath>Images\SpotTheDifferenceSpotted2.png</PackagePath>
       <Modified>2017-02-08T20:54:31.512</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\SpotTheDifferenceSpotted3.png">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\SpotTheDifferenceSpotted3.png">
       <PackagePath>Images\SpotTheDifferenceSpotted3.png</PackagePath>
       <Modified>2017-02-08T20:54:31.538</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\SpotTheDifferenceSpotted4.png">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\SpotTheDifferenceSpotted4.png">
       <PackagePath>Images\SpotTheDifferenceSpotted4.png</PackagePath>
       <Modified>2017-02-08T20:54:31.549</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\SpotTheDifferenceSpotted5.png">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\SpotTheDifferenceSpotted5.png">
       <PackagePath>Images\SpotTheDifferenceSpotted5.png</PackagePath>
       <Modified>2017-02-08T20:54:31.559</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\SpotTheDifferenceSpotted6.png">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\SpotTheDifferenceSpotted6.png">
       <PackagePath>Images\SpotTheDifferenceSpotted6.png</PackagePath>
       <Modified>2017-02-08T20:54:31.571</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\MemoryLevels\Images\Bread.png">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\MemoryLevels\Images\Bread.png">
       <PackagePath>MemoryLevels\Images\Bread.png</PackagePath>
       <Modified>2017-02-14T11:31:10.593</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\MemoryLevels\Images\Carrot.png">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\MemoryLevels\Images\Carrot.png">
       <PackagePath>MemoryLevels\Images\Carrot.png</PackagePath>
       <Modified>2017-02-14T11:31:10.614</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\MemoryLevels\Images\Cereal.png">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\MemoryLevels\Images\Cereal.png">
       <PackagePath>MemoryLevels\Images\Cereal.png</PackagePath>
       <Modified>2017-02-14T11:31:10.626</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\MemoryLevels\Images\CheckMark.png">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\MemoryLevels\Images\CheckMark.png">
       <PackagePath>MemoryLevels\Images\CheckMark.png</PackagePath>
       <Modified>2017-02-14T11:31:10.638</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\MemoryLevels\Images\Chocolate.png">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\MemoryLevels\Images\Chocolate.png">
       <PackagePath>MemoryLevels\Images\Chocolate.png</PackagePath>
       <Modified>2017-02-14T11:31:10.651</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\MemoryLevels\Images\Cookie.png">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\MemoryLevels\Images\Cookie.png">
       <PackagePath>MemoryLevels\Images\Cookie.png</PackagePath>
       <Modified>2017-02-14T11:31:10.666</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\MemoryLevels\Images\JuiceBox.png">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\MemoryLevels\Images\JuiceBox.png">
       <PackagePath>MemoryLevels\Images\JuiceBox.png</PackagePath>
       <Modified>2017-02-14T11:31:10.677</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\MemoryLevels\Images\Milk.png">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\MemoryLevels\Images\Milk.png">
       <PackagePath>MemoryLevels\Images\Milk.png</PackagePath>
       <Modified>2017-02-14T11:31:10.688</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\MemoryLevels\Images\Orange.png">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\MemoryLevels\Images\Orange.png">
       <PackagePath>MemoryLevels\Images\Orange.png</PackagePath>
       <Modified>2017-02-14T11:31:10.704</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\MemoryLevels\Images\Pasta.png">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\MemoryLevels\Images\Pasta.png">
       <PackagePath>MemoryLevels\Images\Pasta.png</PackagePath>
       <Modified>2017-02-14T11:31:10.725</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\MemoryLevels\Images\ShoppingListLogo.png">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\MemoryLevels\Images\ShoppingListLogo.png">
       <PackagePath>MemoryLevels\Images\ShoppingListLogo.png</PackagePath>
       <Modified>2017-02-14T11:31:10.736</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\MemoryLevels\Images\Steak.png">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\MemoryLevels\Images\Steak.png">
       <PackagePath>MemoryLevels\Images\Steak.png</PackagePath>
       <Modified>2017-02-14T11:31:10.751</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\MemoryLevels\Images\XMark.png">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\MemoryLevels\Images\XMark.png">
       <PackagePath>MemoryLevels\Images\XMark.png</PackagePath>
       <Modified>2017-02-14T11:31:10.763</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2016-10-23T18:49:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2016-10-23T18:49:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2016-10-23T18:49:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2016-10-23T18:49:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2016-10-23T18:49:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2016-10-23T18:49:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2016-10-23T18:49:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\article.jpg">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\article.jpg">
       <PackagePath>Images\article.jpg</PackagePath>
       <Modified>2017-02-08T20:54:00.057</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\BarnOwlMainPage.jpg">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\BarnOwlMainPage.jpg">
       <PackagePath>Images\BarnOwlMainPage.jpg</PackagePath>
       <Modified>2017-02-08T20:54:00.120</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Bear-flipped.jpg">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\Bear-flipped.jpg">
       <PackagePath>Images\Bear-flipped.jpg</PackagePath>
       <Modified>2017-02-08T20:54:00.361</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Bear.jpg">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\Bear.jpg">
       <PackagePath>Images\Bear.jpg</PackagePath>
       <Modified>2017-02-08T20:54:00.291</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Bear2.jpg">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\Bear2.jpg">
       <PackagePath>Images\Bear2.jpg</PackagePath>
       <Modified>2017-02-08T20:54:00.317</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\BearMainPage.jpg">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\BearMainPage.jpg">
       <PackagePath>Images\BearMainPage.jpg</PackagePath>
       <Modified>2017-02-08T20:54:00.393</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\brain-lifting-weight.jpg">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\brain-lifting-weight.jpg">
       <PackagePath>Images\brain-lifting-weight.jpg</PackagePath>
       <Modified>2017-02-08T20:54:19.005</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\BrainBox.jpg">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\BrainBox.jpg">
       <PackagePath>Images\BrainBox.jpg</PackagePath>
       <Modified>2017-02-08T20:54:17.940</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Brainfall.jpg">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\Brainfall.jpg">
       <PackagePath>Images\Brainfall.jpg</PackagePath>
       <Modified>2017-02-08T20:54:17.958</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\BrainWorks.jpg">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\BrainWorks.jpg">
       <PackagePath>Images\BrainWorks.jpg</PackagePath>
       <Modified>2017-02-08T20:54:19.777</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Buffalo.jpg">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\Buffalo.jpg">
       <PackagePath>Images\Buffalo.jpg</PackagePath>
       <Modified>2017-02-08T20:54:19.797</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Deer-flipped.jpg">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\Deer-flipped.jpg">
       <PackagePath>Images\Deer-flipped.jpg</PackagePath>
       <Modified>2017-02-08T20:54:19.818</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Deer.jpg">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\Deer.jpg">
       <PackagePath>Images\Deer.jpg</PackagePath>
       <Modified>2017-02-08T20:54:19.808</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\DownToATea.jpg">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\DownToATea.jpg">
       <PackagePath>Images\DownToATea.jpg</PackagePath>
       <Modified>2017-02-08T20:54:19.827</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Elephant-flipped.jpg">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\Elephant-flipped.jpg">
       <PackagePath>Images\Elephant-flipped.jpg</PackagePath>
       <Modified>2017-02-08T20:54:19.845</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Elephant.jpg">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\Elephant.jpg">
       <PackagePath>Images\Elephant.jpg</PackagePath>
       <Modified>2017-02-08T20:54:19.835</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Giraffe-flipped.jpg">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\Giraffe-flipped.jpg">
       <PackagePath>Images\Giraffe-flipped.jpg</PackagePath>
       <Modified>2017-02-08T20:54:21.805</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Giraffe.jpg">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\Giraffe.jpg">
       <PackagePath>Images\Giraffe.jpg</PackagePath>
       <Modified>2017-02-08T20:54:21.795</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\GoWithTheBuffLow.jpg">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\GoWithTheBuffLow.jpg">
       <PackagePath>Images\GoWithTheBuffLow.jpg</PackagePath>
       <Modified>2017-02-08T20:54:22.576</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\higherOrLower.jpg">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\higherOrLower.jpg">
       <PackagePath>Images\higherOrLower.jpg</PackagePath>
       <Modified>2017-02-08T20:54:23.308</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\PicturePerfectCoffeeArt.jpg">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\PicturePerfectCoffeeArt.jpg">
       <PackagePath>Images\PicturePerfectCoffeeArt.jpg</PackagePath>
       <Modified>2017-02-08T20:54:25.918</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\PicturePerfectHare.jpg">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\PicturePerfectHare.jpg">
       <PackagePath>Images\PicturePerfectHare.jpg</PackagePath>
       <Modified>2017-02-08T20:54:26.598</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\PicturePerfectHouse.jpg">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\PicturePerfectHouse.jpg">
       <PackagePath>Images\PicturePerfectHouse.jpg</PackagePath>
       <Modified>2017-02-08T20:54:27.313</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\PicturePerfectMainPage.jpg">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\PicturePerfectMainPage.jpg">
       <PackagePath>Images\PicturePerfectMainPage.jpg</PackagePath>
       <Modified>2017-02-08T20:54:31.278</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\PicturePerfectSchool.jpg">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\PicturePerfectSchool.jpg">
       <PackagePath>Images\PicturePerfectSchool.jpg</PackagePath>
       <Modified>2017-02-08T20:54:31.299</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\PicturePerfectSmartPhone.jpg">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\PicturePerfectSmartPhone.jpg">
       <PackagePath>Images\PicturePerfectSmartPhone.jpg</PackagePath>
       <Modified>2017-02-08T20:54:31.331</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\PicturePerfectStreet.jpg">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\PicturePerfectStreet.jpg">
       <PackagePath>Images\PicturePerfectStreet.jpg</PackagePath>
       <Modified>2017-02-08T20:54:31.356</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\PicturePerfectTea.jpg">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\PicturePerfectTea.jpg">
       <PackagePath>Images\PicturePerfectTea.jpg</PackagePath>
       <Modified>2017-02-08T20:54:31.367</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\PicturePerfectZoo.jpg">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\PicturePerfectZoo.jpg">
       <PackagePath>Images\PicturePerfectZoo.jpg</PackagePath>
       <Modified>2017-02-08T20:54:31.380</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\PorpoiseMainPage.jpg">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\PorpoiseMainPage.jpg">
       <PackagePath>Images\PorpoiseMainPage.jpg</PackagePath>
       <Modified>2017-02-08T20:54:31.404</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Rabbit-flipped.jpg">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\Rabbit-flipped.jpg">
       <PackagePath>Images\Rabbit-flipped.jpg</PackagePath>
       <Modified>2017-02-08T20:54:31.431</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Rabbit.jpg">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\Rabbit.jpg">
       <PackagePath>Images\Rabbit.jpg</PackagePath>
       <Modified>2017-02-08T20:54:31.413</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Timer.jpg">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\Timer.jpg">
       <PackagePath>Images\Timer.jpg</PackagePath>
       <Modified>2017-02-08T20:54:31.607</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\TotalRecallMainPage.jpg">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\TotalRecallMainPage.jpg">
       <PackagePath>Images\TotalRecallMainPage.jpg</PackagePath>
       <Modified>2017-02-08T20:54:31.617</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Wolf-flipped.jpg">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\Wolf-flipped.jpg">
       <PackagePath>Images\Wolf-flipped.jpg</PackagePath>
       <Modified>2017-02-08T20:54:31.642</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Wolf.jpg">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Images\Wolf.jpg">
       <PackagePath>Images\Wolf.jpg</PackagePath>
       <Modified>2017-02-08T20:54:31.631</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2016-10-23T18:49:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\4thYearAppliedProject.xr.xml">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\bin\x86\Debug\4thYearAppliedProject.xr.xml">
       <PackagePath>4thYearAppliedProject.xr.xml</PackagePath>
       <Modified>2017-04-11T15:37:22.933</Modified>
     </AppxPackagedFile>
@@ -998,14 +998,14 @@
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2017-02-15T19:02:37.951</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-04-11T15:37:26.990</Modified>
+      <Modified>2017-04-12T16:10:12.044</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\Core\4thYearAppliedProject.exe">
+    <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\bin\x86\Debug\Core\4thYearAppliedProject.exe">
       <PackagePath>4thYearAppliedProject.exe</PackagePath>
-      <Modified>2017-04-11T17:55:14.775</Modified>
+      <Modified>2017-04-12T16:10:13.405</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

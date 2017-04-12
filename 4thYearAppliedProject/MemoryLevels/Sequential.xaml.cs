@@ -35,7 +35,7 @@ namespace AppliedProject4thYear.MemoryLevels
 
         }//- End of Sequential()
 
-        int onInList = GlobalClassVariables.score;
+        int onInList = 0;
         
         List<int> pattern = new List<int>();
         Random rand = new Random();
@@ -85,19 +85,24 @@ namespace AppliedProject4thYear.MemoryLevels
 
         private async void testCorrect(int Colour)
         {
+            txtbScore.Text = onInList.ToString();
             if (playingBack)
                 return;
 
             if (pattern[onInList] == Colour)
-            GlobalClassVariables.score++;
+            onInList++;
+
             else
             {
+                GlobalClassVariables.score = onInList;
                 var dialog = new MessageDialog("Wrong Colour! Game Over. Final Score: " + pattern.Count.ToString());
                 await dialog.ShowAsync();
-                onInList = 0;
-                pattern = new List<int>();
-                btnStart.Content = "Click to Start!";
-                txtBlkRoundNum.Text = (" ");
+                //Go back to SQLiteScores
+                Frame.Navigate(typeof(SQLiteScores));
+                /*   onInList = 0;
+                   pattern = new List<int>();
+                   btnStart.Content = "Click to Start!";
+                   txtBlkRoundNum.Text = (" "); */
             }//- End of if/else
 
             if (onInList >= pattern.Count)

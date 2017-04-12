@@ -16,10 +16,7 @@
                 <TextBlock x:Name="tblDescription" TextWrapping="Wrap" TextAlignment="Center" Text="Please Select a game."/>
             </StackPanel>
             <StackPanel Orientation="Vertical" VerticalAlignment="Center" Padding="0,50,0,0">
-                <Button x:Name="btnOnceAndNeverAgain" Content="Once And Never Again" Background="#F6D5FF" Height="50" HorizontalAlignment="Stretch" VerticalAlignment="Center" Click="btnOnceAndNeverAgain_Click"/>
                 <Button x:Name="btnSequential" Content="Sequential" Background="#ECDFFF" Height="50" HorizontalAlignment="Stretch" VerticalAlignment="Center" Click="btnSequential_Click"/>
-                <Button x:Name="btnShoppingList" Content="Shopping List" Background="#E3E8FF" Height="50" HorizontalAlignment="Stretch" VerticalAlignment="Center" Click="btnShoppingList_Click"/>
-                <Button x:Name="btnTwosAPair" Content="Twos A Pair" Background="#DAF1FF" Height="50" HorizontalAlignment="Stretch" VerticalAlignment="Center" Click="btnTwosAPair_Click"/>
             </StackPanel>
         </StackPanel>
     </Grid>
