@@ -26,6 +26,7 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
     {
         public School()
         {
+            GlobalClassVariables.gameName = "(Picture Perfect Score) " + "\n";
             this.InitializeComponent();
         }
 
@@ -38,10 +39,10 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         private void btnRedBook_Click(object sender, RoutedEventArgs e)
         {
             btnTappedRedBook++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnRedBook.Visibility = Visibility.Collapsed;
-            if (GlobalClassAttention.score == 22)
+            if (GlobalClassVariables.score == 22)
             {
                 Frame.Navigate(typeof(PicturePerfect5));
             }
@@ -51,16 +52,17 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         {
             var dialog = new MessageDialog("OOPS! There was a similar-looking red book, but no brown one!" + "\n" + "Too Bad, Try again another time!");
             await dialog.ShowAsync();
-            Frame.Navigate(typeof(PicturePerfect));
+            //Go back to SQLiteScores
+            Frame.Navigate(typeof(SQLiteScores));
         }
 
         private void btnLeaf_Click(object sender, RoutedEventArgs e)
         {
             btnTappedLeaf++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnLeaf.Visibility = Visibility.Collapsed;
-            if (GlobalClassAttention.score == 22)
+            if (GlobalClassVariables.score == 22)
             {
                 Frame.Navigate(typeof(PicturePerfect5));
             }
@@ -70,16 +72,17 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         {
             var dialog = new MessageDialog("OOPS! There were more chalks than that!" + "\n" + "Too Bad, Try again another time!");
             await dialog.ShowAsync();
-            Frame.Navigate(typeof(PicturePerfect));
+            //Go back to SQLiteScores
+            Frame.Navigate(typeof(SQLiteScores));
         }
 
         private void btnApple_Click(object sender, RoutedEventArgs e)
         {
             btnTappedApple++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnApple.Visibility = Visibility.Collapsed;
-            if (GlobalClassAttention.score == 22)
+            if (GlobalClassVariables.score == 22)
             {
                 Frame.Navigate(typeof(PicturePerfect5));
             }
@@ -89,16 +92,17 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         {
             var dialog = new MessageDialog("OOPS! Nope, just a good old-fashioned chalkboard!" + "\n" + "Too Bad, Try again another time!");
             await dialog.ShowAsync();
-            Frame.Navigate(typeof(PicturePerfect));
+            //Go back to SQLiteScores
+            Frame.Navigate(typeof(SQLiteScores));
         }
 
         private void btnBlueBook_Click(object sender, RoutedEventArgs e)
         {
             btnTappedBlueBook++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnBlueBook.Visibility = Visibility.Collapsed;
-            if (GlobalClassAttention.score == 22)
+            if (GlobalClassVariables.score == 22)
             {
                 Frame.Navigate(typeof(PicturePerfect5));
             }
@@ -108,16 +112,17 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         {
             var dialog = new MessageDialog("OOPS! Where did you see writing? Was it in invisible ink?!" + "\n" + "Too Bad, Try again another time!");
             await dialog.ShowAsync();
-            Frame.Navigate(typeof(PicturePerfect));
+            //Go back to SQLiteScores
+            Frame.Navigate(typeof(SQLiteScores));
         }
 
         private void btnTable_Click(object sender, RoutedEventArgs e)
         {
             btnTappedTable++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnTable.Visibility = Visibility.Collapsed;
-            if (GlobalClassAttention.score == 22)
+            if (GlobalClassVariables.score == 22)
             {
                 Frame.Navigate(typeof(PicturePerfect5));
             }
@@ -127,7 +132,8 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         {
             var dialog = new MessageDialog("OOPS!" + "\n" + "Too Bad, Try again another time!");
             await dialog.ShowAsync();
-            Frame.Navigate(typeof(PicturePerfect));
+            //Go back to SQLiteScores
+            Frame.Navigate(typeof(SQLiteScores));
         }
     }
 }

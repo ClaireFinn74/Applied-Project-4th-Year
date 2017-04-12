@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid >
+    <Grid>
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                 <GradientStop Color="#CCFFFF" Offset="0"/>
@@ -110,5 +110,7 @@
         <!--<Ellipse HorizontalAlignment="Center" VerticalAlignment="Center" Height="200" Width="200" Fill="#FFCCFF" Tapped="txtBlkStart_Tapped" />-->
         <TextBlock x:Name="txtBlkRoundNum" Height="auto" Width="auto" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Text="" TextAlignment="Center" FontSize="100" />
         <!--<TextBlock x:Name="txtBlkStart" Text="Click to Start!" Height="auto" Width="180" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" FontSize="38" TextWrapping="Wrap" />-->
+        <TextBlock x:Name="txtbScore" Margin="1,12,12,0" Opacity="0.5" Text="" Height="52" VerticalAlignment="Top" Grid.Column="3" d:LayoutOverrides="HorizontalAlignment"/>
+
     </Grid>
 </Page>

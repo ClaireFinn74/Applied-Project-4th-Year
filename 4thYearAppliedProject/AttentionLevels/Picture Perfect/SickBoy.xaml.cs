@@ -26,6 +26,7 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
     {
         public SickBoy()
         {
+            GlobalClassVariables.gameName = "(Picture Perfect Score) " + "\n";
             this.InitializeComponent();
         }
 
@@ -40,16 +41,17 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         {
             var dialog = new MessageDialog("OOPS! Look closer at the boy, there's another bear there too!" + "\n" + "Too Bad, Try again another time!");
             await dialog.ShowAsync();
-            Frame.Navigate(typeof(PicturePerfect));
+            //Go back to SQLiteScores
+            Frame.Navigate(typeof(SQLiteScores));
         }
 
         private void btnStethoscope_Click(object sender, RoutedEventArgs e)
         {
             btnTappedStethoscope++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnStethoscope.Visibility = Visibility.Collapsed;
-            if (GlobalClassAttention.score == 28)
+            if (GlobalClassVariables.score == 28)
             {
                 Frame.Navigate(typeof(PicturePerfect6));
             }
@@ -58,10 +60,10 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         private void btnTwoBears_Click(object sender, RoutedEventArgs e)
         {
             btnTappedTwoBears++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnTwoBears.Visibility = Visibility.Collapsed;
-            if (GlobalClassAttention.score == 28)
+            if (GlobalClassVariables.score == 28)
             {
                 Frame.Navigate(typeof(PicturePerfect6));
             }
@@ -70,10 +72,10 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         private void btnGlasses_Click(object sender, RoutedEventArgs e)
         {
             btnTappedGlasses++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnGlasses.Visibility = Visibility.Collapsed;
-            if (GlobalClassAttention.score == 28)
+            if (GlobalClassVariables.score == 28)
             {
                 Frame.Navigate(typeof(PicturePerfect6));
             }
@@ -83,16 +85,17 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         {
             var dialog = new MessageDialog("OOPS! There was only one hand showing!" + "\n" + "Too Bad, Try again another time!");
             await dialog.ShowAsync();
-            Frame.Navigate(typeof(PicturePerfect));
+            //Go back to SQLiteScores
+            Frame.Navigate(typeof(SQLiteScores));
         }
 
         private void btnTwoPaws_Click(object sender, RoutedEventArgs e)
         {
             btnTappedTwoPaws++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnTwoPaws.Visibility = Visibility.Collapsed;
-            if (GlobalClassAttention.score == 28)
+            if (GlobalClassVariables.score == 28)
             {
                 Frame.Navigate(typeof(PicturePerfect6));
             }
@@ -101,10 +104,10 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         private void btnWhiteSocks_Click(object sender, RoutedEventArgs e)
         {
             btnTappedWhiteSocks++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnWhiteSocks.Visibility = Visibility.Collapsed;
-            if (GlobalClassAttention.score == 28)
+            if (GlobalClassVariables.score == 28)
             {
                 Frame.Navigate(typeof(PicturePerfect6));
             }
@@ -114,23 +117,25 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         {
             var dialog = new MessageDialog("OOPS! There were no freckles, must be winter-time!" + "\n" + "Too Bad, Try again another time!");
             await dialog.ShowAsync();
-            Frame.Navigate(typeof(PicturePerfect));
+            //Go back to SQLiteScores
+            Frame.Navigate(typeof(SQLiteScores));
         }
 
         private async void btnTwoEars_Click(object sender, RoutedEventArgs e)
         {
             var dialog = new MessageDialog("OOPS! There was only one ear showing!" + "\n" + "Too Bad, Try again another time!");
             await dialog.ShowAsync();
-            Frame.Navigate(typeof(PicturePerfect));
+            //Go back to SQLiteScores
+            Frame.Navigate(typeof(SQLiteScores));
         }
 
         private void btnBluePjs_Click(object sender, RoutedEventArgs e)
         {
             btnTappedBluePjs++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnBluePjs.Visibility = Visibility.Collapsed;
-            if (GlobalClassAttention.score == 28)
+            if (GlobalClassVariables.score == 28)
             {
                 Frame.Navigate(typeof(PicturePerfect6));
             }

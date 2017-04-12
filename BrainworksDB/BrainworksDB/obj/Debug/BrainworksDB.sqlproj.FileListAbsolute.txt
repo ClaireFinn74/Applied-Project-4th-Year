@@ -1,9 +1,0 @@
-c:\users\owner\documents\visual studio 2015\Projects\BrainworksDB\BrainworksDB\bin\Debug\BrainworksDB.dacpac
-c:\users\owner\documents\visual studio 2015\Projects\BrainworksDB\BrainworksDB\bin\Debug\BrainworksDB.dll
-c:\users\owner\documents\visual studio 2015\Projects\BrainworksDB\BrainworksDB\bin\Debug\BrainworksDB.pdb
-c:\users\owner\documents\visual studio 2015\Projects\BrainworksDB\BrainworksDB\obj\Debug\Model.xml
-c:\users\owner\documents\visual studio 2015\Projects\BrainworksDB\BrainworksDB\obj\Debug\refactor.xml
-c:\users\owner\documents\visual studio 2015\Projects\BrainworksDB\BrainworksDB\obj\Debug\postdeploy.sql
-c:\users\owner\documents\visual studio 2015\Projects\BrainworksDB\BrainworksDB\obj\Debug\predeploy.sql
-c:\users\owner\documents\visual studio 2015\Projects\BrainworksDB\BrainworksDB\obj\Debug\BrainworksDB.dll
-c:\users\owner\documents\visual studio 2015\Projects\BrainworksDB\BrainworksDB\obj\Debug\BrainworksDB.pdb

@@ -17,7 +17,8 @@ namespace AppliedProject4thYear.AttentionLevels
     public sealed partial class TotalRecall : Page
     {
         public TotalRecall()
-        { 
+        {
+            GlobalClassVariables.gameName = "(Total Recall Score) " + "\n";
             this.InitializeComponent();
             DispatcherTimerSetup();
         }
@@ -49,9 +50,10 @@ namespace AppliedProject4thYear.AttentionLevels
             {
                 dispatcherTimer.Stop();
                 var dialog = new MessageDialog("Out of time! You scored:"
-                                       + GlobalClassAttention.totalRecallScore);
+                                       + GlobalClassVariables.score);
                 var result = await dialog.ShowAsync();
-                Frame.Navigate(typeof(MainPage), null);
+                //Go back to SQLiteScores
+                Frame.Navigate(typeof(SQLiteScores));
             }
         }
 
@@ -69,9 +71,9 @@ namespace AppliedProject4thYear.AttentionLevels
             txtTimer.Text = "dispatcherTimer.IsEnabled = False";
         }
 
+        Dictionary<string, int> WordsWithAc = new Dictionary<string, int>();
         public void Dictionary()
         {
-            Dictionary<string, int> WordsWithAc = new Dictionary<string, int>(); 
             WordsWithAc.Add("e", 1); WordsWithAc.Add("t", 2); WordsWithAc.Add("ed", 3); WordsWithAc.Add("es", 4);
             WordsWithAc.Add("he", 5); WordsWithAc.Add("hy", 6); WordsWithAc.Add("id", 7); WordsWithAc.Add("me", 8);
             WordsWithAc.Add("ne", 9); WordsWithAc.Add("re", 10); WordsWithAc.Add("ta", 11); WordsWithAc.Add("ts", 12);
@@ -196,25 +198,32 @@ namespace AppliedProject4thYear.AttentionLevels
             WordsWithAc.Add("utances", 485); WordsWithAc.Add("uteness", 486); WordsWithAc.Add("yclovir", 487); WordsWithAc.Add("ylating", 488);
             WordsWithAc.Add("ylation", 489);
 
-
-            if (WordsWithAc.ContainsKey(txtUserInput.Text))
+            try
             {
-                GlobalClassAttention.totalRecallScore += 10;
-                txtScore.Text = GlobalClassAttention.totalRecallScore.ToString();
-                imgCorrectSign.Visibility = Visibility.Visible;
-                imgX.Visibility = Visibility.Collapsed;
+                if (WordsWithAc.ContainsKey(txtUserInput.Text))
+                {
+                    WordsWithAc.Remove(txtUserInput.Text);
+                    GlobalClassVariables.score += 10;
+                    txtScore.Text = GlobalClassVariables.score.ToString();
+                    imgCorrectSign.Visibility = Visibility.Visible;
+                    imgX.Visibility = Visibility.Collapsed;
+                }
+                else
+                {
+                    imgX.Visibility = Visibility.Visible;
+                    imgCorrectSign.Visibility = Visibility.Collapsed;
+                }
             }
-            else
+            catch (Exception)
             {
-                imgX.Visibility = Visibility.Visible;
-                imgCorrectSign.Visibility = Visibility.Collapsed;
+
             }
         }
 
         private void btnEnter_Click(object sender, RoutedEventArgs e)
         {
             Dictionary();
-            if (GlobalClassAttention.totalRecallScore >= 150)
+            if (GlobalClassVariables.score >= 150)
             {
                 btnLevel2.Visibility = Visibility.Visible;
             }

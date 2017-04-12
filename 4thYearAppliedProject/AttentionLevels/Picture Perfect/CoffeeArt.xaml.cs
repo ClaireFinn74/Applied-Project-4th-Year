@@ -26,9 +26,9 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
     {
         public CoffeeArt()
         {
+            GlobalClassVariables.gameName = "(Picture Perfect Score) " + "\n";
             this.InitializeComponent();
         }
-
         int btnTappedSun = 0;
         int btnTappedHeart = 0;
         int btnTappedPlanet = 0;
@@ -45,31 +45,34 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         {
             var dialog = new MessageDialog("OOPS! There was no Cat in the picture!" + "\n" + "Too Bad, Try again another time!");
             await dialog.ShowAsync();
-            Frame.Navigate(typeof(PicturePerfect));
+            //Go back to SQLiteScores
+            Frame.Navigate(typeof(SQLiteScores));
         }
 
         private async void btnTea_Click(object sender, RoutedEventArgs e)
         {
             var dialog = new MessageDialog("OOPS! There was no Tea in the picture!" + "\n" + "Too Bad, Try again another time!");
             await dialog.ShowAsync();
-            Frame.Navigate(typeof(PicturePerfect));
+            //Go back to SQLiteScores
+            Frame.Navigate(typeof(SQLiteScores));
         }
 
         private async void btnStar_Click(object sender, RoutedEventArgs e)
         {
             var dialog = new MessageDialog("OOPS! There was no Star in the picture!" + "\n" + "Too Bad, Try again another time!");
             await dialog.ShowAsync();
-            Frame.Navigate(typeof(PicturePerfect));
+            //Go back to SQLiteScores
+            Frame.Navigate(typeof(SQLiteScores));
         }
 
         private void btnSun_Click(object sender, RoutedEventArgs e)
         {
             btnTappedSun++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnSun.Visibility = Visibility.Collapsed;
 
-            if (GlobalClassAttention.score == 6)
+            if (GlobalClassVariables.score == 6)
             {
                 Frame.Navigate(typeof(PicturePerfect2));
             }
@@ -78,11 +81,11 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         private void btnHeart_Click(object sender, RoutedEventArgs e)
         {
             btnTappedHeart++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnHeart.Visibility = Visibility.Collapsed;
 
-            if (GlobalClassAttention.score == 6)
+            if (GlobalClassVariables.score == 6)
             {
                 Frame.Navigate(typeof(PicturePerfect2));
             }
@@ -91,11 +94,11 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         private void btnPlanet_Click(object sender, RoutedEventArgs e)
         {
             btnTappedPlanet++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnPlanet.Visibility = Visibility.Collapsed;
 
-            if (GlobalClassAttention.score == 6)
+            if (GlobalClassVariables.score == 6)
             {
                 Frame.Navigate(typeof(PicturePerfect2));
             }
@@ -104,11 +107,11 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         private void btnFlowers_Click(object sender, RoutedEventArgs e)
         {
             btnTappedFlowers++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnFlowers.Visibility = Visibility.Collapsed;
 
-            if (GlobalClassAttention.score == 6)
+            if (GlobalClassVariables.score == 6)
             {
                 Frame.Navigate(typeof(PicturePerfect2));
             }
@@ -117,11 +120,11 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         private void btnMonkey_Click(object sender, RoutedEventArgs e)
         {
             btnTappedMonkey++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnMonkey.Visibility = Visibility.Collapsed;
 
-            if (GlobalClassAttention.score == 6)
+            if (GlobalClassVariables.score == 6)
             {
                 Frame.Navigate(typeof(PicturePerfect2));
             }
@@ -130,11 +133,11 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         private void btnMoon_Click(object sender, RoutedEventArgs e)
         {
             btnTappedMoon++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnMoon.Visibility = Visibility.Collapsed;
 
-            if (GlobalClassAttention.score == 6)
+            if (GlobalClassVariables.score == 6)
             {
                 Frame.Navigate(typeof(PicturePerfect2));
             }

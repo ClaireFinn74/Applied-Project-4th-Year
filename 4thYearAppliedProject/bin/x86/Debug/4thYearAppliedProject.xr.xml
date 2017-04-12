@@ -211,6 +211,8 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Padding" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension">
       <RootProperty Name="Mode" />
@@ -289,6 +291,20 @@
     </RootType>
     <RootType FullName="AppliedProject4thYear.QuickRPG" />
     <RootType FullName="AppliedProject4thYear.AttentionLevels.TotalRecall" />
+    <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
+      <RootProperty Name="Stretch" />
+      <RootProperty Name="ImageSource" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.HyperlinkButton">
+      <RootProperty Name="Content" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="FontStyle" />
+      <RootProperty Name="FontWeight" />
+      <RootProperty Name="NavigateUri" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="RenderTransformOrigin" />
+      <RootProperty Name="Background" />
+    </RootType>
     <RootType FullName="AppliedProject4thYear.MainPage" />
     <RootType FullName="AppliedProject4thYear.MainPages.AttentionPage" />
     <RootType FullName="AppliedProject4thYear.SpeedLevels.FoalShadow.FoalShadow" />
@@ -298,6 +314,8 @@
     <RootType FullName="_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl5" />
     <RootType FullName="_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl6" />
     <RootType FullName="_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl7" />
+    <RootType FullName="AppliedProject4thYear.SpeedLevels.GoWithTheBuffLow.GoWithTheBuffLow" />
+    <RootType FullName="_4thYearAppliedProject.SpeedLevels.GoWithTheBuffLow.GoWithTheBuffLowLvl2" />
     <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
       <RootProperty Name="HorizontalScrollMode" />
       <RootProperty Name="VerticalScrollBarVisibility" />

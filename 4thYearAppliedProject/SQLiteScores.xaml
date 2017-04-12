@@ -86,8 +86,8 @@
                 </Grid.RowDefinitions>
 
                 <StackPanel Grid.Row="0">
-                    <local:QuickStartTask x:Name="quickStartTask" Number="1" Title="Insert a TodoItem" 
-                                      Description="Enter some text below and click Save to insert a new todo item into your database" />
+                    <local:QuickStartTask x:Name="quickStartTask" Number="1" Title="BrainWorks Scores." 
+                                      Description="Let's see your scores!" />
                     <StackPanel x:Name="addItemPanel" Orientation="Horizontal">
                         <TextBox Grid.Row="1" IsReadOnly="True" MinWidth="300" Margin="5,5,5,5" Name="ScoreDisplay" KeyDown="ScoreDisplay_KeyDown" Height="44"></TextBox>
                         <Button Name="ButtonSave" Grid.Row="1" Grid.Column="1" VerticalAlignment="Top" Margin="0,8,8,8" Click="ButtonSave_Click">
@@ -110,7 +110,7 @@
 
                 <RelativePanel Grid.Row="0" Grid.ColumnSpan="2" Margin="0,0,10,0">
                     <local:QuickStartTask x:Name="quickStartTaskQuery" Number="2" Title="Query and Update Data" 
-                                          Description="Click refresh below to load the unfinished TodoItems from your hosted service" 
+                                          Description="Click refresh below to load the scores from your hosted service" 
                                           />
                     <Button x:Name="ButtonRefresh" Click="ButtonRefresh_Click" Margin="72,10,0,0" Height="44"
                             RelativePanel.Below="quickStartTaskQuery"  HorizontalAlignment="Center">

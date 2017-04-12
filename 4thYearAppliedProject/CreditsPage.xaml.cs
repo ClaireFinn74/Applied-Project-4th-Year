@@ -33,7 +33,7 @@ namespace _4thYearAppliedProject
         
         private void btnMainPage_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(MainPage));
+            Frame.Navigate(typeof(SQLiteScores));
         }
     }
 }

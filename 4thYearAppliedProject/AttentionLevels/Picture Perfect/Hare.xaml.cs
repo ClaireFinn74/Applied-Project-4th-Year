@@ -26,6 +26,7 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
     {
         public Hare()
         {
+            GlobalClassVariables.gameName = "(Picture Perfect Score) " + "\n";
             this.InitializeComponent();
         }
 
@@ -40,11 +41,11 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         private void btnEye_Click(object sender, RoutedEventArgs e)
         {
             btnTappedEye++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnEye.Visibility = Visibility.Collapsed;
 
-            if (GlobalClassAttention.score == 12)
+            if (GlobalClassVariables.score == 12)
             {
                 Frame.Navigate(typeof(PicturePerfect3));
             }
@@ -53,11 +54,11 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         private void btnBlackFur_Click(object sender, RoutedEventArgs e)
         {
             btnTappedBlackFur++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnBlackFur.Visibility = Visibility.Collapsed;
 
-            if (GlobalClassAttention.score == 12)
+            if (GlobalClassVariables.score == 12)
             {
                 Frame.Navigate(typeof(PicturePerfect3));
             }
@@ -67,17 +68,18 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         {
             var dialog = new MessageDialog("OOPS! There was no Brown Fur in the picture!" + "\n" + "Too Bad, Try again another time!");
             await dialog.ShowAsync();
-            Frame.Navigate(typeof(PicturePerfect));
+            //Go back to SQLiteScores
+            Frame.Navigate(typeof(SQLiteScores));
         }
 
         private void btnGrass_Click(object sender, RoutedEventArgs e)
         {
             btnTappedGrass++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnGrass.Visibility = Visibility.Collapsed;
 
-            if (GlobalClassAttention.score == 12)
+            if (GlobalClassVariables.score == 12)
             {
                 Frame.Navigate(typeof(PicturePerfect3));
             }
@@ -86,11 +88,11 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         private void btnClay_Click(object sender, RoutedEventArgs e)
         {
             btnTappedClay++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnClay.Visibility = Visibility.Collapsed;
 
-            if (GlobalClassAttention.score == 12)
+            if (GlobalClassVariables.score == 12)
             {
                 Frame.Navigate(typeof(PicturePerfect3));
             }
@@ -100,31 +102,34 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         {
             var dialog = new MessageDialog("OOPS! There is no feet, only paws, in the picture!" + "\n" + "Too Bad, Try again another time!");
             await dialog.ShowAsync();
-            Frame.Navigate(typeof(PicturePerfect));
+            //Go back to SQLiteScores
+            Frame.Navigate(typeof(SQLiteScores));
         }
 
         private async void btnRabbit_Click(object sender, RoutedEventArgs e)
         {
             var dialog = new MessageDialog("OOPS! That was a HARE in the picture!" + "\n" + "Too Bad, Try again another time!");
             await dialog.ShowAsync();
-            Frame.Navigate(typeof(PicturePerfect));
+            //Go back to SQLiteScores
+            Frame.Navigate(typeof(SQLiteScores));
         }
 
         private async void btnSun_Click(object sender, RoutedEventArgs e)
         {
             var dialog = new MessageDialog("OOPS! There was no Sun in the picture!" + "\n" + "Too Bad, Try again another time!");
             await dialog.ShowAsync();
-            Frame.Navigate(typeof(PicturePerfect));
+            //Go back to SQLiteScores
+            Frame.Navigate(typeof(SQLiteScores));
         }
 
         private void btnNose_Click(object sender, RoutedEventArgs e)
         {
             btnTappedNose++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnNose.Visibility = Visibility.Collapsed;
 
-            if (GlobalClassAttention.score == 12)
+            if (GlobalClassVariables.score == 12)
             {
                 Frame.Navigate(typeof(PicturePerfect3));
             }
@@ -133,11 +138,11 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         private void btnWhiskers_Click(object sender, RoutedEventArgs e)
         {
             btnTappedWhiskers++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnWhiskers.Visibility = Visibility.Collapsed;
 
-            if (GlobalClassAttention.score == 12)
+            if (GlobalClassVariables.score == 12)
             {
                 Frame.Navigate(typeof(PicturePerfect3));
             }

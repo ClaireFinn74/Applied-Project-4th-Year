@@ -27,6 +27,7 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
     {
         public SmartPhone()
         {
+            GlobalClassVariables.gameName = "(Picture Perfect Score) " + "\n";
             this.InitializeComponent();
         }
 
@@ -40,10 +41,10 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         private void btnElevenPhones_Click(object sender, RoutedEventArgs e)
         {
             btnTappedElevenPhones++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnElevenPhones.Visibility = Visibility.Collapsed;
-            if (GlobalClassAttention.score == 34)
+            if (GlobalClassVariables.score == 34)
             {
                 Frame.Navigate(typeof(PicturePerfect7));
             }
@@ -53,16 +54,17 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         {
             var dialog = new MessageDialog("OOPS! Count again!" + "\n" + "Too Bad, Try again another time!");
             await dialog.ShowAsync();
-            Frame.Navigate(typeof(PicturePerfect));
+            //Go back to SQLiteScores
+            Frame.Navigate(typeof(SQLiteScores));
         }
 
         private void btnBlackberry_Click(object sender, RoutedEventArgs e)
         {
             btnTappedBlackberry++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnBlackberry.Visibility = Visibility.Collapsed;
-            if (GlobalClassAttention.score == 34)
+            if (GlobalClassVariables.score == 34)
             {
                 Frame.Navigate(typeof(PicturePerfect7));
             }
@@ -71,10 +73,10 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         private void btnTimeTwelve_Click(object sender, RoutedEventArgs e)
         {
             btnTappedTimeTwelve++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnTimeTwelve.Visibility = Visibility.Collapsed;
-            if (GlobalClassAttention.score == 34)
+            if (GlobalClassVariables.score == 34)
             {
                 Frame.Navigate(typeof(PicturePerfect7));
             }
@@ -83,10 +85,10 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         private void btnButtons_Click(object sender, RoutedEventArgs e)
         {
             btnTappedButtons++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnButtons.Visibility = Visibility.Collapsed;
-            if (GlobalClassAttention.score == 34)
+            if (GlobalClassVariables.score == 34)
             {
                 Frame.Navigate(typeof(PicturePerfect7));
             }
@@ -95,10 +97,10 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         private void btnAndroidLogo_Click(object sender, RoutedEventArgs e)
         {
             btnTappedAndroidLogo++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnAndroidLogo.Visibility = Visibility.Collapsed;
-            if (GlobalClassAttention.score == 34)
+            if (GlobalClassVariables.score == 34)
             {
                 Frame.Navigate(typeof(PicturePerfect7));
             }
@@ -108,16 +110,17 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         {
             var dialog = new MessageDialog("OOPS! There were lots of different times but none were 9:00!" + "\n" + "Too Bad, Try again another time!");
             await dialog.ShowAsync();
-            Frame.Navigate(typeof(PicturePerfect));
+            //Go back to SQLiteScores
+            Frame.Navigate(typeof(SQLiteScores));
         }
 
         private void btnS_Click(object sender, RoutedEventArgs e)
         {
             btnTappedS++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnS.Visibility = Visibility.Collapsed;
-            if (GlobalClassAttention.score == 34)
+            if (GlobalClassVariables.score == 34)
             {
                 Frame.Navigate(typeof(PicturePerfect7));
             }
@@ -127,14 +130,16 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         {
             var dialog = new MessageDialog("OOPS! Nope, all Mobile phones, no Headphones!" + "\n" + "Too Bad, Try again another time!");
             await dialog.ShowAsync();
-            Frame.Navigate(typeof(PicturePerfect));
+            //Go back to SQLiteScores
+            Frame.Navigate(typeof(SQLiteScores));
         }
 
         private async void btnTelephone_Click(object sender, RoutedEventArgs e)
         {
             var dialog = new MessageDialog("OOPS! Nope, all Mobile Phones, no Telephones!" + "\n" + "Too Bad, Try again another time!");
             await dialog.ShowAsync();
-            Frame.Navigate(typeof(PicturePerfect));
+            //Go back to SQLiteScores
+            Frame.Navigate(typeof(SQLiteScores));
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using AppliedProject4thYear.SpeedLevels;
+﻿using _4thYearAppliedProject;
+using AppliedProject4thYear.SpeedLevels;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -27,6 +28,7 @@ namespace _4thYearAppliedProject.SpeedLevels.FoalShadow
              
         public FoalShadowLvl7()
         {
+            GlobalClassVariables.gameName = "(Foal Shadow Score) " + "\n";
             this.InitializeComponent();
             DispatcherTimerSetup();
             Random random = new Random();
@@ -93,11 +95,12 @@ namespace _4thYearAppliedProject.SpeedLevels.FoalShadow
 
             if (timesTicked == -1)
             {
+                GlobalClassVariables.score = GlobalClass.globalHighscore;
                 dispatcherTimer.Stop(); // stops timer going below 0
                 var dialog = new Windows.UI.Popups.MessageDialog
                 ("Out of time! You scored a total of: " + GlobalClass.globalHighscore);
                 var result = await dialog.ShowAsync();
-                Frame.Navigate(typeof(CreditsPage));
+                this.Frame.Navigate(typeof(SQLiteScores), null);
             }
         }
         /*private void TimerStart_Click_1(object sender, RoutedEventArgs e)
@@ -152,11 +155,11 @@ namespace _4thYearAppliedProject.SpeedLevels.FoalShadow
 
             else
             {
+                GlobalClassVariables.score = GlobalClass.globalHighscore;
                 var dialog = new Windows.UI.Popups.MessageDialog(
                 "Woops! Looks like you've lost but hey you got:" + GlobalClass.globalHighscore);
                 var result = await dialog.ShowAsync();
-                dispatcherTimer.Stop();
-                Frame.Navigate(typeof(SpeedLevelsMainPage));
+                Frame.Navigate(typeof(SQLiteScores));
             }
 
         }
@@ -191,11 +194,11 @@ namespace _4thYearAppliedProject.SpeedLevels.FoalShadow
             }
             else
             {
+                GlobalClassVariables.score = GlobalClass.globalHighscore;
                 var dialog = new Windows.UI.Popups.MessageDialog(
                 "Woops! Looks like you've lost but hey you got:" + GlobalClass.globalHighscore);
                 var result = await dialog.ShowAsync();
-                dispatcherTimer.Stop();
-                Frame.Navigate(typeof(SpeedLevelsMainPage));
+                Frame.Navigate(typeof(SQLiteScores));
             }
         }
 

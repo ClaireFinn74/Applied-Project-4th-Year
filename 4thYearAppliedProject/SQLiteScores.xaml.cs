@@ -22,8 +22,6 @@ using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
 using AppliedProject4thYear;
-// The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
-
 namespace _4thYearAppliedProject
 {
     /// <summary>
@@ -41,6 +39,8 @@ namespace _4thYearAppliedProject
         public SQLiteScores()
         {
             this.InitializeComponent();
+            string Score = GlobalClassVariables.score.ToString() + GlobalClassVariables.gameName;
+            ScoreDisplay.Text = Score;
         }
 
         protected override async void OnNavigatedTo(NavigationEventArgs e)
@@ -114,13 +114,19 @@ namespace _4thYearAppliedProject
 
             ButtonRefresh.IsEnabled = true;
         }
-        
+
         private async void ButtonSave_Click(object sender, RoutedEventArgs e)
         {
-            string Score = GlobalClassAttention.score.ToString() + GlobalClassAttention.gameName;
-            var todoItem = new TodoItem { Score = ScoreDisplay.Text };
-            ScoreDisplay.Text = Score;
-            await InsertTodoItem(todoItem);
+            //To deal with blanks, we get rid of them like so:
+            if (ScoreDisplay.Text == "")
+            {
+                var todoItem = new TodoItem { Score = ScoreDisplay.Text };
+            }
+            else if (ScoreDisplay.Text != "")
+            {
+                var todoItem = new TodoItem { Score = ScoreDisplay.Text };
+                await InsertTodoItem(todoItem);
+            }
         }
 
         private async void CheckBoxComplete_Checked(object sender, RoutedEventArgs e)

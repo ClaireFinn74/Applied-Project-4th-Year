@@ -1,4 +1,5 @@
-﻿using AppliedProject4thYear.MemoryLevels;
+﻿using _4thYearAppliedProject;
+using AppliedProject4thYear.MemoryLevels;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -28,10 +29,14 @@ namespace AppliedProject4thYear.MemoryLevels
             this.InitializeComponent();
             //- Add a colour to the list.
             pattern.Add(rand.Next(0, 4));
+            //Score Always starts out at 0
+            GlobalClassVariables.score = 0;
+            GlobalClassVariables.gameName = "(Sequential Score) " + "\n";
 
         }//- End of Sequential()
 
-        int onInList = 0;
+        int onInList = GlobalClassVariables.score;
+        
         List<int> pattern = new List<int>();
         Random rand = new Random();
         bool playingBack = false;
@@ -84,7 +89,7 @@ namespace AppliedProject4thYear.MemoryLevels
                 return;
 
             if (pattern[onInList] == Colour)
-                onInList++;
+            GlobalClassVariables.score++;
             else
             {
                 var dialog = new MessageDialog("Wrong Colour! Game Over. Final Score: " + pattern.Count.ToString());

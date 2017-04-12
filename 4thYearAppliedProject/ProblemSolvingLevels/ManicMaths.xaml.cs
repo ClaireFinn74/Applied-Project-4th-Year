@@ -29,7 +29,10 @@ namespace AppliedProject4thYear
 
         public ManicMath()
         {
+            //Score Always starts out at 0
+            GlobalClassVariables.score = 0;
             this.InitializeComponent();
+            GlobalClassVariables.gameName = "(Manic Maths Score) " + "\n";
         }
 
         DispatcherTimer dispatcherTimer;
@@ -52,10 +55,10 @@ namespace AppliedProject4thYear
             {
                 dispatcherTimer.Stop(); // stops timer going below 0
                 var dialog = new Windows.UI.Popups.MessageDialog
-                ("Out of time! You scored a total of: " + score);
+                ("Out of time! You scored a total of: " + GlobalClassVariables.score);
                 var result = await dialog.ShowAsync();
-                Frame.Navigate(typeof(CreditsPage));
-            }
+                //Go back to SQLiteScores
+                Frame.Navigate(typeof(SQLiteScores));            }
         }
         private void TimerStart_Click_1(object sender, RoutedEventArgs e)
         {
@@ -83,8 +86,6 @@ namespace AppliedProject4thYear
         int indexFruit;
         int indexFruit2;
         int indexNumberOf2;
-        int score;
-
 
         Random rand = new Random();
         Random rand2 = new Random();
@@ -126,21 +127,21 @@ namespace AppliedProject4thYear
                 +"and" + Names2[indexName2] + " has " + indexNumberOf2 + fruits2[indexFruit2] + ", how many fruits do they have altogether?"; 
             indexName = rand.Next(Names.Length);
             indexName2 = rand2.Next(Names2.Length);
-            if(score <= 6 )
+            if(GlobalClassVariables.score <= 6 )
             {
                 indexNumberOf = rnd.Next(1, 10);
             }
-            else if(score > 6)
+            else if(GlobalClassVariables.score > 6)
             {
                 indexNumberOf = rnd.Next(10, 20);
             }
             indexFruit = rndFruit.Next(fruits.Length);
             indexFruit2 = rndFruit2.Next(fruits2.Length);
-            if (score <= 6)
+            if (GlobalClassVariables.score <= 6)
             {
                 indexNumberOf2 = rnd2.Next(1, 10);
             }
-            else if(score > 6)
+            else if(GlobalClassVariables.score > 6)
             {
                 indexNumberOf2 = rnd2.Next(10, 20);
             }
@@ -165,88 +166,88 @@ namespace AppliedProject4thYear
                 var dialog = new Windows.UI.Popups.MessageDialog("YOU ARE CORRECT, WELL DONE!");
                 var result = await dialog.ShowAsync();
                 timesTicked += 2; // adds time for clicking out of the message dialog
-                score++;
+                GlobalClassVariables.score++;
                 txtAnswer.Text = "";
 
                 // gives the player a new question after getting a correct answer
                 indexName = rand.Next(Names.Length);
                 indexName2 = rand2.Next(Names2.Length);
-                if (score % 5 == 0)
+                if (GlobalClassVariables.score % 5 == 0)
                 {
                     timesTicked += 10;
                 }
-                if (score < 6)
+                if (GlobalClassVariables.score < 6)
                 {
                     indexNumberOf = rnd.Next(1, 10);
                 }
-                else if (score >= 6 && score < 11)
+                else if (GlobalClassVariables.score >= 6 && GlobalClassVariables.score < 11)
                 {
                     indexNumberOf = rnd.Next(10, 20);
                 }
-                else if (score >= 11 && score < 16)
+                else if (GlobalClassVariables.score >= 11 && GlobalClassVariables.score < 16)
                 {
                     indexNumberOf = rnd.Next(30, 50);
                 }
-                else if (score >= 16 && score < 21)
+                else if (GlobalClassVariables.score >= 16 && GlobalClassVariables.score < 21)
                 {
                     indexNumberOf = rnd.Next(60, 80);
                 }
-                else if (score >= 21 && score < 26)
+                else if (GlobalClassVariables.score >= 21 && GlobalClassVariables.score < 26)
                 {
                     indexNumberOf = rnd.Next(100, 150);
                 }
-                else if (score >= 31 && score < 36)
+                else if (GlobalClassVariables.score >= 31 && GlobalClassVariables.score < 36)
                 {
                     indexNumberOf = rnd.Next(180, 300);
                 }
-                else if (score >= 36 && score < 41)
+                else if (GlobalClassVariables.score >= 36 && GlobalClassVariables.score < 41)
                 {
                     indexNumberOf = rnd.Next(500, 1000);
                 }
-                else if (score >= 41 && score < 46)
+                else if (GlobalClassVariables.score >= 41 && GlobalClassVariables.score < 46)
                 {
                     indexNumberOf = rnd.Next(1500, 3000);
                 }
-                else if (score >= 46)
+                else if (GlobalClassVariables.score >= 46)
                 {
                     indexNumberOf = rnd.Next(5000, 10000);
                 }
 
                 indexFruit = rndFruit.Next(fruits.Length);
                 indexFruit2 = rndFruit2.Next(fruits2.Length);
-                if (score < 6)
+                if (GlobalClassVariables.score < 6)
                 {
                     indexNumberOf2 = rnd.Next(1, 10);
                 }
-                else if (score >= 6 && score < 11) 
+                else if (GlobalClassVariables.score >= 6 && GlobalClassVariables.score < 11) 
                 {
                     indexNumberOf2 = rnd.Next(10, 20);
                 }
-                else if (score >= 11 && score < 16)
+                else if (GlobalClassVariables.score >= 11 && GlobalClassVariables.score < 16)
                 {
                     indexNumberOf2 = rnd.Next(30, 50);
                 }
-                else if (score >= 16 && score < 21)
+                else if (GlobalClassVariables.score >= 16 && GlobalClassVariables.score < 21)
                 {
                     indexNumberOf2 = rnd.Next(60, 80);
                 }
-                else if (score >= 21 && score < 26)
+                else if (GlobalClassVariables.score >= 21 && GlobalClassVariables.score < 26)
                 {
                     indexNumberOf2 = rnd.Next(100, 150);
                 }
-                else if (score >= 31 && score < 36)
+                else if (GlobalClassVariables.score >= 31 && GlobalClassVariables.score < 36)
                 {
                     indexNumberOf2 = rnd.Next(180, 300);
                 }
-                else if (score >= 36 && score < 41)
+                else if (GlobalClassVariables.score >= 36 && GlobalClassVariables.score < 41)
                 {
                     indexNumberOf2 = rnd.Next(500, 1000);
                 }
-                else if (score >= 41 && score < 46)
+                else if (GlobalClassVariables.score >= 41 && GlobalClassVariables.score < 46)
                 {
                     indexNumberOf2= rnd.Next(1500, 3000);
                 }
-                else if (score >= 46)
+                else if (GlobalClassVariables.score >= 46)
                 {
                     indexNumberOf2 = rnd.Next(5000, 10000);
                 }
@@ -255,7 +256,7 @@ namespace AppliedProject4thYear
                 txtMathQuestion.Text = "If " + Names[indexName] + " has " + indexNumberOf + fruits[indexFruit]
                     + "and" + Names2[indexName2] + " has " + indexNumberOf2 + fruits2[indexFruit2] + ", how many fruits do they have altogether?";
 
-                txtScore.Text = score.ToString();
+                txtScore.Text = GlobalClassVariables.score.ToString();
                
 
 
@@ -268,81 +269,81 @@ namespace AppliedProject4thYear
                 // gives the player a new question after getting the previous question wrong
                 indexName = rand.Next(Names.Length);
                 indexName2 = rand2.Next(Names2.Length);
-                if (score % 5 == 0)
+                if (GlobalClassVariables.score % 5 == 0)
                 {
                     timesTicked += 10;
                 }
-                if (score < 6)
+                if (GlobalClassVariables.score < 6)
                 {
                     indexNumberOf = rnd.Next(1, 10);
                 }
-                else if (score >= 6 && score < 11)
+                else if (GlobalClassVariables.score >= 6 && GlobalClassVariables.score < 11)
                 {
                     indexNumberOf = rnd.Next(10, 20);
                 }
-                else if (score >= 11 && score < 16)
+                else if (GlobalClassVariables.score >= 11 && GlobalClassVariables.score < 16)
                 {
                     indexNumberOf = rnd.Next(30, 50);
                 }
-                else if (score >= 16 && score < 21)
+                else if (GlobalClassVariables.score >= 16 && GlobalClassVariables.score < 21)
                 {
                     indexNumberOf = rnd.Next(60, 80);
                 }
-                else if (score >= 21 && score < 26)
+                else if (GlobalClassVariables.score >= 21 && GlobalClassVariables.score < 26)
                 {
                     indexNumberOf = rnd.Next(100, 150);
                 }
-                else if (score >= 31 && score < 36)
+                else if (GlobalClassVariables.score >= 31 && GlobalClassVariables.score < 36)
                 {
                     indexNumberOf = rnd.Next(180, 300);
                 }
-                else if (score >= 36 && score < 41)
+                else if (GlobalClassVariables.score >= 36 && GlobalClassVariables.score < 41)
                 {
                     indexNumberOf = rnd.Next(500, 1000);
                 }
-                else if (score >= 41 && score < 46)
+                else if (GlobalClassVariables.score >= 41 && GlobalClassVariables.score < 46)
                 {
                     indexNumberOf = rnd.Next(1500, 3000);
                 }
-                else if (score >= 46)
+                else if (GlobalClassVariables.score >= 46)
                 {
                     indexNumberOf = rnd.Next(5000, 10000);
                 }
                 indexFruit = rndFruit.Next(fruits.Length);
                 indexFruit2 = rndFruit2.Next(fruits2.Length);
-                if (score < 6)
+                if (GlobalClassVariables.score < 6)
                 {
                     indexNumberOf2 = rnd.Next(1, 10);
                 }
-                else if (score >= 6 && score < 11)
+                else if (GlobalClassVariables.score >= 6 && GlobalClassVariables.score < 11)
                 {
                     indexNumberOf2 = rnd.Next(10, 20);
                 }
-                else if (score >= 11 && score < 16)
+                else if (GlobalClassVariables.score >= 11 && GlobalClassVariables.score < 16)
                 {
                     indexNumberOf2 = rnd.Next(30, 50);
                 }
-                else if (score >= 16 && score < 21)
+                else if (GlobalClassVariables.score >= 16 && GlobalClassVariables.score < 21)
                 {
                     indexNumberOf2 = rnd.Next(60, 80);
                 }
-                else if (score >= 21 && score < 26)
+                else if (GlobalClassVariables.score >= 21 && GlobalClassVariables.score < 26)
                 {
                     indexNumberOf2 = rnd.Next(100, 150);
                 }
-                else if (score >= 31 && score < 36)
+                else if (GlobalClassVariables.score >= 31 && GlobalClassVariables.score < 36)
                 {
                     indexNumberOf2 = rnd.Next(180, 300);
                 }
-                else if (score >= 36 && score < 41)
+                else if (GlobalClassVariables.score >= 36 && GlobalClassVariables.score < 41)
                 {
                     indexNumberOf2 = rnd.Next(500, 1000);
                 }
-                else if (score >= 41 && score < 46)
+                else if (GlobalClassVariables.score >= 41 && GlobalClassVariables.score < 46)
                 {
                     indexNumberOf2 = rnd.Next(1500, 3000);
                 }
-                else if (score >= 46)
+                else if (GlobalClassVariables.score >= 46)
                 {
                     indexNumberOf2 = rnd.Next(5000, 10000);
                 }

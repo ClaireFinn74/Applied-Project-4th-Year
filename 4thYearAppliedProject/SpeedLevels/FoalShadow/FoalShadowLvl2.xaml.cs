@@ -1,4 +1,5 @@
-﻿using AppliedProject4thYear.SpeedLevels;
+﻿using _4thYearAppliedProject;
+using AppliedProject4thYear.SpeedLevels;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -26,6 +27,7 @@ namespace _4thYearAppliedProject.SpeedLevels.FoalShadow
 
         public FoalShadowLvl2()
         {
+            GlobalClassVariables.gameName = "(Foal Shadow Score) " + "\n";
             this.InitializeComponent();
 
             Random random = new Random();
@@ -251,10 +253,11 @@ namespace _4thYearAppliedProject.SpeedLevels.FoalShadow
 
             else
             {
+                GlobalClassVariables.score = GlobalClass.globalHighscore;
                 var dialog = new Windows.UI.Popups.MessageDialog(
                 "Woops! Looks like you've lost but hey you got:" + GlobalClass.globalHighscore);
                 var result = await dialog.ShowAsync();
-                Frame.Navigate(typeof(SpeedLevelsMainPage));
+                Frame.Navigate(typeof(SQLiteScores));
             }
 
         }
@@ -357,10 +360,11 @@ namespace _4thYearAppliedProject.SpeedLevels.FoalShadow
             }
             else
             {
+                GlobalClassVariables.score = GlobalClass.globalHighscore;
                 var dialog = new Windows.UI.Popups.MessageDialog(
                 "Woops! Looks like you've lost but hey you got:" + GlobalClass.globalHighscore);
                 var result = await dialog.ShowAsync();
-                Frame.Navigate(typeof(SpeedLevelsMainPage));
+                Frame.Navigate(typeof(SQLiteScores));
             }
         }
 

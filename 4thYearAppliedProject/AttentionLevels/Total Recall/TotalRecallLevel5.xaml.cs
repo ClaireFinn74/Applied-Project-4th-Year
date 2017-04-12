@@ -27,6 +27,7 @@ namespace _4thYearAppliedProject.AttentionLevels.Total_Recall
     {
         public TotalRecallLevel5()
         {
+            GlobalClassVariables.gameName = "(Total Recall Score) " + "\n";
             this.InitializeComponent();
             DispatcherTimerSetup();
         }
@@ -58,10 +59,11 @@ namespace _4thYearAppliedProject.AttentionLevels.Total_Recall
         {
             dispatcherTimer.Stop();
             var dialog = new MessageDialog("Out of time! You scored:"
-                                   + GlobalClassAttention.totalRecallScore);
+                                   + GlobalClassVariables.score);
             var result = await dialog.ShowAsync();
-            Frame.Navigate(typeof(MainPage), null);
-        }
+            //Go back to SQLiteScores
+            Frame.Navigate(typeof(SQLiteScores));
+            }
     }
 
     private void TimerStart_Click_1(object sender, RoutedEventArgs e)
@@ -104,15 +106,15 @@ namespace _4thYearAppliedProject.AttentionLevels.Total_Recall
             WordsWithProg.Add("ressivism", 77); WordsWithProg.Add("ressivisms", 78); WordsWithProg.Add("ressivist", 79); WordsWithProg.Add("ressivistic", 80);
             WordsWithProg.Add("ressivists", 81); WordsWithProg.Add("ressivities", 82); WordsWithProg.Add("ressivity", 83); WordsWithProg.Add("s", 84);
 
-            if (GlobalClassAttention.totalRecallScore == 750)
+            if (GlobalClassVariables.score == 750)
         {
             btnLevel6.Visibility = Visibility.Visible;
         }
 
         if (WordsWithProg.ContainsKey(txtUserInput.Text))
         {
-            GlobalClassAttention.totalRecallScore += 10;
-            txtScore.Text = GlobalClassAttention.totalRecallScore.ToString();
+            GlobalClassVariables.score += 10;
+            txtScore.Text = GlobalClassVariables.score.ToString();
             imgCorrectSign.Visibility = Visibility.Visible;
             imgX.Visibility = Visibility.Collapsed;
         }

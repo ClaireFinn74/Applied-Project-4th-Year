@@ -15,7 +15,6 @@ namespace MVVMJSON
         public int Experience;
         public int Level;
         public int ExpNeeded;
-        public int DefEnemies;
 
         public string CURRENT_HP
         {

@@ -1,4 +1,5 @@
-﻿using _4thYearAppliedProject.SpeedLevels.FoalShadow;
+﻿using _4thYearAppliedProject;
+using _4thYearAppliedProject.SpeedLevels.FoalShadow;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -28,6 +29,7 @@ namespace AppliedProject4thYear.SpeedLevels.FoalShadow
         {
             this.InitializeComponent();
             GlobalClass.globalHighscore = 0;
+            GlobalClassVariables.gameName = "(Foal Shadow Score) " + "\n";
             txtHighscore.Text = GlobalClass.globalHighscore.ToString();
             Random random = new Random();
             Image[] ImageArray = { Bear, BearFlipped, Deer, DeerFlipped, Elephant, ElephantFlipped, FoalShadowHorse, FoalShadowFlipped, Giraffe, GiraffeFlipped, Penquin, PenquinFlipped, Rabbit, RabbitFlipped, Rhino, RhinoFlipped, Wolf, WolfFlipped };
@@ -387,10 +389,11 @@ namespace AppliedProject4thYear.SpeedLevels.FoalShadow
 
             else
             {
+                GlobalClassVariables.score = GlobalClass.globalHighscore;
                 var dialog = new Windows.UI.Popups.MessageDialog(
                 "Woops! Looks like you've lost but hey you got:" + GlobalClass.globalHighscore);
                 var result = await dialog.ShowAsync();
-                Frame.Navigate(typeof(SpeedLevelsMainPage));
+                Frame.Navigate(typeof(SQLiteScores));
             }
 
         }
@@ -493,10 +496,11 @@ namespace AppliedProject4thYear.SpeedLevels.FoalShadow
             }
             else
             {
+                GlobalClassVariables.score = GlobalClass.globalHighscore;
                 var dialog = new Windows.UI.Popups.MessageDialog(
                 "Woops! Looks like you've lost but hey you got:" + GlobalClass.globalHighscore);
                 var result = await dialog.ShowAsync();
-                Frame.Navigate(typeof(SpeedLevelsMainPage));
+                Frame.Navigate(typeof(SQLiteScores));
             }
         }
 

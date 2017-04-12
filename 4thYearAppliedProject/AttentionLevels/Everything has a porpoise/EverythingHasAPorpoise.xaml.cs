@@ -19,10 +19,10 @@ namespace AppliedProject4thYear.AttentionLevels
             //Initialize the game
             this.InitializeComponent();
             //Score Always starts out at 0
-            GlobalClassAttention.score = 0;
+            GlobalClassVariables.score = 0;
             //Begin the Porpoise Level 1 Storyboard as soon as the page renders/Initializes
             sbPorpoiseLevel1.Begin();
-            GlobalClassAttention.gameName = "(Everything Has A Porpoise Score) " + "\n";
+            GlobalClassVariables.gameName = "(Everything Has A Porpoise Score) " + "\n";
         }
         int porpoiseTapped1 = 0;
         int porpoiseTapped2 = 0;
@@ -33,11 +33,11 @@ namespace AppliedProject4thYear.AttentionLevels
         {
             //Make all variables global to allow them to be used in any page
             porpoiseTapped1++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
 
             //If all images are tapped, increase to next level
-            if (GlobalClassAttention.score == 3)
+            if (GlobalClassVariables.score == 3)
             {
                 var dialog = new MessageDialog("Well Done! Have what it takes to go to Level2?");
                 await dialog.ShowAsync();
@@ -59,11 +59,11 @@ namespace AppliedProject4thYear.AttentionLevels
         private async void imgporpoise2_Tapped(object sender, TappedRoutedEventArgs e)
         {
             porpoiseTapped2++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
 
             //If all images are tapped, increase to next level
-            if (GlobalClassAttention.score == 3)
+            if (GlobalClassVariables.score == 3)
             {
                 var dialog = new MessageDialog("Well Done! Have what it takes to go to Level2?");
                 await dialog.ShowAsync();
@@ -83,11 +83,11 @@ namespace AppliedProject4thYear.AttentionLevels
         private async void imgporpoise3_Tapped(object sender, TappedRoutedEventArgs e)
         {
             porpoiseTapped3++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
 
             //If all images are tapped, increase to next level
-            if (GlobalClassAttention.score == 3)
+            if (GlobalClassVariables.score == 3)
             {
                 var dialog = new MessageDialog("Well Done! Have what it takes to go to Level2?");
                 await dialog.ShowAsync();

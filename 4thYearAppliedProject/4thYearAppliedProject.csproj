@@ -224,7 +224,7 @@
     <Compile Include="DataModel\TodoItem.cs" />
     <Compile Include="Enemy.cs" />
     <Compile Include="AttentionLevels\Everything has a porpoise\EverythingHasAPorpoise.xaml.cs" />
-    <Compile Include="GlobalClassAttention.cs" />
+    <Compile Include="GlobalClassVariables.cs" />
     <Compile Include="AttentionLevels\Picture Perfect\PicturePerfect.xaml.cs" />
     <Compile Include="MemoryLevels\MemoryNav.xaml.cs" />
     <Compile Include="MemoryLevels\Sequential.xaml.cs" />
@@ -253,10 +253,15 @@
     <Compile Include="SpeedLevels\FoalShadow\FoalShadowLvl6.xaml.cs" />
     <Compile Include="SpeedLevels\FoalShadow\FoalShadowLvl7.xaml.cs" />
     <Compile Include="SpeedLevels\FoalShadow\GlobalClass.cs" />
-    <Compile Include="SpeedLevels\Spot The Difference\GlobalClassSpotted.cs" />
-    <Compile Include="SpeedLevels\SpeedLevelsMainPage.xaml %281%29.cs" />
-    <Compile Include="SpeedLevels\Spot The Difference\SpotTheDifference.xaml.cs" />
-    <Compile Include="SpeedLevels\Spot The Difference\SpotTheDifference2.xaml.cs" />
+    <Compile Include="SpeedLevels\GoWithTheBuffLow\GlobalClassBuffLow.cs" />
+    <Compile Include="SpeedLevels\GoWithTheBuffLow\GoWithTheBuffLow.xaml.cs" />
+    <Compile Include="SpeedLevels\GoWithTheBuffLow\GoWithTheBuffLowLvl2.xaml.cs" />
+    <Compile Include="SpeedLevels\SpeedLevelsMainPage.xaml.cs">
+      <DependentUpon>SpeedLevelsMainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SpeedLevels\SpotTheDifference\GlobalClassSpotted.cs" />
+    <Compile Include="SpeedLevels\SpotTheDifference\SpotTheDifference.xaml.cs" />
+    <Compile Include="SpeedLevels\SpotTheDifference\SpotTheDifference2.xaml.cs" />
     <Compile Include="SQLiteScores.xaml.cs">
       <DependentUpon>SQLiteScores.xaml</DependentUpon>
     </Compile>
@@ -268,6 +273,9 @@
     <None Include="4thYearAppliedProject_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\kmss.mp3" />
+    <Content Include="Images\12-vector-game-backgrounds-8320_imgs_8320_7.png" />
+    <Content Include="Images\applogo.png" />
     <Content Include="Images\article.jpg" />
     <Content Include="Images\BarnOwlMainPage.jpg" />
     <Content Include="Images\Bear-flipped.jpg" />
@@ -566,15 +574,23 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SpeedLevels\SpeedLevelsMainPage %281%29.xaml">
+    <Page Include="SpeedLevels\GoWithTheBuffLow\GoWithTheBuffLow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SpeedLevels\Spot The Difference\SpotTheDifference.xaml">
+    <Page Include="SpeedLevels\GoWithTheBuffLow\GoWithTheBuffLowLvl2.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SpeedLevels\Spot The Difference\SpotTheDifference2.xaml">
+    <Page Include="SpeedLevels\SpeedLevelsMainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SpeedLevels\SpotTheDifference\SpotTheDifference.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SpeedLevels\SpotTheDifference\SpotTheDifference2.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -594,6 +610,7 @@
       <Name>Visual C++ 2015 Runtime for Universal Windows Platform Apps</Name>
     </SDKReference>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

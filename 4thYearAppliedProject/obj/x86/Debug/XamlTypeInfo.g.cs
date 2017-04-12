@@ -132,7 +132,7 @@ namespace _4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[62];
+            _typeNameTable = new string[64];
             _typeNameTable[0] = "_4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise.PorpoiseLevel10";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
@@ -191,12 +191,14 @@ namespace _4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo
             _typeNameTable[55] = "_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl5";
             _typeNameTable[56] = "_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl6";
             _typeNameTable[57] = "_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl7";
-            _typeNameTable[58] = "AppliedProject4thYear.SpeedLevels.SpeedLevelsMainPage";
-            _typeNameTable[59] = "AppliedProject4thYear.SpeedLevels.SpotTheDifference.SpotTheDifference";
-            _typeNameTable[60] = "AppliedProject4thYear.SpeedLevels.SpotTheDifference.SpotTheDifference2";
-            _typeNameTable[61] = "_4thYearAppliedProject.SQLiteScores";
+            _typeNameTable[58] = "AppliedProject4thYear.SpeedLevels.GoWithTheBuffLow.GoWithTheBuffLow";
+            _typeNameTable[59] = "_4thYearAppliedProject.SpeedLevels.GoWithTheBuffLow.GoWithTheBuffLowLvl2";
+            _typeNameTable[60] = "AppliedProject4thYear.SpeedLevels.SpeedLevelsMainPage";
+            _typeNameTable[61] = "AppliedProject4thYear.SpeedLevels.SpotTheDifference.SpotTheDifference";
+            _typeNameTable[62] = "AppliedProject4thYear.SpeedLevels.SpotTheDifference.SpotTheDifference2";
+            _typeNameTable[63] = "_4thYearAppliedProject.SQLiteScores";
 
-            _typeTable = new global::System.Type[62];
+            _typeTable = new global::System.Type[64];
             _typeTable[0] = typeof(global::_4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise.PorpoiseLevel10);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
@@ -255,10 +257,12 @@ namespace _4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo
             _typeTable[55] = typeof(global::_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl5);
             _typeTable[56] = typeof(global::_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl6);
             _typeTable[57] = typeof(global::_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl7);
-            _typeTable[58] = typeof(global::AppliedProject4thYear.SpeedLevels.SpeedLevelsMainPage);
-            _typeTable[59] = typeof(global::AppliedProject4thYear.SpeedLevels.SpotTheDifference.SpotTheDifference);
-            _typeTable[60] = typeof(global::AppliedProject4thYear.SpeedLevels.SpotTheDifference.SpotTheDifference2);
-            _typeTable[61] = typeof(global::_4thYearAppliedProject.SQLiteScores);
+            _typeTable[58] = typeof(global::AppliedProject4thYear.SpeedLevels.GoWithTheBuffLow.GoWithTheBuffLow);
+            _typeTable[59] = typeof(global::_4thYearAppliedProject.SpeedLevels.GoWithTheBuffLow.GoWithTheBuffLowLvl2);
+            _typeTable[60] = typeof(global::AppliedProject4thYear.SpeedLevels.SpeedLevelsMainPage);
+            _typeTable[61] = typeof(global::AppliedProject4thYear.SpeedLevels.SpotTheDifference.SpotTheDifference);
+            _typeTable[62] = typeof(global::AppliedProject4thYear.SpeedLevels.SpotTheDifference.SpotTheDifference2);
+            _typeTable[63] = typeof(global::_4thYearAppliedProject.SQLiteScores);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -346,10 +350,12 @@ namespace _4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo
         private object Activate_55_FoalShadowLvl5() { return new global::_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl5(); }
         private object Activate_56_FoalShadowLvl6() { return new global::_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl6(); }
         private object Activate_57_FoalShadowLvl7() { return new global::_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl7(); }
-        private object Activate_58_SpeedLevelsMainPage() { return new global::AppliedProject4thYear.SpeedLevels.SpeedLevelsMainPage(); }
-        private object Activate_59_SpotTheDifference() { return new global::AppliedProject4thYear.SpeedLevels.SpotTheDifference.SpotTheDifference(); }
-        private object Activate_60_SpotTheDifference2() { return new global::AppliedProject4thYear.SpeedLevels.SpotTheDifference.SpotTheDifference2(); }
-        private object Activate_61_SQLiteScores() { return new global::_4thYearAppliedProject.SQLiteScores(); }
+        private object Activate_58_GoWithTheBuffLow() { return new global::AppliedProject4thYear.SpeedLevels.GoWithTheBuffLow.GoWithTheBuffLow(); }
+        private object Activate_59_GoWithTheBuffLowLvl2() { return new global::_4thYearAppliedProject.SpeedLevels.GoWithTheBuffLow.GoWithTheBuffLowLvl2(); }
+        private object Activate_60_SpeedLevelsMainPage() { return new global::AppliedProject4thYear.SpeedLevels.SpeedLevelsMainPage(); }
+        private object Activate_61_SpotTheDifference() { return new global::AppliedProject4thYear.SpeedLevels.SpotTheDifference.SpotTheDifference(); }
+        private object Activate_62_SpotTheDifference2() { return new global::AppliedProject4thYear.SpeedLevels.SpotTheDifference.SpotTheDifference2(); }
+        private object Activate_63_SQLiteScores() { return new global::_4thYearAppliedProject.SQLiteScores(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -756,30 +762,44 @@ namespace _4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 58:   //  AppliedProject4thYear.SpeedLevels.SpeedLevelsMainPage
+            case 58:   //  AppliedProject4thYear.SpeedLevels.GoWithTheBuffLow.GoWithTheBuffLow
                 userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_58_SpeedLevelsMainPage;
+                userType.Activator = Activate_58_GoWithTheBuffLow;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 59:   //  AppliedProject4thYear.SpeedLevels.SpotTheDifference.SpotTheDifference
+            case 59:   //  _4thYearAppliedProject.SpeedLevels.GoWithTheBuffLow.GoWithTheBuffLowLvl2
                 userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_59_SpotTheDifference;
+                userType.Activator = Activate_59_GoWithTheBuffLowLvl2;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 60:   //  AppliedProject4thYear.SpeedLevels.SpotTheDifference.SpotTheDifference2
+            case 60:   //  AppliedProject4thYear.SpeedLevels.SpeedLevelsMainPage
                 userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_60_SpotTheDifference2;
+                userType.Activator = Activate_60_SpeedLevelsMainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 61:   //  _4thYearAppliedProject.SQLiteScores
+            case 61:   //  AppliedProject4thYear.SpeedLevels.SpotTheDifference.SpotTheDifference
                 userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_61_SQLiteScores;
+                userType.Activator = Activate_61_SpotTheDifference;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 62:   //  AppliedProject4thYear.SpeedLevels.SpotTheDifference.SpotTheDifference2
+                userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_62_SpotTheDifference2;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 63:   //  _4thYearAppliedProject.SQLiteScores
+                userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_63_SQLiteScores;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

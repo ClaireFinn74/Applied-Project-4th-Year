@@ -26,6 +26,7 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
     {
         public Street()
         {
+            GlobalClassVariables.gameName = "(Picture Perfect Score) " + "\n";
             this.InitializeComponent();
         }
 
@@ -41,16 +42,17 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         {
             var dialog = new MessageDialog("OOPS! Sadly, no sun!" + "\n" + "Too Bad, Try again another time!");
             await dialog.ShowAsync();
-            Frame.Navigate(typeof(PicturePerfect));
+            //Go back to SQLiteScores
+            Frame.Navigate(typeof(SQLiteScores));
         }
 
         private void btnNoThirteenBus_Click(object sender, RoutedEventArgs e)
         {
             btnTappedNoThirteenBus++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnNoThirteenBus.Visibility = Visibility.Collapsed;
-            if (GlobalClassAttention.score == 40)
+            if (GlobalClassVariables.score == 40)
             {
                 Frame.Navigate(typeof(PicturePerfect8));
             }
@@ -59,10 +61,10 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         private void btnLightPost_Click(object sender, RoutedEventArgs e)
         {
             btnTappedLightPost++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnLightPost.Visibility = Visibility.Collapsed;
-            if (GlobalClassAttention.score == 40)
+            if (GlobalClassVariables.score == 40)
             {
                 Frame.Navigate(typeof(PicturePerfect8));
             }
@@ -71,10 +73,10 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         private void btnArrow_Click(object sender, RoutedEventArgs e)
         {
             btnTappedArrow++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnArrow.Visibility = Visibility.Collapsed;
-            if (GlobalClassAttention.score == 40)
+            if (GlobalClassVariables.score == 40)
             {
                 Frame.Navigate(typeof(PicturePerfect8));
             }
@@ -84,23 +86,25 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         {
             var dialog = new MessageDialog("OOPS! Brush up on that Geography!" + "\n" + "Too Bad, Try again another time!");
             await dialog.ShowAsync();
-            Frame.Navigate(typeof(PicturePerfect));
+            //Go back to SQLiteScores
+            Frame.Navigate(typeof(SQLiteScores));
         }
 
         private async void btnCanadianFlag_Click(object sender, RoutedEventArgs e)
         {
             var dialog = new MessageDialog("OOPS! Brush up on that Geography!" + "\n" + "Too Bad, Try again another time!");
             await dialog.ShowAsync();
-            Frame.Navigate(typeof(PicturePerfect));
+            //Go back to SQLiteScores
+            Frame.Navigate(typeof(SQLiteScores));
         }
 
         private void btnCars_Click(object sender, RoutedEventArgs e)
         {
             btnTappedCars++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnCars.Visibility = Visibility.Collapsed;
-            if (GlobalClassAttention.score == 40)
+            if (GlobalClassVariables.score == 40)
             {
                 Frame.Navigate(typeof(PicturePerfect8));
             }
@@ -109,10 +113,10 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         private void btnWalkers_Click(object sender, RoutedEventArgs e)
         {
             btnTappedWalkers++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnWalkers.Visibility = Visibility.Collapsed;
-            if (GlobalClassAttention.score == 40)
+            if (GlobalClassVariables.score == 40)
             {
                 Frame.Navigate(typeof(PicturePerfect8));
             }
@@ -122,16 +126,17 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         {
             var dialog = new MessageDialog("OOPS! Lots of traffic but no Aeroplane in the sky!" + "\n" + "Too Bad, Try again another time!");
             await dialog.ShowAsync();
-            Frame.Navigate(typeof(PicturePerfect));
+            //Go back to SQLiteScores
+            Frame.Navigate(typeof(SQLiteScores));
         }
 
         private void btnBritishFlag_Click(object sender, RoutedEventArgs e)
         {
             btnTappedBritishFlag++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnBritishFlag.Visibility = Visibility.Collapsed;
-            if (GlobalClassAttention.score == 40)
+            if (GlobalClassVariables.score == 40)
             {
                 Frame.Navigate(typeof(PicturePerfect8));
             }
@@ -140,10 +145,10 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         private void btnAustrailianFlag_Click(object sender, RoutedEventArgs e)
         {
             btnTappedAustrailianFlag++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnAustrailianFlag.Visibility = Visibility.Collapsed;
-            if (GlobalClassAttention.score == 40)
+            if (GlobalClassVariables.score == 40)
             {
                 Frame.Navigate(typeof(PicturePerfect8));
             }

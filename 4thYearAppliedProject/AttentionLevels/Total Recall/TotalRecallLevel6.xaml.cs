@@ -27,6 +27,7 @@ namespace _4thYearAppliedProject.AttentionLevels.Total_Recall
     {
         public TotalRecallLevel6()
         {
+            GlobalClassVariables.gameName = "(Total Recall Score) " + "\n";
             this.InitializeComponent();
             DispatcherTimerSetup();
         }
@@ -58,9 +59,10 @@ namespace _4thYearAppliedProject.AttentionLevels.Total_Recall
             {
                 dispatcherTimer.Stop();
                 var dialog = new MessageDialog("Out of time! You scored:"
-                                       + GlobalClassAttention.totalRecallScore);
+                                       + GlobalClassVariables.score);
                 var result = await dialog.ShowAsync();
-                Frame.Navigate(typeof(MainPage), null);
+                //Go back to SQLiteScores
+                Frame.Navigate(typeof(SQLiteScores));
             }
         }
 
@@ -111,15 +113,15 @@ namespace _4thYearAppliedProject.AttentionLevels.Total_Recall
             WordsWithFun.Add("ctionaries", 105); WordsWithFun.Add("damentally", 106); WordsWithFun.Add("gibilities", 107); WordsWithFun.Add("ctionalisms", 108);
             WordsWithFun.Add("ctionalists", 109); WordsWithFun.Add("damentalism", 110); WordsWithFun.Add("damentalist", 111); WordsWithFun.Add("ctionalistic", 112);
             WordsWithFun.Add("ctionalities", 113); WordsWithFun.Add("damentalisms", 114); WordsWithFun.Add("damentalists", 114); WordsWithFun.Add("damentalistic", 114);
-            if (GlobalClassAttention.totalRecallScore == 750)
+            if (GlobalClassVariables.score == 750)
             {
                 btnLevel7.Visibility = Visibility.Visible;
             }
 
             if (WordsWithFun .ContainsKey(txtUserInput.Text))
             {
-                GlobalClassAttention.totalRecallScore += 10;
-                txtScore.Text = GlobalClassAttention.totalRecallScore.ToString();
+                GlobalClassVariables.score += 10;
+                txtScore.Text = GlobalClassVariables.score.ToString();
                 imgCorrectSign.Visibility = Visibility.Visible;
                 imgX.Visibility = Visibility.Collapsed;
             }

@@ -25,6 +25,8 @@ namespace AppliedProject4thYear
     {
         public HigherOrLower()
         {
+            GlobalClassVariables.score = 0;
+            GlobalClassVariables.gameName = "(Higher Or Lower Score) " + "\n";
             this.InitializeComponent();
         }
 
@@ -49,9 +51,10 @@ namespace AppliedProject4thYear
             {
                 dispatcherTimer.Stop(); // stops timer going below 0
                 var dialog = new Windows.UI.Popups.MessageDialog
-                ("Out of time! You scored a total of: " + HoLScore);
+                ("Out of time! You scored a total of: " + GlobalClassVariables.score);
                 var result = await dialog.ShowAsync();
-                this.Frame.Navigate(typeof(MainPage), null);
+                //Go back to SQLiteScores
+                Frame.Navigate(typeof(SQLiteScores));
             }
         }
         private void TimerStart_Click_1(object sender, RoutedEventArgs e)
@@ -68,7 +71,6 @@ namespace AppliedProject4thYear
 
         }
     
-        int HoLScore = 0;
         Random random1 = new Random(200);
         Random random2 = new Random(205);
         Random random3 = new Random(210);
@@ -93,8 +95,8 @@ namespace AppliedProject4thYear
         {
             if (randomNumber1 > randomNumber2)
             {
-                HoLScore++;
-                displayScore.Text = HoLScore.ToString();
+                GlobalClassVariables.score++;
+                displayScore.Text = GlobalClassVariables.score.ToString();
             }
             else if (randomNumber1 < randomNumber2)
             {
@@ -103,9 +105,10 @@ namespace AppliedProject4thYear
                 if (Lives == 0)
                 {
                     var dialog = new Windows.UI.Popups.MessageDialog(
-                    "You have lost! You scored a total of: " + HoLScore);
+                    "You have lost! You scored a total of: " + GlobalClassVariables.score);
                     var result = await dialog.ShowAsync();
-                    this.Frame.Navigate(typeof(MainPage), null);
+                    //Go back to SQLiteScores
+                    Frame.Navigate(typeof(SQLiteScores));
                 }
             }
 
@@ -133,7 +136,7 @@ namespace AppliedProject4thYear
 
             
 
-            if (HoLScore >= 5 && HoLScore < 10)
+            if (GlobalClassVariables.score >= 5 && GlobalClassVariables.score < 10)
             {
                 randomNumber1 = random1.Next(10, 20);
                 randomNumber2 = random2.Next(10, 20);
@@ -146,7 +149,7 @@ namespace AppliedProject4thYear
                 btnChoice4.Content = randomNumber4;
 
             }
-            else if (HoLScore >= 10 && HoLScore < 15)
+            else if (GlobalClassVariables.score >= 10 && GlobalClassVariables.score < 15)
             {
                 randomNumber1 = random1.Next(20, 40);
                 randomNumber2 = random2.Next(20, 40);
@@ -159,7 +162,7 @@ namespace AppliedProject4thYear
                 btnChoice4.Content = randomNumber4;
 
             }
-            else if (HoLScore >= 15 && HoLScore < 20)
+            else if (GlobalClassVariables.score >= 15 && GlobalClassVariables.score < 20)
             {
                 randomNumber1 = random1.Next(50, 70);
                 randomNumber2 = random2.Next(50, 70);
@@ -172,7 +175,7 @@ namespace AppliedProject4thYear
                 btnChoice4.Content = randomNumber4;
 
             }
-            else if (HoLScore >= 20)
+            else if (GlobalClassVariables.score >= 20)
             {
                 randomNumber1 = random1.Next(100, 200);
                 randomNumber2 = random2.Next(100, 200);
@@ -192,8 +195,8 @@ namespace AppliedProject4thYear
         {
             if (randomNumber2 > randomNumber1)
             {
-                HoLScore++;
-                displayScore.Text = HoLScore.ToString();
+                GlobalClassVariables.score++;
+                displayScore.Text = GlobalClassVariables.score.ToString();
             }
             else if (randomNumber2 < randomNumber1)
             {
@@ -202,9 +205,10 @@ namespace AppliedProject4thYear
                 if (Lives == 0)
                 {
                     var dialog = new Windows.UI.Popups.MessageDialog(
-                    "You have lost! You scored a total of: " + HoLScore);
+                    "You have lost! You scored a total of: " + GlobalClassVariables.score);
                     var result = await dialog.ShowAsync();
-                    this.Frame.Navigate(typeof(MainPage), null);
+                    //Go back to SQLiteScores
+                    Frame.Navigate(typeof(SQLiteScores));
                 }
             }
 
@@ -231,7 +235,7 @@ namespace AppliedProject4thYear
             btnChoice3.Content = randomNumber3;
             btnChoice4.Content = randomNumber4;
 
-            if (HoLScore >= 5 && HoLScore < 10)
+            if (GlobalClassVariables.score >= 5 && GlobalClassVariables.score < 10)
             {
                 randomNumber1 = random1.Next(10, 20);
                 randomNumber2 = random2.Next(10, 20);
@@ -244,7 +248,7 @@ namespace AppliedProject4thYear
                 btnChoice4.Content = randomNumber4;
 
             }
-            else if (HoLScore >= 10 && HoLScore < 15)
+            else if (GlobalClassVariables.score >= 10 && GlobalClassVariables.score < 15)
             {
                 randomNumber1 = random1.Next(20, 40);
                 randomNumber2 = random2.Next(20, 40);
@@ -257,7 +261,7 @@ namespace AppliedProject4thYear
                 btnChoice4.Content = randomNumber4;
 
             }
-            else if (HoLScore >= 15 && HoLScore < 20)
+            else if (GlobalClassVariables.score >= 15 && GlobalClassVariables.score < 20)
             {
                 randomNumber1 = random1.Next(50, 70);
                 randomNumber2 = random2.Next(50, 70);
@@ -270,7 +274,7 @@ namespace AppliedProject4thYear
                 btnChoice4.Content = randomNumber4;
 
             }
-            else if (HoLScore >= 20)
+            else if (GlobalClassVariables.score >= 20)
             {
                 randomNumber1 = random1.Next(100, 200);
                 randomNumber2 = random2.Next(100, 200);
@@ -332,8 +336,8 @@ namespace AppliedProject4thYear
 
             if (randomNumber1And2 > randomNumber3And4)
             {
-                HoLScore++;
-                displayScore.Text = HoLScore.ToString();
+                GlobalClassVariables.score++;
+                displayScore.Text = GlobalClassVariables.score.ToString();
             }
             else if (randomNumber1And2 < randomNumber3And4)
             {
@@ -342,9 +346,10 @@ namespace AppliedProject4thYear
                 if (Lives == 0)
                 {
                     var dialog = new Windows.UI.Popups.MessageDialog(
-                    "You have lost! You scored a total of: " + HoLScore);
+                    "You have lost! You scored a total of: " + GlobalClassVariables.score);
                     var result = await dialog.ShowAsync();
-                    this.Frame.Navigate(typeof(MainPage), null);
+                    //Go back to SQLiteScores
+                    Frame.Navigate(typeof(SQLiteScores));
                 }
             }
 
@@ -366,7 +371,7 @@ namespace AppliedProject4thYear
             btnChoice3.Content = randomNumber3;
             btnChoice4.Content = randomNumber4;
 
-            if (HoLScore >= 5 && HoLScore < 10)
+            if (GlobalClassVariables.score >= 5 && GlobalClassVariables.score < 10)
             {
                 randomNumber1 = random1.Next(10, 20);
                 randomNumber2 = random2.Next(10, 20);
@@ -379,7 +384,7 @@ namespace AppliedProject4thYear
                 btnChoice4.Content = randomNumber4;
 
             }
-            else if (HoLScore >= 10 && HoLScore < 15)
+            else if (GlobalClassVariables.score >= 10 && GlobalClassVariables.score < 15)
             {
                 randomNumber1 = random1.Next(20, 40);
                 randomNumber2 = random2.Next(20, 40);
@@ -392,7 +397,7 @@ namespace AppliedProject4thYear
                 btnChoice4.Content = randomNumber4;
 
             }
-            else if (HoLScore >= 15 && HoLScore < 20)
+            else if (GlobalClassVariables.score >= 15 && GlobalClassVariables.score < 20)
             {
                 randomNumber1 = random1.Next(50, 70);
                 randomNumber2 = random2.Next(50, 70);
@@ -405,7 +410,7 @@ namespace AppliedProject4thYear
                 btnChoice4.Content = randomNumber4;
 
             }
-            else if (HoLScore >= 20)
+            else if (GlobalClassVariables.score >= 20)
             {
                 randomNumber1 = random1.Next(100, 200);
                 randomNumber2 = random2.Next(100, 200);
@@ -429,8 +434,8 @@ namespace AppliedProject4thYear
 
             if (randomNumber3And4 > randomNumber1And2)
             {
-                HoLScore++;
-                displayScore.Text = HoLScore.ToString();
+                GlobalClassVariables.score++;
+                displayScore.Text = GlobalClassVariables.score.ToString();
             }
             else if (randomNumber3And4 < randomNumber1And2)
             {
@@ -439,7 +444,7 @@ namespace AppliedProject4thYear
                 if (Lives == 0)
                 {
                     var dialog = new Windows.UI.Popups.MessageDialog(
-                    "You have lost! You scored a total of: " + HoLScore);
+                    "You have lost! You scored a total of: " + GlobalClassVariables.score);
                     var result = await dialog.ShowAsync();
                     Frame.Navigate(typeof(CreditsPage));
                 }
@@ -463,7 +468,7 @@ namespace AppliedProject4thYear
             btnChoice3.Content = randomNumber3;
             btnChoice4.Content = randomNumber4;
 
-            if (HoLScore >= 5 && HoLScore < 10 )
+            if (GlobalClassVariables.score >= 5 && GlobalClassVariables.score < 10 )
             {
                 randomNumber1 = random1.Next(10, 20);
                 randomNumber2 = random2.Next(10, 20);
@@ -476,7 +481,7 @@ namespace AppliedProject4thYear
                 btnChoice4.Content = randomNumber4;
 
             }
-            else if (HoLScore >= 10 && HoLScore < 15)
+            else if (GlobalClassVariables.score >= 10 && GlobalClassVariables.score < 15)
             {
                 randomNumber1 = random1.Next(20, 40);
                 randomNumber2 = random2.Next(20, 40);
@@ -489,7 +494,7 @@ namespace AppliedProject4thYear
                 btnChoice4.Content = randomNumber4;
 
             }
-            else if (HoLScore >= 15 && HoLScore < 20)
+            else if (GlobalClassVariables.score >= 15 && GlobalClassVariables.score < 20)
             {
                 randomNumber1 = random1.Next(50, 70);
                 randomNumber2 = random2.Next(50, 70);
@@ -502,7 +507,7 @@ namespace AppliedProject4thYear
                 btnChoice4.Content = randomNumber4;
 
             }
-            else if (HoLScore >= 20)
+            else if (GlobalClassVariables.score >= 20)
             {
                 randomNumber1 = random1.Next(100, 200);
                 randomNumber2 = random2.Next(100, 200);
@@ -516,7 +521,7 @@ namespace AppliedProject4thYear
 
             }
             // gives player 10 more seconds each time they give 5 correct answers
-            if (HoLScore % 5 == 0)
+            if (GlobalClassVariables.score % 5 == 0)
             {
                 timesTicked += 10;
             }

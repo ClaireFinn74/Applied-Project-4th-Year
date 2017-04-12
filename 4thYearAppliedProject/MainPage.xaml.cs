@@ -32,9 +32,21 @@ namespace AppliedProject4thYear
         public MainPage()
         {
             this.InitializeComponent();
+            playMusic();
         }
 
-          private void btnAttention_Click(object sender, RoutedEventArgs e)
+        public async void playMusic()
+        {
+            var element2 = new MediaElement();
+            var folder = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFolderAsync("Assets");
+            var file = await folder.GetFileAsync("kmss.mp3");
+            var stream = await file.OpenAsync(Windows.Storage.FileAccessMode.Read);
+            element2.SetSource(stream, "");
+            element2.Play();
+
+        }
+
+        private void btnAttention_Click(object sender, RoutedEventArgs e)
           {
               Frame.Navigate(typeof(AttentionPage));
           }

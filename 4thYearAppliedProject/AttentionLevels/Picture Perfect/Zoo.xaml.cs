@@ -26,6 +26,7 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
     {
         public Zoo()
         {
+            GlobalClassVariables.gameName = "(Picture Perfect Score) " + "\n";
             this.InitializeComponent();
         }
 
@@ -39,28 +40,30 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         private async void btnZebra_Click(object sender, RoutedEventArgs e)
         {
             btnTappedZebra++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnZebra.Visibility = Visibility.Collapsed;
-            if (GlobalClassAttention.score == 53)
+            if (GlobalClassVariables.score == 53)
             {
                 var dialog = new MessageDialog("Well Done, you've completed all 9 levels!" + "\n" + "You've reached your maximum level of attention!!");
                 await dialog.ShowAsync();
-                Frame.Navigate(typeof(PicturePerfect));
+                //Go to CreditsPage
+                Frame.Navigate(typeof(CreditsPage));
             }
         }
 
         private async void btnTwoMonkeys_Click(object sender, RoutedEventArgs e)
         {
             btnTappedTwoMonkeys++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnTwoMonkeys.Visibility = Visibility.Collapsed;
-            if (GlobalClassAttention.score == 53)
+            if (GlobalClassVariables.score == 53)
             {
                 var dialog = new MessageDialog("Well Done, you've completed all 9 levels!" + "\n" + "You've reached your maximum level of attention!!");
                 await dialog.ShowAsync();
-                Frame.Navigate(typeof(PicturePerfect));
+                //Go to CreditsPage
+                Frame.Navigate(typeof(CreditsPage));
             }
         }
 
@@ -68,55 +71,60 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         {
             var dialog = new MessageDialog("Oh no you were so close to the end!" + "\n" + "You've reached your maximum level of attention!!");
             await dialog.ShowAsync();
-            Frame.Navigate(typeof(PicturePerfect));
+            //Go back to SQLiteScores
+            Frame.Navigate(typeof(SQLiteScores));
         }
 
         private async void btnThreeTucans_Click(object sender, RoutedEventArgs e)
         {
             var dialog = new MessageDialog("Oh no you were so close to the end!" + "\n" + "You've reached your maximum level of attention!!");
             await dialog.ShowAsync();
-            Frame.Navigate(typeof(PicturePerfect));
+            //Go back to SQLiteScores
+            Frame.Navigate(typeof(SQLiteScores));
         }
 
         private async void btnHippo_Click(object sender, RoutedEventArgs e)
         {
             btnTappedHippo++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnHippo.Visibility = Visibility.Collapsed;
-            if (GlobalClassAttention.score == 53)
+            if (GlobalClassVariables.score == 53)
             {
                 var dialog = new MessageDialog("Well Done, you've completed all 9 levels!" + "\n" + "You've reached your maximum level of attention!!");
                 await dialog.ShowAsync();
-                Frame.Navigate(typeof(PicturePerfect));
+                //Go to CreditsPage
+                Frame.Navigate(typeof(CreditsPage));
             }
         }
 
         private async void btnWall_Click(object sender, RoutedEventArgs e)
         {
             btnTappedWall++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnWall.Visibility = Visibility.Collapsed;
-            if (GlobalClassAttention.score == 53)
+            if (GlobalClassVariables.score == 53)
             {
                 var dialog = new MessageDialog("Well Done, you've completed all 9 levels!" + "\n" + "You've reached your maximum level of attention!!");
                 await dialog.ShowAsync();
-                Frame.Navigate(typeof(PicturePerfect));
+                //Go to CreditsPage
+                Frame.Navigate(typeof(CreditsPage));
             }
         }
 
         private async void btnElephantEyebrows_Click(object sender, RoutedEventArgs e)
         {
             btnTappedElephantEyebrows++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnElephantEyebrows.Visibility = Visibility.Collapsed;
-            if (GlobalClassAttention.score == 53)
+            if (GlobalClassVariables.score == 53)
             {
                 var dialog = new MessageDialog("Well Done, you've completed all 9 levels!" + "\n" + "You've reached your maximum level of attention!!");
                 await dialog.ShowAsync();
-                Frame.Navigate(typeof(PicturePerfect));
+                //Go to CreditsPage
+                Frame.Navigate(typeof(CreditsPage));
             }
         }
 
@@ -124,16 +132,17 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         {
             var dialog = new MessageDialog("Oh no you were so close to the end!" + "\n" + "You've reached your maximum level of attention!!");
             await dialog.ShowAsync();
-            Frame.Navigate(typeof(PicturePerfect));
+            //Go back to SQLiteScores
+            Frame.Navigate(typeof(SQLiteScores));
         }
 
         private async void btnTiger_Click(object sender, RoutedEventArgs e)
         {
             btnTappedTiger++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnTiger.Visibility = Visibility.Collapsed;
-            if (GlobalClassAttention.score == 53)
+            if (GlobalClassVariables.score == 53)
             {
                 var dialog = new MessageDialog("Well Done, you've completed all 9 levels!" + "\n" + "You've reached your maximum level of attention!!");
                 await dialog.ShowAsync();
@@ -145,7 +154,8 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         {
             var dialog = new MessageDialog("Oh no you were so close to the end!" + "\n" + "You've reached your maximum level of attention!!");
             await dialog.ShowAsync();
-            Frame.Navigate(typeof(PicturePerfect));
+            //Go back to SQLiteScores
+            Frame.Navigate(typeof(SQLiteScores));
         }
     }
 }

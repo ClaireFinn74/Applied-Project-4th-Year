@@ -27,6 +27,7 @@ namespace _4thYearAppliedProject.AttentionLevels.Total_Recall
     {
         public TotalRecallLevel7()
         {
+            GlobalClassVariables.gameName = "(Total Recall Score) " + "\n";
             this.InitializeComponent();
             DispatcherTimerSetup();
         }
@@ -58,10 +59,11 @@ namespace _4thYearAppliedProject.AttentionLevels.Total_Recall
         {
             dispatcherTimer.Stop();
             var dialog = new MessageDialog("Out of time! You scored:"
-                                   + GlobalClassAttention.totalRecallScore);
+                                   + GlobalClassVariables.score);
             var result = await dialog.ShowAsync();
-            Frame.Navigate(typeof(MainPage), null);
-        }
+            //Go back to SQLiteScores
+            Frame.Navigate(typeof(SQLiteScores));
+            }
     }
 
     private void TimerStart_Click_1(object sender, RoutedEventArgs e)
@@ -91,18 +93,18 @@ namespace _4thYearAppliedProject.AttentionLevels.Total_Recall
             WordsWithSome.Add("what", 25); WordsWithSome.Add("whats", 26); WordsWithSome.Add("when", 27); WordsWithSome.Add("where", 28);
             WordsWithSome.Add("wheres", 29); WordsWithSome.Add("whither", 30); WordsWithSome.Add("wise", 31);
 
-            if (GlobalClassAttention.totalRecallScore == 750)
+            if (GlobalClassVariables.score == 750)
         {
                 var dialog = new MessageDialog("Well done, you have reached the end!"
-                                   + GlobalClassAttention.totalRecallScore);
+                                   + GlobalClassVariables.score);
                 var result = await dialog.ShowAsync();
                 Frame.Navigate(typeof(CreditsPage));
             }
 
         if (WordsWithSome.ContainsKey(txtUserInput.Text))
         {
-            GlobalClassAttention.totalRecallScore += 10;
-            txtScore.Text = GlobalClassAttention.totalRecallScore.ToString();
+            GlobalClassVariables.score += 10;
+            txtScore.Text = GlobalClassVariables.score.ToString();
             imgCorrectSign.Visibility = Visibility.Visible;
             imgX.Visibility = Visibility.Collapsed;
         }

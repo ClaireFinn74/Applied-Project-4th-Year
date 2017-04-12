@@ -26,6 +26,7 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
     {
         public Tea()
         {
+            GlobalClassVariables.gameName = "(Picture Perfect Score) " + "\n";
             this.InitializeComponent();
         }
 
@@ -40,10 +41,10 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         private void btnFiveTeas_Click(object sender, RoutedEventArgs e)
         {
             btnTappedFiveTeas++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnFiveTeas.Visibility = Visibility.Collapsed;
-            if (GlobalClassAttention.score == 47)
+            if (GlobalClassVariables.score == 47)
             {
                 Frame.Navigate(typeof(PicturePerfect9));
             }
@@ -53,16 +54,17 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         {
             var dialog = new MessageDialog("OOPS! Only two coffees there, they must be tea fans!" + "\n" + "Too Bad, Try again another time!");
             await dialog.ShowAsync();
-            Frame.Navigate(typeof(PicturePerfect));
+            //Go back to SQLiteScores
+            Frame.Navigate(typeof(SQLiteScores));
         }
 
         private void btnMilk_Click(object sender, RoutedEventArgs e)
         {
             btnTappedMilk++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnMilk.Visibility = Visibility.Collapsed;
-            if (GlobalClassAttention.score == 47)
+            if (GlobalClassVariables.score == 47)
             {
                 Frame.Navigate(typeof(PicturePerfect9));
             }
@@ -71,10 +73,10 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         private void btnTeapot_Click(object sender, RoutedEventArgs e)
         {
             btnTappedTeapot++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnTeapot.Visibility = Visibility.Collapsed;
-            if (GlobalClassAttention.score == 47)
+            if (GlobalClassVariables.score == 47)
             {
                 Frame.Navigate(typeof(PicturePerfect9));
             }
@@ -84,16 +86,17 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         {
             var dialog = new MessageDialog("OOPS! No cutlery in sight!" + "\n" + "Too Bad, Try again another time!");
             await dialog.ShowAsync();
-            Frame.Navigate(typeof(PicturePerfect));
+            //Go back to SQLiteScores
+            Frame.Navigate(typeof(SQLiteScores));
         }
 
         private void btnBuscuits_Click(object sender, RoutedEventArgs e)
         {
             btnTappedBuscuits++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnBuscuits.Visibility = Visibility.Collapsed;
-            if (GlobalClassAttention.score == 47)
+            if (GlobalClassVariables.score == 47)
             {
                 Frame.Navigate(typeof(PicturePerfect9));
             }
@@ -102,10 +105,10 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         private void btnShirt_Click(object sender, RoutedEventArgs e)
         {
             btnTappedShirt++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnShirt.Visibility = Visibility.Collapsed;
-            if (GlobalClassAttention.score == 47)
+            if (GlobalClassVariables.score == 47)
             {
                 Frame.Navigate(typeof(PicturePerfect9));
             }
@@ -115,16 +118,17 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         {
             var dialog = new MessageDialog("OOPS! They must have ran out of sugar already!" + "\n" + "Too Bad, Try again another time!");
             await dialog.ShowAsync();
-            Frame.Navigate(typeof(PicturePerfect));
+            //Go back to SQLiteScores
+            Frame.Navigate(typeof(SQLiteScores));
         }
 
         private void btnSugarBowl_Click(object sender, RoutedEventArgs e)
         {
             btnTappedSugarBowl++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnSugarBowl.Visibility = Visibility.Collapsed;
-            if (GlobalClassAttention.score == 47)
+            if (GlobalClassVariables.score == 47)
             {
                 Frame.Navigate(typeof(PicturePerfect9));
             }
@@ -133,10 +137,10 @@ namespace _4thYearAppliedProject.AttentionLevels.Picture_Perect
         private void btnSun_Click(object sender, RoutedEventArgs e)
         {
             btnTappedSun++;
-            GlobalClassAttention.score++;
-            txtbScore.Text = GlobalClassAttention.score.ToString();
+            GlobalClassVariables.score++;
+            txtbScore.Text = GlobalClassVariables.score.ToString();
             btnSun.Visibility = Visibility.Collapsed;
-            if (GlobalClassAttention.score == 47)
+            if (GlobalClassVariables.score == 47)
             {
                 Frame.Navigate(typeof(PicturePerfect9));
             }

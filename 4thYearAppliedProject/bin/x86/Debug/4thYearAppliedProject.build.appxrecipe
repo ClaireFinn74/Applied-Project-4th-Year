@@ -484,113 +484,14 @@
     <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\ApplicationInsights.config">
       <PackagePath>ApplicationInsights.config</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\article.jpg">
-      <PackagePath>Images\article.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Assets\kmss.mp3">
+      <PackagePath>Assets\kmss.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\BarnOwlMainPage.jpg">
-      <PackagePath>Images\BarnOwlMainPage.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\12-vector-game-backgrounds-8320_imgs_8320_7.png">
+      <PackagePath>Images\12-vector-game-backgrounds-8320_imgs_8320_7.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Bear-flipped.jpg">
-      <PackagePath>Images\Bear-flipped.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Bear.jpg">
-      <PackagePath>Images\Bear.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Bear2.jpg">
-      <PackagePath>Images\Bear2.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\BearMainPage.jpg">
-      <PackagePath>Images\BearMainPage.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\brain-lifting-weight.jpg">
-      <PackagePath>Images\brain-lifting-weight.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\BrainBox.jpg">
-      <PackagePath>Images\BrainBox.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Brainfall.jpg">
-      <PackagePath>Images\Brainfall.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\BrainWorks.jpg">
-      <PackagePath>Images\BrainWorks.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Buffalo.jpg">
-      <PackagePath>Images\Buffalo.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Deer-flipped.jpg">
-      <PackagePath>Images\Deer-flipped.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Deer.jpg">
-      <PackagePath>Images\Deer.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\DownToATea.jpg">
-      <PackagePath>Images\DownToATea.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Elephant-flipped.jpg">
-      <PackagePath>Images\Elephant-flipped.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Elephant.jpg">
-      <PackagePath>Images\Elephant.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Giraffe-flipped.jpg">
-      <PackagePath>Images\Giraffe-flipped.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Giraffe.jpg">
-      <PackagePath>Images\Giraffe.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\GoWithTheBuffLow.jpg">
-      <PackagePath>Images\GoWithTheBuffLow.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\higherOrLower.jpg">
-      <PackagePath>Images\higherOrLower.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\PicturePerfectCoffeeArt.jpg">
-      <PackagePath>Images\PicturePerfectCoffeeArt.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\PicturePerfectHare.jpg">
-      <PackagePath>Images\PicturePerfectHare.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\PicturePerfectHouse.jpg">
-      <PackagePath>Images\PicturePerfectHouse.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\PicturePerfectMainPage.jpg">
-      <PackagePath>Images\PicturePerfectMainPage.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\PicturePerfectSchool.jpg">
-      <PackagePath>Images\PicturePerfectSchool.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\PicturePerfectSmartPhone.jpg">
-      <PackagePath>Images\PicturePerfectSmartPhone.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\PicturePerfectStreet.jpg">
-      <PackagePath>Images\PicturePerfectStreet.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\PicturePerfectTea.jpg">
-      <PackagePath>Images\PicturePerfectTea.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\PicturePerfectZoo.jpg">
-      <PackagePath>Images\PicturePerfectZoo.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\PorpoiseMainPage.jpg">
-      <PackagePath>Images\PorpoiseMainPage.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Rabbit-flipped.jpg">
-      <PackagePath>Images\Rabbit-flipped.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Rabbit.jpg">
-      <PackagePath>Images\Rabbit.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Timer.jpg">
-      <PackagePath>Images\Timer.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\TotalRecallMainPage.jpg">
-      <PackagePath>Images\TotalRecallMainPage.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Wolf-flipped.jpg">
-      <PackagePath>Images\Wolf-flipped.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Wolf.jpg">
-      <PackagePath>Images\Wolf.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\applogo.png">
+      <PackagePath>Images\applogo.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Bear3.png">
       <PackagePath>Images\Bear3.png</PackagePath>
@@ -726,6 +627,114 @@
     <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\article.jpg">
+      <PackagePath>Images\article.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\BarnOwlMainPage.jpg">
+      <PackagePath>Images\BarnOwlMainPage.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Bear-flipped.jpg">
+      <PackagePath>Images\Bear-flipped.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Bear.jpg">
+      <PackagePath>Images\Bear.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Bear2.jpg">
+      <PackagePath>Images\Bear2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\BearMainPage.jpg">
+      <PackagePath>Images\BearMainPage.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\brain-lifting-weight.jpg">
+      <PackagePath>Images\brain-lifting-weight.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\BrainBox.jpg">
+      <PackagePath>Images\BrainBox.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Brainfall.jpg">
+      <PackagePath>Images\Brainfall.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\BrainWorks.jpg">
+      <PackagePath>Images\BrainWorks.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Buffalo.jpg">
+      <PackagePath>Images\Buffalo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Deer-flipped.jpg">
+      <PackagePath>Images\Deer-flipped.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Deer.jpg">
+      <PackagePath>Images\Deer.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\DownToATea.jpg">
+      <PackagePath>Images\DownToATea.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Elephant-flipped.jpg">
+      <PackagePath>Images\Elephant-flipped.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Elephant.jpg">
+      <PackagePath>Images\Elephant.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Giraffe-flipped.jpg">
+      <PackagePath>Images\Giraffe-flipped.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Giraffe.jpg">
+      <PackagePath>Images\Giraffe.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\GoWithTheBuffLow.jpg">
+      <PackagePath>Images\GoWithTheBuffLow.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\higherOrLower.jpg">
+      <PackagePath>Images\higherOrLower.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\PicturePerfectCoffeeArt.jpg">
+      <PackagePath>Images\PicturePerfectCoffeeArt.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\PicturePerfectHare.jpg">
+      <PackagePath>Images\PicturePerfectHare.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\PicturePerfectHouse.jpg">
+      <PackagePath>Images\PicturePerfectHouse.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\PicturePerfectMainPage.jpg">
+      <PackagePath>Images\PicturePerfectMainPage.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\PicturePerfectSchool.jpg">
+      <PackagePath>Images\PicturePerfectSchool.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\PicturePerfectSmartPhone.jpg">
+      <PackagePath>Images\PicturePerfectSmartPhone.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\PicturePerfectStreet.jpg">
+      <PackagePath>Images\PicturePerfectStreet.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\PicturePerfectTea.jpg">
+      <PackagePath>Images\PicturePerfectTea.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\PicturePerfectZoo.jpg">
+      <PackagePath>Images\PicturePerfectZoo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\PorpoiseMainPage.jpg">
+      <PackagePath>Images\PorpoiseMainPage.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Rabbit-flipped.jpg">
+      <PackagePath>Images\Rabbit-flipped.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Rabbit.jpg">
+      <PackagePath>Images\Rabbit.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Timer.jpg">
+      <PackagePath>Images\Timer.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\TotalRecallMainPage.jpg">
+      <PackagePath>Images\TotalRecallMainPage.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Wolf-flipped.jpg">
+      <PackagePath>Images\Wolf-flipped.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Images\Wolf.jpg">
+      <PackagePath>Images\Wolf.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>

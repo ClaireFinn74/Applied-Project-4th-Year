@@ -428,186 +428,6 @@ C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\o
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\FoalShadow\FoalShadow.g.cs
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\FoalShadow\FoalShadow.xaml
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\FoalShadow\FoalShadow.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\AttentionPage.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\AttentionPage.g.i.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\AttentionPage.g.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\AttentionPage.xaml
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\AttentionPage.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Everything has a porpoise\EverythingHasAPorpoise.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Total Recall\TotalRecall.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\EverythingHasAPorpoise.g.i.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\EverythingHasAPorpoise.g.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecall.g.i.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecall.g.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecall.xaml
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\EverythingHasAPorpoise.xaml
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecall.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\EverythingHasAPorpoise.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel2.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel2.g.i.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel2.g.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel2.xaml
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel2.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel10.g.i.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel10.g.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel3.g.i.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel3.g.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel4.g.i.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel4.g.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel5.g.i.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel5.g.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel6.g.i.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel6.g.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel7.g.i.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel7.g.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel8.g.i.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel8.g.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel9.g.i.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel9.g.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel10.xaml
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel3.xaml
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel4.xaml
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel5.xaml
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel6.xaml
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel7.xaml
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel8.xaml
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel9.xaml
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel10.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel3.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel4.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel5.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel6.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel7.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel8.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel9.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel10.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel3.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel4.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel5.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel6.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel7.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel8.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel9.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\CoffeeArt.g.i.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\CoffeeArt.g.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\Hare.g.i.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\Hare.g.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\House.g.i.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\House.g.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect2.g.i.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect2.g.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect3.g.i.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect3.g.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect4.g.i.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect4.g.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect5.g.i.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect5.g.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect6.g.i.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect6.g.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect7.g.i.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect7.g.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect8.g.i.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect8.g.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect9.g.i.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect9.g.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\School.g.i.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\School.g.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\SickBoy.g.i.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\SickBoy.g.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\SmartPhone.g.i.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\SmartPhone.g.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\Street.g.i.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\Street.g.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\Tea.g.i.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\Tea.g.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\Zoo.g.i.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\Zoo.g.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect.g.i.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect.g.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\CoffeeArt.xaml
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\Hare.xaml
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\House.xaml
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect2.xaml
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect3.xaml
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect4.xaml
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect5.xaml
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect6.xaml
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect7.xaml
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect8.xaml
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect9.xaml
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\School.xaml
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\SickBoy.xaml
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\SmartPhone.xaml
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\Street.xaml
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\Tea.xaml
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\Zoo.xaml
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect.xaml
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\CoffeeArt.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\Hare.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\House.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect2.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect3.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect4.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect5.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect6.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect7.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect8.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect9.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\School.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\SickBoy.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\SmartPhone.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\Street.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\Tea.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\Zoo.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Picture Perfect\CoffeeArt.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Picture Perfect\Hare.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Picture Perfect\House.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect2.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect3.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect4.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect5.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect6.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect7.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect8.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect9.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Picture Perfect\School.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Picture Perfect\SickBoy.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Picture Perfect\SmartPhone.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Picture Perfect\Street.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Picture Perfect\Tea.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Picture Perfect\Zoo.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel2.g.i.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel2.g.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel2.xaml
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel2.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel2.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel3.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel4.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel5.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel6.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel3.g.i.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel3.g.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel4.g.i.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel4.g.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel5.g.i.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel5.g.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel6.g.i.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel6.g.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel3.xaml
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel4.xaml
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel5.xaml
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel6.xaml
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel3.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel4.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel5.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel6.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel7.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel7.g.i.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel7.g.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel7.xaml
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel7.xbf
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\CreditsPage.g.i.cs
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\CreditsPage.g.cs
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\ProblemSolvingLevels\HigherOrLower.g.i.cs
@@ -638,32 +458,20 @@ C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\o
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\FoalShadow\FoalShadowLvl6.g.cs
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\FoalShadow\FoalShadowLvl7.g.i.cs
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\FoalShadow\FoalShadowLvl7.g.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\Spot The Difference\SpotTheDifference.g.i.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\Spot The Difference\SpotTheDifference.g.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\Spot The Difference\SpotTheDifference2.g.i.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\Spot The Difference\SpotTheDifference2.g.cs
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\FoalShadow\FoalShadowLvl2.xaml
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\FoalShadow\FoalShadowLvl3.xaml
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\FoalShadow\FoalShadowLvl4.xaml
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\FoalShadow\FoalShadowLvl5.xaml
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\FoalShadow\FoalShadowLvl6.xaml
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\FoalShadow\FoalShadowLvl7.xaml
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\Spot The Difference\SpotTheDifference.xaml
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\Spot The Difference\SpotTheDifference2.xaml
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\FoalShadow\FoalShadowLvl2.xbf
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\FoalShadow\FoalShadowLvl3.xbf
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\FoalShadow\FoalShadowLvl4.xbf
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\FoalShadow\FoalShadowLvl5.xbf
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\FoalShadow\FoalShadowLvl6.xbf
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\FoalShadow\FoalShadowLvl7.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\Spot The Difference\SpotTheDifference.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\Spot The Difference\SpotTheDifference2.xbf
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\ProblemSolvingLevels\ProblemSolvingGames.g.i.cs
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\ProblemSolvingLevels\ProblemSolvingGames.g.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\SpeedLevelsMainPage (1).g.i.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\SpeedLevelsMainPage (1).g.cs
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\SpeedLevelsMainPage (1).xaml
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\SpeedLevelsMainPage (1).xbf
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\CreditsPage.xbf
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\ProblemSolvingLevels\HigherOrLower.xbf
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\ProblemSolvingLevels\ManicMaths.xbf
@@ -675,9 +483,6 @@ C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\b
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\SpeedLevels\FoalShadow\FoalShadowLvl5.xbf
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\SpeedLevels\FoalShadow\FoalShadowLvl6.xbf
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\SpeedLevels\FoalShadow\FoalShadowLvl7.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\SpeedLevels\SpeedLevelsMainPage (1).xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\SpeedLevels\Spot The Difference\SpotTheDifference.xbf
-C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\SpeedLevels\Spot The Difference\SpotTheDifference2.xbf
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\MemoryLevels\MemoryNav.g.i.cs
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\MemoryLevels\MemoryNav.g.cs
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\MemoryLevels\Sequential.g.i.cs
@@ -772,3 +577,209 @@ C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\o
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SQLiteScores.xaml
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SQLiteScores.xbf
 C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\SQLiteScores.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\SpeedLevels\GoWithTheBufFlow\GoWithTheBuffLow.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\GoWithTheBufFlow\GoWithTheBuffLow.g.i.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\GoWithTheBufFlow\GoWithTheBuffLow.g.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\GoWithTheBufFlow\GoWithTheBuffLow.xaml
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\GoWithTheBufFlow\GoWithTheBuffLow.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel10.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel2.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel3.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel4.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel5.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel6.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel7.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel8.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel9.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Picture Perfect\CoffeeArt.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Picture Perfect\Hare.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Picture Perfect\House.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect2.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect3.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect4.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect5.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect6.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect7.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect8.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect9.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Picture Perfect\School.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Picture Perfect\SickBoy.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Picture Perfect\SmartPhone.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Picture Perfect\Street.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Picture Perfect\Tea.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Picture Perfect\Zoo.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel2.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel3.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel4.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel5.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel6.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel7.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Everything has a porpoise\EverythingHasAPorpoise.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\Total Recall\TotalRecall.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\AttentionLevels\AttentionPage.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel10.g.i.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel10.g.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel2.g.i.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel2.g.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel3.g.i.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel3.g.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel4.g.i.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel4.g.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel5.g.i.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel5.g.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel6.g.i.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel6.g.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel7.g.i.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel7.g.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel8.g.i.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel8.g.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel9.g.i.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel9.g.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\CoffeeArt.g.i.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\CoffeeArt.g.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\Hare.g.i.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\Hare.g.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\House.g.i.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\House.g.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect2.g.i.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect2.g.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect3.g.i.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect3.g.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect4.g.i.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect4.g.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect5.g.i.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect5.g.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect6.g.i.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect6.g.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect7.g.i.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect7.g.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect8.g.i.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect8.g.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect9.g.i.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect9.g.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\School.g.i.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\School.g.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\SickBoy.g.i.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\SickBoy.g.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\SmartPhone.g.i.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\SmartPhone.g.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\Street.g.i.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\Street.g.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\Tea.g.i.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\Tea.g.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\Zoo.g.i.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\Zoo.g.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel2.g.i.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel2.g.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel3.g.i.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel3.g.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel4.g.i.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel4.g.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel5.g.i.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel5.g.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel6.g.i.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel6.g.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel7.g.i.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel7.g.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\EverythingHasAPorpoise.g.i.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\EverythingHasAPorpoise.g.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect.g.i.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect.g.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecall.g.i.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecall.g.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\AttentionPage.g.i.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\AttentionPage.g.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel10.xaml
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel2.xaml
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel3.xaml
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel4.xaml
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel5.xaml
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel6.xaml
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel7.xaml
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel8.xaml
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel9.xaml
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\CoffeeArt.xaml
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\Hare.xaml
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\House.xaml
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect2.xaml
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect3.xaml
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect4.xaml
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect5.xaml
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect6.xaml
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect7.xaml
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect8.xaml
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect9.xaml
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\School.xaml
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\SickBoy.xaml
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\SmartPhone.xaml
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\Street.xaml
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\Tea.xaml
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\Zoo.xaml
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel2.xaml
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel3.xaml
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel4.xaml
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel5.xaml
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel6.xaml
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel7.xaml
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\EverythingHasAPorpoise.xaml
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect.xaml
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecall.xaml
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\AttentionPage.xaml
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel10.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel2.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel3.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel4.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel5.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel6.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel7.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel8.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\PorpoiseLevel9.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\CoffeeArt.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\Hare.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\House.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect2.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect3.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect4.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect5.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect6.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect7.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect8.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect9.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\School.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\SickBoy.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\SmartPhone.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\Street.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\Tea.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\Zoo.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel2.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel3.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel4.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel5.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel6.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecallLevel7.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Everything has a porpoise\EverythingHasAPorpoise.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Picture Perfect\PicturePerfect.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\Total Recall\TotalRecall.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\AttentionLevels\AttentionPage.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\4thYearAppliedProject.csprojResolveAssemblyReference.cache
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\GoWithTheBuffLow\GoWithTheBuffLowLvl2.g.i.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\GoWithTheBuffLow\GoWithTheBuffLowLvl2.g.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\SpeedLevelsMainPage.g.i.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\SpeedLevelsMainPage.g.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\SpotTheDifference\SpotTheDifference.g.i.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\SpotTheDifference\SpotTheDifference.g.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\SpotTheDifference\SpotTheDifference2.g.i.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\SpotTheDifference\SpotTheDifference2.g.cs
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\GoWithTheBuffLow\GoWithTheBuffLowLvl2.xaml
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\SpeedLevelsMainPage.xaml
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\SpotTheDifference\SpotTheDifference.xaml
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\SpotTheDifference\SpotTheDifference2.xaml
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\GoWithTheBuffLow\GoWithTheBuffLowLvl2.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\SpeedLevelsMainPage.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\SpotTheDifference\SpotTheDifference.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\obj\x86\Debug\SpeedLevels\SpotTheDifference\SpotTheDifference2.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\SpeedLevels\GoWithTheBuffLow\GoWithTheBuffLowLvl2.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\SpeedLevels\SpeedLevelsMainPage.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\SpeedLevels\SpotTheDifference\SpotTheDifference.xbf
+C:\Users\owner\Downloads\Applied-Project-4th-Year-master\4thYearAppliedProject\bin\x86\Debug\SpeedLevels\SpotTheDifference\SpotTheDifference2.xbf

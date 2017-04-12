@@ -32,7 +32,7 @@ namespace AppliedProject4thYear
         public QuickRPG()
         {
             this.InitializeComponent();
-
+            GlobalClassVariables.gameName = "(QuickRPG Score) " + "\n";
             var dialog = new Windows.UI.Popups.MessageDialog("In this game, the aim is to defeat as many enemies as you can. Attacking enemies(with the button at the bottom) does damage to both players. The amounts depends on the Player's and Enemy's attack stat. If the enemy's health hits zero, then you move on to another enemy, who is stronger than the last. You can level up when you get enough exp and can use potions after every 5 enemy defeats. Good Luck!");
             var result = dialog.ShowAsync(); // display text in dialog box
             
@@ -47,7 +47,7 @@ namespace AppliedProject4thYear
             _player.Level = 0;
             _player.ExpNeeded = 100;
             _player.CurrentAttack = 4;
-            _player.DefEnemies = 0;
+            GlobalClassVariables.score = 0;
 
             // ENEMY STARTING STATS
             _enemy.CurrentEnemyHP = 0;
@@ -135,7 +135,7 @@ namespace AppliedProject4thYear
                 var dialog = new Windows.UI.Popups.MessageDialog("You defeated the enemy!" + " Now on to the next one!" + " You obtained a potion ingredient. 100 Exp earned!");
                 var result = await dialog.ShowAsync(); // display text in dialog box
 
-                _player.DefEnemies = _player.DefEnemies + 1; // defeated enemy stat increases by one
+                GlobalClassVariables.score = GlobalClassVariables.score + 1; // defeated enemy stat increases by one
 
                 _player.Potions = _player.Potions + 0.2; // player's potion value goes up by a bit
                 txtPotions.Text = _player.Potions.ToString(); // displays new potion value
@@ -201,9 +201,9 @@ namespace AppliedProject4thYear
             }
             if (_player.CurrentHP <= 0) // if the player is defeated and health hits 0
             {
-                var dialog = new Windows.UI.Popups.MessageDialog("You Have Been Slain. To Bad! The good news is you defeated " + _player.DefEnemies + " enemies! :D");
+                var dialog = new Windows.UI.Popups.MessageDialog("You Have Been Slain. To Bad! The good news is you defeated " + GlobalClassVariables.score + " enemies! :D");
                 var result = await dialog.ShowAsync();
-                Frame.Navigate(typeof(CreditsPage));// displays the above message and sends the player to the Credits Page of the app
+                Frame.Navigate(typeof(SQLiteScores));// displays the above message and sends the player to the Scores Page of the app
             }
         }
         // button to level up the player
@@ -261,7 +261,7 @@ namespace AppliedProject4thYear
 
                 if (_player.CurrentHP >= 20) // if health goes above 20
                 {
-                    _player.CurrentHP = 20 + (5 * _player.DefEnemies); // health = 20 plus 5 for every level the player is
+                    _player.CurrentHP = 20 + (5 * GlobalClassVariables.score); // health = 20 plus 5 for every level the player is
                     txtCurrentHP.Text = _player.CurrentHP.ToString();
 
                 }
