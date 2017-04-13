@@ -32,4 +32,4 @@ Within _Problem-Solving_ you will find 3 games that are aimed at improving your 
 
 Within _Memory_ you will find 1 game that is aimed at improving your Memory:
 
-1. Sequential:
+1. __Sequential:__
