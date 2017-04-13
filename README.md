@@ -5,7 +5,7 @@ A C# Application for my 4th year project as part of a team.
 
 Within this project we created a Brain Training game called BrainWorks using __Universal Windows within Visual Studio 2015.__ The Application is written in __C#__ using __Microsoft Expression Blend__ for the design of the games (Storyboards).
 
-We also have created a __Website__ written in __Golang__ with a __HTML/Javascript/Bootstrap frontend__ that connects to the Universal Application to __pull scores__ into the website using __SQLite/Easy Tables on Azure.__ Golang pulls in the scores from the UWP Application using a __JSON GET request__ to the table on __Azure.__ Golang also connects to a __MySQL database on Azure__to deal with Login/SignUp to the website. The UWP Application also makes use of __SlashDb (/db) API__ to pull in a list of users registered with our website.
+We also have created a __Website__ written in __Golang__ with a __HTML/Javascript/Bootstrap frontend__ that connects to the Universal Application to __pull scores__ into the website using __SQLite/Easy Tables on Azure.__ Golang pulls in the scores from the UWP Application using a __JSON GET request__ to the table on __Azure.__ Golang also connects to a __MySQL database on Azure__ to deal with Login/SignUp to the website. The UWP Application also makes use of __SlashDb (/db) API__ to pull in a list of users registered with our website.
 
 Within this game we have 4 different areas of learning: Attention, Problem-Solving, Memory and Speed.
 
