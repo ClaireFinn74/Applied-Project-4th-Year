@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-04-12T16:10:13.434</Modified>
+      <Modified>2017-04-13T17:10:42.806</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\bin\x86\Debug\4thYearAppliedProject.exe">
       <PackagePath>entrypoint\4thYearAppliedProject.exe</PackagePath>
-      <Modified>2017-04-12T16:10:08.062</Modified>
+      <Modified>2017-04-13T17:10:35.915</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\bin\x86\Debug\4thYearAppliedProject.exe.config">
       <PackagePath>4thYearAppliedProject.exe.config</PackagePath>
@@ -988,7 +988,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\bin\x86\Debug\4thYearAppliedProject.xr.xml">
       <PackagePath>4thYearAppliedProject.xr.xml</PackagePath>
-      <Modified>2017-04-11T15:37:22.933</Modified>
+      <Modified>2017-04-13T17:06:14.754</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.10240.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -1001,11 +1001,11 @@
     <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-04-12T16:10:12.044</Modified>
+      <Modified>2017-04-13T17:10:40.810</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\owner\Pictures\Applied-Project-4th-Year\4thYearAppliedProject\bin\x86\Debug\Core\4thYearAppliedProject.exe">
       <PackagePath>4thYearAppliedProject.exe</PackagePath>
-      <Modified>2017-04-12T16:10:13.405</Modified>
+      <Modified>2017-04-13T17:10:42.770</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

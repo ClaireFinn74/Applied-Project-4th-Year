@@ -118,5 +118,10 @@ namespace AppliedProject4thYear
         {
             Frame.Navigate(typeof(SQLiteScores));
         }
+
+        private void btnListUsers_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(ListOfUsers));
+        }
     }
 }

@@ -207,11 +207,11 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
       <RootProperty Name="Children" />
+      <RootProperty Name="Background" />
       <RootProperty Name="Orientation" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Padding" />
       <RootProperty Name="Margin" />
-      <RootProperty Name="Background" />
       <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension">
@@ -232,6 +232,19 @@
     <RootType FullName="_4thYearAppliedProject.CreditsPage" />
     <RootType FullName="AppliedProject4thYear.AttentionLevels.Everything_Has_A_Purpoise" />
     <RootType FullName="AppliedProject4thYear.AttentionLevels.PicturePerfect" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
+      <RootProperty Name="Width" />
+      <RootProperty Name="VerticalScrollMode" />
+      <RootProperty Name="VerticalScrollBarVisibility" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="HorizontalScrollMode" />
+      <RootProperty Name="HorizontalScrollBarVisibility" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
+    </RootType>
+    <RootType FullName="_4thYearAppliedProject.ListOfUsers" />
     <RootType FullName="Windows.UI.Xaml.Controls.AppBarButton">
       <RootProperty Name="Padding" />
       <RootProperty Name="HorizontalAlignment" />
@@ -297,15 +310,19 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.HyperlinkButton">
       <RootProperty Name="Content" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
       <RootProperty Name="Foreground" />
-      <RootProperty Name="FontStyle" />
       <RootProperty Name="FontWeight" />
       <RootProperty Name="NavigateUri" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="Background" />
     </RootType>
     <RootType FullName="AppliedProject4thYear.MainPage" />
+    <RootType FullName="Windows.UI.Xaml.Media.ScaleTransform">
+      <RootProperty Name="ScaleX" />
+    </RootType>
     <RootType FullName="AppliedProject4thYear.MainPages.AttentionPage" />
     <RootType FullName="AppliedProject4thYear.SpeedLevels.FoalShadow.FoalShadow" />
     <RootType FullName="_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl2" />
@@ -316,16 +333,6 @@
     <RootType FullName="_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl7" />
     <RootType FullName="AppliedProject4thYear.SpeedLevels.GoWithTheBuffLow.GoWithTheBuffLow" />
     <RootType FullName="_4thYearAppliedProject.SpeedLevels.GoWithTheBuffLow.GoWithTheBuffLowLvl2" />
-    <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
-      <RootProperty Name="HorizontalScrollMode" />
-      <RootProperty Name="VerticalScrollBarVisibility" />
-      <RootProperty Name="HorizontalScrollBarVisibility" />
-      <RootProperty Name="Width" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="Content" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="HorizontalAlignment" />
-    </RootType>
     <RootType FullName="AppliedProject4thYear.SpeedLevels.SpeedLevelsMainPage" />
     <RootType FullName="AppliedProject4thYear.SpeedLevels.SpotTheDifference.SpotTheDifference" />
     <RootType FullName="AppliedProject4thYear.SpeedLevels.SpotTheDifference.SpotTheDifference2" />

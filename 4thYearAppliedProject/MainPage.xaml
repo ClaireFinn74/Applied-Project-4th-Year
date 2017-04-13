@@ -69,19 +69,27 @@
                     </Button>
                 </StackPanel>
             </StackPanel>
-            <HyperlinkButton Content="Click to see all Scores" Foreground="Black" FontStyle="Italic" FontWeight="ExtraBlack" NavigateUri="brainworksapp.cloudapp.net" Height="117" RenderTransformOrigin="1.526,0.53">
+            <HyperlinkButton Content="Click to see all Scores" Margin="20,-20,0,20" VerticalAlignment="Top" Height="80" Width="167" Foreground="Black" FontWeight="Bold" NavigateUri="brainworksapp.cloudapp.net">
                 <HyperlinkButton.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                        <GradientStop Offset="0.008"/>
-                        <GradientStop Color="#FFFF00B9" Offset="1"/>
+                        <GradientStop Color="#FF815C25" Offset="0.008"/>
+                        <GradientStop Color="#FFFF7400" Offset="1"/>
                     </LinearGradientBrush>
                 </HyperlinkButton.Background>
             </HyperlinkButton>
+            <Button x:Name="btnListUsers" Margin="25,-5,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="80" Width="171" Content="Registered?" FontSize="30" Click="btnListUsers_Click" RenderTransformOrigin="0.493,1.5">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFE3FF84" Offset="0.008"/>
+                        <GradientStop Color="#FFE3F1B3" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
         </StackPanel>
         <StackPanel Margin="15,-162,1402,55" Grid.Column="2">
             <Image x:Name="image" Height="100"/>
         </StackPanel>
-        <Button x:Name="btnHighScores" Content="Scores" HorizontalAlignment="Left" VerticalAlignment="Top" Height="80" Width="167" FontSize="30" Click="btnHighScores_Click" Margin="9,398,0,0" Grid.ColumnSpan="2" Grid.Row="2">
+        <Button x:Name="btnHighScores" Content="Scores" HorizontalAlignment="Left" VerticalAlignment="Top" Height="80" Width="167" FontSize="30" Click="btnHighScores_Click" Margin="9,370,0,0" Grid.ColumnSpan="2" Grid.Row="2">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF815C25" Offset="0.008"/>

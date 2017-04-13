@@ -226,6 +226,9 @@
     <Compile Include="AttentionLevels\Everything has a porpoise\EverythingHasAPorpoise.xaml.cs" />
     <Compile Include="GlobalClassVariables.cs" />
     <Compile Include="AttentionLevels\Picture Perfect\PicturePerfect.xaml.cs" />
+    <Compile Include="ListOfUsers.xaml.cs">
+      <DependentUpon>ListOfUsers.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MemoryLevels\MemoryNav.xaml.cs" />
     <Compile Include="MemoryLevels\Sequential.xaml.cs" />
     <Compile Include="MemoryLevels\ShoppingList.xaml.cs" />
@@ -505,6 +508,10 @@
     <Page Include="AttentionLevels\Picture Perfect\PicturePerfect.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ListOfUsers.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="MemoryLevels\MemoryNav.xaml">
       <Generator>MSBuild:Compile</Generator>

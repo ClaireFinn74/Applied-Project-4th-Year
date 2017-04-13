@@ -132,7 +132,7 @@ namespace _4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[64];
+            _typeNameTable = new string[65];
             _typeNameTable[0] = "_4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise.PorpoiseLevel10";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
@@ -174,31 +174,32 @@ namespace _4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo
             _typeNameTable[38] = "_4thYearAppliedProject.CreditsPage";
             _typeNameTable[39] = "AppliedProject4thYear.AttentionLevels.Everything_Has_A_Purpoise";
             _typeNameTable[40] = "AppliedProject4thYear.AttentionLevels.PicturePerfect";
-            _typeNameTable[41] = "AppliedProject4thYear.MemoryLevels.MemoryNav";
-            _typeNameTable[42] = "AppliedProject4thYear.MemoryLevels.Sequential";
-            _typeNameTable[43] = "AppliedProject4thYear.MemoryLevels.ShoppingList";
-            _typeNameTable[44] = "AppliedProject4thYear.HigherOrLower";
-            _typeNameTable[45] = "AppliedProject4thYear.ManicMath";
-            _typeNameTable[46] = "AppliedProject4thYear.ProblemSolvingGames";
-            _typeNameTable[47] = "AppliedProject4thYear.QuickRPG";
-            _typeNameTable[48] = "AppliedProject4thYear.AttentionLevels.TotalRecall";
-            _typeNameTable[49] = "AppliedProject4thYear.MainPage";
-            _typeNameTable[50] = "AppliedProject4thYear.MainPages.AttentionPage";
-            _typeNameTable[51] = "AppliedProject4thYear.SpeedLevels.FoalShadow.FoalShadow";
-            _typeNameTable[52] = "_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl2";
-            _typeNameTable[53] = "_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl3";
-            _typeNameTable[54] = "_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl4";
-            _typeNameTable[55] = "_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl5";
-            _typeNameTable[56] = "_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl6";
-            _typeNameTable[57] = "_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl7";
-            _typeNameTable[58] = "AppliedProject4thYear.SpeedLevels.GoWithTheBuffLow.GoWithTheBuffLow";
-            _typeNameTable[59] = "_4thYearAppliedProject.SpeedLevels.GoWithTheBuffLow.GoWithTheBuffLowLvl2";
-            _typeNameTable[60] = "AppliedProject4thYear.SpeedLevels.SpeedLevelsMainPage";
-            _typeNameTable[61] = "AppliedProject4thYear.SpeedLevels.SpotTheDifference.SpotTheDifference";
-            _typeNameTable[62] = "AppliedProject4thYear.SpeedLevels.SpotTheDifference.SpotTheDifference2";
-            _typeNameTable[63] = "_4thYearAppliedProject.SQLiteScores";
+            _typeNameTable[41] = "_4thYearAppliedProject.ListOfUsers";
+            _typeNameTable[42] = "AppliedProject4thYear.MemoryLevels.MemoryNav";
+            _typeNameTable[43] = "AppliedProject4thYear.MemoryLevels.Sequential";
+            _typeNameTable[44] = "AppliedProject4thYear.MemoryLevels.ShoppingList";
+            _typeNameTable[45] = "AppliedProject4thYear.HigherOrLower";
+            _typeNameTable[46] = "AppliedProject4thYear.ManicMath";
+            _typeNameTable[47] = "AppliedProject4thYear.ProblemSolvingGames";
+            _typeNameTable[48] = "AppliedProject4thYear.QuickRPG";
+            _typeNameTable[49] = "AppliedProject4thYear.AttentionLevels.TotalRecall";
+            _typeNameTable[50] = "AppliedProject4thYear.MainPage";
+            _typeNameTable[51] = "AppliedProject4thYear.MainPages.AttentionPage";
+            _typeNameTable[52] = "AppliedProject4thYear.SpeedLevels.FoalShadow.FoalShadow";
+            _typeNameTable[53] = "_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl2";
+            _typeNameTable[54] = "_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl3";
+            _typeNameTable[55] = "_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl4";
+            _typeNameTable[56] = "_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl5";
+            _typeNameTable[57] = "_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl6";
+            _typeNameTable[58] = "_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl7";
+            _typeNameTable[59] = "AppliedProject4thYear.SpeedLevels.GoWithTheBuffLow.GoWithTheBuffLow";
+            _typeNameTable[60] = "_4thYearAppliedProject.SpeedLevels.GoWithTheBuffLow.GoWithTheBuffLowLvl2";
+            _typeNameTable[61] = "AppliedProject4thYear.SpeedLevels.SpeedLevelsMainPage";
+            _typeNameTable[62] = "AppliedProject4thYear.SpeedLevels.SpotTheDifference.SpotTheDifference";
+            _typeNameTable[63] = "AppliedProject4thYear.SpeedLevels.SpotTheDifference.SpotTheDifference2";
+            _typeNameTable[64] = "_4thYearAppliedProject.SQLiteScores";
 
-            _typeTable = new global::System.Type[64];
+            _typeTable = new global::System.Type[65];
             _typeTable[0] = typeof(global::_4thYearAppliedProject.AttentionLevels.Everything_has_a_porpoise.PorpoiseLevel10);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
@@ -240,29 +241,30 @@ namespace _4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo
             _typeTable[38] = typeof(global::_4thYearAppliedProject.CreditsPage);
             _typeTable[39] = typeof(global::AppliedProject4thYear.AttentionLevels.Everything_Has_A_Purpoise);
             _typeTable[40] = typeof(global::AppliedProject4thYear.AttentionLevels.PicturePerfect);
-            _typeTable[41] = typeof(global::AppliedProject4thYear.MemoryLevels.MemoryNav);
-            _typeTable[42] = typeof(global::AppliedProject4thYear.MemoryLevels.Sequential);
-            _typeTable[43] = typeof(global::AppliedProject4thYear.MemoryLevels.ShoppingList);
-            _typeTable[44] = typeof(global::AppliedProject4thYear.HigherOrLower);
-            _typeTable[45] = typeof(global::AppliedProject4thYear.ManicMath);
-            _typeTable[46] = typeof(global::AppliedProject4thYear.ProblemSolvingGames);
-            _typeTable[47] = typeof(global::AppliedProject4thYear.QuickRPG);
-            _typeTable[48] = typeof(global::AppliedProject4thYear.AttentionLevels.TotalRecall);
-            _typeTable[49] = typeof(global::AppliedProject4thYear.MainPage);
-            _typeTable[50] = typeof(global::AppliedProject4thYear.MainPages.AttentionPage);
-            _typeTable[51] = typeof(global::AppliedProject4thYear.SpeedLevels.FoalShadow.FoalShadow);
-            _typeTable[52] = typeof(global::_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl2);
-            _typeTable[53] = typeof(global::_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl3);
-            _typeTable[54] = typeof(global::_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl4);
-            _typeTable[55] = typeof(global::_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl5);
-            _typeTable[56] = typeof(global::_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl6);
-            _typeTable[57] = typeof(global::_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl7);
-            _typeTable[58] = typeof(global::AppliedProject4thYear.SpeedLevels.GoWithTheBuffLow.GoWithTheBuffLow);
-            _typeTable[59] = typeof(global::_4thYearAppliedProject.SpeedLevels.GoWithTheBuffLow.GoWithTheBuffLowLvl2);
-            _typeTable[60] = typeof(global::AppliedProject4thYear.SpeedLevels.SpeedLevelsMainPage);
-            _typeTable[61] = typeof(global::AppliedProject4thYear.SpeedLevels.SpotTheDifference.SpotTheDifference);
-            _typeTable[62] = typeof(global::AppliedProject4thYear.SpeedLevels.SpotTheDifference.SpotTheDifference2);
-            _typeTable[63] = typeof(global::_4thYearAppliedProject.SQLiteScores);
+            _typeTable[41] = typeof(global::_4thYearAppliedProject.ListOfUsers);
+            _typeTable[42] = typeof(global::AppliedProject4thYear.MemoryLevels.MemoryNav);
+            _typeTable[43] = typeof(global::AppliedProject4thYear.MemoryLevels.Sequential);
+            _typeTable[44] = typeof(global::AppliedProject4thYear.MemoryLevels.ShoppingList);
+            _typeTable[45] = typeof(global::AppliedProject4thYear.HigherOrLower);
+            _typeTable[46] = typeof(global::AppliedProject4thYear.ManicMath);
+            _typeTable[47] = typeof(global::AppliedProject4thYear.ProblemSolvingGames);
+            _typeTable[48] = typeof(global::AppliedProject4thYear.QuickRPG);
+            _typeTable[49] = typeof(global::AppliedProject4thYear.AttentionLevels.TotalRecall);
+            _typeTable[50] = typeof(global::AppliedProject4thYear.MainPage);
+            _typeTable[51] = typeof(global::AppliedProject4thYear.MainPages.AttentionPage);
+            _typeTable[52] = typeof(global::AppliedProject4thYear.SpeedLevels.FoalShadow.FoalShadow);
+            _typeTable[53] = typeof(global::_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl2);
+            _typeTable[54] = typeof(global::_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl3);
+            _typeTable[55] = typeof(global::_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl4);
+            _typeTable[56] = typeof(global::_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl5);
+            _typeTable[57] = typeof(global::_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl6);
+            _typeTable[58] = typeof(global::_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl7);
+            _typeTable[59] = typeof(global::AppliedProject4thYear.SpeedLevels.GoWithTheBuffLow.GoWithTheBuffLow);
+            _typeTable[60] = typeof(global::_4thYearAppliedProject.SpeedLevels.GoWithTheBuffLow.GoWithTheBuffLowLvl2);
+            _typeTable[61] = typeof(global::AppliedProject4thYear.SpeedLevels.SpeedLevelsMainPage);
+            _typeTable[62] = typeof(global::AppliedProject4thYear.SpeedLevels.SpotTheDifference.SpotTheDifference);
+            _typeTable[63] = typeof(global::AppliedProject4thYear.SpeedLevels.SpotTheDifference.SpotTheDifference2);
+            _typeTable[64] = typeof(global::_4thYearAppliedProject.SQLiteScores);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -333,29 +335,30 @@ namespace _4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo
         private object Activate_38_CreditsPage() { return new global::_4thYearAppliedProject.CreditsPage(); }
         private object Activate_39_Everything_Has_A_Purpoise() { return new global::AppliedProject4thYear.AttentionLevels.Everything_Has_A_Purpoise(); }
         private object Activate_40_PicturePerfect() { return new global::AppliedProject4thYear.AttentionLevels.PicturePerfect(); }
-        private object Activate_41_MemoryNav() { return new global::AppliedProject4thYear.MemoryLevels.MemoryNav(); }
-        private object Activate_42_Sequential() { return new global::AppliedProject4thYear.MemoryLevels.Sequential(); }
-        private object Activate_43_ShoppingList() { return new global::AppliedProject4thYear.MemoryLevels.ShoppingList(); }
-        private object Activate_44_HigherOrLower() { return new global::AppliedProject4thYear.HigherOrLower(); }
-        private object Activate_45_ManicMath() { return new global::AppliedProject4thYear.ManicMath(); }
-        private object Activate_46_ProblemSolvingGames() { return new global::AppliedProject4thYear.ProblemSolvingGames(); }
-        private object Activate_47_QuickRPG() { return new global::AppliedProject4thYear.QuickRPG(); }
-        private object Activate_48_TotalRecall() { return new global::AppliedProject4thYear.AttentionLevels.TotalRecall(); }
-        private object Activate_49_MainPage() { return new global::AppliedProject4thYear.MainPage(); }
-        private object Activate_50_AttentionPage() { return new global::AppliedProject4thYear.MainPages.AttentionPage(); }
-        private object Activate_51_FoalShadow() { return new global::AppliedProject4thYear.SpeedLevels.FoalShadow.FoalShadow(); }
-        private object Activate_52_FoalShadowLvl2() { return new global::_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl2(); }
-        private object Activate_53_FoalShadowLvl3() { return new global::_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl3(); }
-        private object Activate_54_FoalShadowLvl4() { return new global::_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl4(); }
-        private object Activate_55_FoalShadowLvl5() { return new global::_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl5(); }
-        private object Activate_56_FoalShadowLvl6() { return new global::_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl6(); }
-        private object Activate_57_FoalShadowLvl7() { return new global::_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl7(); }
-        private object Activate_58_GoWithTheBuffLow() { return new global::AppliedProject4thYear.SpeedLevels.GoWithTheBuffLow.GoWithTheBuffLow(); }
-        private object Activate_59_GoWithTheBuffLowLvl2() { return new global::_4thYearAppliedProject.SpeedLevels.GoWithTheBuffLow.GoWithTheBuffLowLvl2(); }
-        private object Activate_60_SpeedLevelsMainPage() { return new global::AppliedProject4thYear.SpeedLevels.SpeedLevelsMainPage(); }
-        private object Activate_61_SpotTheDifference() { return new global::AppliedProject4thYear.SpeedLevels.SpotTheDifference.SpotTheDifference(); }
-        private object Activate_62_SpotTheDifference2() { return new global::AppliedProject4thYear.SpeedLevels.SpotTheDifference.SpotTheDifference2(); }
-        private object Activate_63_SQLiteScores() { return new global::_4thYearAppliedProject.SQLiteScores(); }
+        private object Activate_41_ListOfUsers() { return new global::_4thYearAppliedProject.ListOfUsers(); }
+        private object Activate_42_MemoryNav() { return new global::AppliedProject4thYear.MemoryLevels.MemoryNav(); }
+        private object Activate_43_Sequential() { return new global::AppliedProject4thYear.MemoryLevels.Sequential(); }
+        private object Activate_44_ShoppingList() { return new global::AppliedProject4thYear.MemoryLevels.ShoppingList(); }
+        private object Activate_45_HigherOrLower() { return new global::AppliedProject4thYear.HigherOrLower(); }
+        private object Activate_46_ManicMath() { return new global::AppliedProject4thYear.ManicMath(); }
+        private object Activate_47_ProblemSolvingGames() { return new global::AppliedProject4thYear.ProblemSolvingGames(); }
+        private object Activate_48_QuickRPG() { return new global::AppliedProject4thYear.QuickRPG(); }
+        private object Activate_49_TotalRecall() { return new global::AppliedProject4thYear.AttentionLevels.TotalRecall(); }
+        private object Activate_50_MainPage() { return new global::AppliedProject4thYear.MainPage(); }
+        private object Activate_51_AttentionPage() { return new global::AppliedProject4thYear.MainPages.AttentionPage(); }
+        private object Activate_52_FoalShadow() { return new global::AppliedProject4thYear.SpeedLevels.FoalShadow.FoalShadow(); }
+        private object Activate_53_FoalShadowLvl2() { return new global::_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl2(); }
+        private object Activate_54_FoalShadowLvl3() { return new global::_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl3(); }
+        private object Activate_55_FoalShadowLvl4() { return new global::_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl4(); }
+        private object Activate_56_FoalShadowLvl5() { return new global::_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl5(); }
+        private object Activate_57_FoalShadowLvl6() { return new global::_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl6(); }
+        private object Activate_58_FoalShadowLvl7() { return new global::_4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl7(); }
+        private object Activate_59_GoWithTheBuffLow() { return new global::AppliedProject4thYear.SpeedLevels.GoWithTheBuffLow.GoWithTheBuffLow(); }
+        private object Activate_60_GoWithTheBuffLowLvl2() { return new global::_4thYearAppliedProject.SpeedLevels.GoWithTheBuffLow.GoWithTheBuffLowLvl2(); }
+        private object Activate_61_SpeedLevelsMainPage() { return new global::AppliedProject4thYear.SpeedLevels.SpeedLevelsMainPage(); }
+        private object Activate_62_SpotTheDifference() { return new global::AppliedProject4thYear.SpeedLevels.SpotTheDifference.SpotTheDifference(); }
+        private object Activate_63_SpotTheDifference2() { return new global::AppliedProject4thYear.SpeedLevels.SpotTheDifference.SpotTheDifference2(); }
+        private object Activate_64_SQLiteScores() { return new global::_4thYearAppliedProject.SQLiteScores(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -643,163 +646,170 @@ namespace _4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 41:   //  AppliedProject4thYear.MemoryLevels.MemoryNav
+            case 41:   //  _4thYearAppliedProject.ListOfUsers
                 userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_41_MemoryNav;
+                userType.Activator = Activate_41_ListOfUsers;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 42:   //  AppliedProject4thYear.MemoryLevels.Sequential
+            case 42:   //  AppliedProject4thYear.MemoryLevels.MemoryNav
                 userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_42_Sequential;
+                userType.Activator = Activate_42_MemoryNav;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 43:   //  AppliedProject4thYear.MemoryLevels.ShoppingList
+            case 43:   //  AppliedProject4thYear.MemoryLevels.Sequential
                 userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_43_ShoppingList;
+                userType.Activator = Activate_43_Sequential;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 44:   //  AppliedProject4thYear.HigherOrLower
+            case 44:   //  AppliedProject4thYear.MemoryLevels.ShoppingList
                 userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_44_HigherOrLower;
+                userType.Activator = Activate_44_ShoppingList;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 45:   //  AppliedProject4thYear.ManicMath
+            case 45:   //  AppliedProject4thYear.HigherOrLower
                 userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_45_ManicMath;
+                userType.Activator = Activate_45_HigherOrLower;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 46:   //  AppliedProject4thYear.ProblemSolvingGames
+            case 46:   //  AppliedProject4thYear.ManicMath
                 userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_46_ProblemSolvingGames;
+                userType.Activator = Activate_46_ManicMath;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 47:   //  AppliedProject4thYear.QuickRPG
+            case 47:   //  AppliedProject4thYear.ProblemSolvingGames
                 userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_47_QuickRPG;
+                userType.Activator = Activate_47_ProblemSolvingGames;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 48:   //  AppliedProject4thYear.AttentionLevels.TotalRecall
+            case 48:   //  AppliedProject4thYear.QuickRPG
                 userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_48_TotalRecall;
+                userType.Activator = Activate_48_QuickRPG;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 49:   //  AppliedProject4thYear.MainPage
+            case 49:   //  AppliedProject4thYear.AttentionLevels.TotalRecall
                 userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_49_MainPage;
+                userType.Activator = Activate_49_TotalRecall;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 50:   //  AppliedProject4thYear.MainPages.AttentionPage
+            case 50:   //  AppliedProject4thYear.MainPage
                 userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_50_AttentionPage;
+                userType.Activator = Activate_50_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 51:   //  AppliedProject4thYear.SpeedLevels.FoalShadow.FoalShadow
+            case 51:   //  AppliedProject4thYear.MainPages.AttentionPage
                 userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_51_FoalShadow;
+                userType.Activator = Activate_51_AttentionPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 52:   //  _4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl2
+            case 52:   //  AppliedProject4thYear.SpeedLevels.FoalShadow.FoalShadow
                 userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_52_FoalShadowLvl2;
+                userType.Activator = Activate_52_FoalShadow;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 53:   //  _4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl3
+            case 53:   //  _4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl2
                 userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_53_FoalShadowLvl3;
+                userType.Activator = Activate_53_FoalShadowLvl2;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 54:   //  _4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl4
+            case 54:   //  _4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl3
                 userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_54_FoalShadowLvl4;
+                userType.Activator = Activate_54_FoalShadowLvl3;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 55:   //  _4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl5
+            case 55:   //  _4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl4
                 userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_55_FoalShadowLvl5;
+                userType.Activator = Activate_55_FoalShadowLvl4;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 56:   //  _4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl6
+            case 56:   //  _4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl5
                 userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_56_FoalShadowLvl6;
+                userType.Activator = Activate_56_FoalShadowLvl5;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 57:   //  _4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl7
+            case 57:   //  _4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl6
                 userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_57_FoalShadowLvl7;
+                userType.Activator = Activate_57_FoalShadowLvl6;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 58:   //  AppliedProject4thYear.SpeedLevels.GoWithTheBuffLow.GoWithTheBuffLow
+            case 58:   //  _4thYearAppliedProject.SpeedLevels.FoalShadow.FoalShadowLvl7
                 userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_58_GoWithTheBuffLow;
+                userType.Activator = Activate_58_FoalShadowLvl7;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 59:   //  _4thYearAppliedProject.SpeedLevels.GoWithTheBuffLow.GoWithTheBuffLowLvl2
+            case 59:   //  AppliedProject4thYear.SpeedLevels.GoWithTheBuffLow.GoWithTheBuffLow
                 userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_59_GoWithTheBuffLowLvl2;
+                userType.Activator = Activate_59_GoWithTheBuffLow;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 60:   //  AppliedProject4thYear.SpeedLevels.SpeedLevelsMainPage
+            case 60:   //  _4thYearAppliedProject.SpeedLevels.GoWithTheBuffLow.GoWithTheBuffLowLvl2
                 userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_60_SpeedLevelsMainPage;
+                userType.Activator = Activate_60_GoWithTheBuffLowLvl2;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 61:   //  AppliedProject4thYear.SpeedLevels.SpotTheDifference.SpotTheDifference
+            case 61:   //  AppliedProject4thYear.SpeedLevels.SpeedLevelsMainPage
                 userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_61_SpotTheDifference;
+                userType.Activator = Activate_61_SpeedLevelsMainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 62:   //  AppliedProject4thYear.SpeedLevels.SpotTheDifference.SpotTheDifference2
+            case 62:   //  AppliedProject4thYear.SpeedLevels.SpotTheDifference.SpotTheDifference
                 userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_62_SpotTheDifference2;
+                userType.Activator = Activate_62_SpotTheDifference;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 63:   //  _4thYearAppliedProject.SQLiteScores
+            case 63:   //  AppliedProject4thYear.SpeedLevels.SpotTheDifference.SpotTheDifference2
                 userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_63_SQLiteScores;
+                userType.Activator = Activate_63_SpotTheDifference2;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 64:   //  _4thYearAppliedProject.SQLiteScores
+                userType = new global::_4thYearAppliedProject._thYearAppliedProject_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_64_SQLiteScores;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
