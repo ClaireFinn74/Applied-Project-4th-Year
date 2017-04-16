@@ -42,5 +42,11 @@ __Problem-Solving Author/Created by:__ Thomas Mcnamara.
 Within _Memory_ you will find 1 game that is aimed at improving your Memory:
 
 1. __Sequential:__ Follow the sequence that plays out by clicking which colour sequence flashed previously. Lists are used to achieve this.
+2. __Shopping List:__
 
 __Memory Author/Created by:__ Alanna Curran.
+
+
+## How to run the application:
+Once you are on our GitHub link, you will see a green button labelled “Clone or download”. Click on it and then click on the “Download Zip” link to download the application. After you download the entire application (approximately 200MB in total), unzip it using software such as 7-Zip or WinRAR to unpackage the files to a directory of your choice. Once that’s finished, navigate to the directory and inside the folder should contain a file called “4thYearAppliedProject.sln”. Double-click on this and it should open up Visual Studio 2015 with the project inside. Once the app is set up, click the button near the top of the screen with the green arrow labelled “Local Machine”. Wait a few seconds and the app should then be fully playable. Another option is to download the application through the Windows App Store. At the time of writing this we are in the process of submitting the application and have no current URL to link to it, this will be updated once the app has been successfully submitted.
+To visit the website, go to this link: brainworks.northeurope.cloudapp.azure.com
