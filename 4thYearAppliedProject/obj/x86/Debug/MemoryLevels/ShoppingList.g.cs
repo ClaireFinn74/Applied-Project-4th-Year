@@ -44,21 +44,6 @@ namespace AppliedProject4thYear.MemoryLevels
                     this.txtBlkRoundNum = (global::Windows.UI.Xaml.Controls.TextBlock)(target);
                 }
                 break;
-            case 5:
-                {
-                    this.txtBlkStart = (global::Windows.UI.Xaml.Controls.TextBlock)(target);
-                }
-                break;
-            case 6:
-                {
-                    this.Correct = (global::Windows.UI.Xaml.Controls.Image)(target);
-                }
-                break;
-            case 7:
-                {
-                    this.Incorrect = (global::Windows.UI.Xaml.Controls.Image)(target);
-                }
-                break;
             case 8:
                 {
                     this.Carrot = (global::Windows.UI.Xaml.Controls.Grid)(target);
