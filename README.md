@@ -42,7 +42,8 @@ __Problem-Solving Author/Created by:__ Thomas Mcnamara.
 Within _Memory_ you will find 1 game that is aimed at improving your Memory:
 
 1. __Sequential:__ Follow the sequence that plays out by clicking which colour sequence flashed previously. Lists are used to achieve this.
-2. __Shopping List:__
+2. __Shopping List:__ There are ten items at the shop, be careful to remember which order the items are in because your Shopping List is growing! Keep your eyes pealed as the flashes are quite quick! Once the start button is clicked, the game immediately starts with one of the ten items flashing once.
+
 
 __Memory Author/Created by:__ Alanna Curran.
 
