@@ -21,9 +21,7 @@ import (
 	//need to type ' go get github.com/go-sql-driver/mysql' into cmder to use
 	_ "github.com/go-sql-driver/mysql" // This installs a driver in order to be able to use mySQL
 	//need to type 'go get golang.org/x/crypto/bcrypt' into cmder to use
-
-	_ "github.com/mattn/go-sqlite3" //sqlite3 driver
-	"golang.org/x/crypto/bcrypt"    // This import statement allows encryption and decryption of passwords
+	"golang.org/x/crypto/bcrypt" // This import statement allows encryption and decryption of passwords
 )
 
 //A variable which initialises the use of mysql
@@ -83,7 +81,7 @@ func signupPage(res http.ResponseWriter, req *http.Request) {
 	// the data enclosed in the body of the request message. It is used when submitting a completed web Form)
 	if req.Method != "POST" {
 		//then serve the SignUp page
-		http.ServeFile(res, req, "signup.html")
+		http.ServeFile(res, req, "Signup.html")
 		return
 	}
 
@@ -119,14 +117,25 @@ func signupPage(res http.ResponseWriter, req *http.Request) {
 			return
 		}
 
+		if username == "" {
+			http.Error(res, "Please enter a valid username, unable to create your account.", 500)
+			return
+		}
+
+		if password == "" {
+			http.Error(res, "Please enter a valid password, unable to create your account.", 500)
+			return
+		}
+
 		// Otherwise A user is created
-		res.Write([]byte("User created!"))
+		http.Redirect(res, req, "/UserCreated.html", 301)
 		return
+
 		//checking for additional server errors(server not available, table deleated etc)
 	case err != nil:
 		http.Error(res, "Server error, unable to create your account.", 500)
 		return
-		// by default the root page (/index.html) is shown to the user
+		// by default the root page (/Index.html) is shown to the user
 		// error 301 checks if the page has been moved permanantly
 	default:
 		http.Redirect(res, req, "/", 301)
@@ -136,7 +145,7 @@ func signupPage(res http.ResponseWriter, req *http.Request) {
 // This is a function to allow a user to log into the website
 func loginPage(res http.ResponseWriter, req *http.Request) {
 	if req.Method != "POST" {
-		http.ServeFile(res, req, "login.html")
+		http.ServeFile(res, req, "Login.html")
 		return
 	}
 
@@ -154,14 +163,14 @@ func loginPage(res http.ResponseWriter, req *http.Request) {
 	//If there are errors with the user logging in
 	if err != nil {
 		//Error 301 (page moved permanantly)
-		http.Redirect(res, req, "/login", 301)
+		http.Redirect(res, req, "/Login.html", 301)
 		return
 	}
 	//comparing the password the user is entering with the encrypted one in the database
 	err = bcrypt.CompareHashAndPassword([]byte(databasePassword), []byte(password))
 	//If there are no errors then it redirects to the login page, otherwise if the page has been moved - 301 error
 	if err != nil {
-		http.Redirect(res, req, "/login", 301)
+		http.Redirect(res, req, "/Login.html", 301)
 		return
 	}
 
@@ -172,13 +181,15 @@ func loginPage(res http.ResponseWriter, req *http.Request) {
 
 //A function to serve up the homepage called index.html which includes the login and signup buttons
 func homePage(res http.ResponseWriter, req *http.Request) {
-	http.ServeFile(res, req, "index.html")
+	http.ServeFile(res, req, "Index.html")
 }
 
-/* func scoresPage(res http.ResponseWriter, req *http.Request) {
-
-	http.ServeFile(res, req, "Scores.html")
-} */
+func userCreatedPage(res http.ResponseWriter, req *http.Request) {
+	http.ServeFile(res, req, "UserCreated.html")
+}
+func internalPage(res http.ResponseWriter, req *http.Request) {
+	http.ServeFile(res, req, "Internal.html")
+}
 
 var scoresPageString = `<!DOCTYPE html>
 <html lang="en">
@@ -221,6 +232,9 @@ tr:nth-child(even) {
 
 </table>
 
+<form method="POST" action="/Internal.html">
+            <input type="submit" value="HomePage" class="btn btn-danger">
+		</form>
 
 	
 </body>
@@ -302,11 +316,13 @@ func main() {
 	}
 
 	//Handle all of our functions
-	http.HandleFunc("/signup", signupPage)
-	http.HandleFunc("/login", loginPage)
+	http.HandleFunc("/Signup.html", signupPage)
+	http.HandleFunc("/Login.html", loginPage)
+	http.HandleFunc("/Internal.html", internalPage)
+	http.HandleFunc("/UserCreated.html", userCreatedPage)
 	http.HandleFunc("/", homePage)
 	http.HandleFunc("/scores", scoresPage)
 
-	//serve on the port 8000 forever
-	http.ListenAndServe(":8000", nil)
+	//serve on the port 80 forever
+	http.ListenAndServe(":80", nil)
 }
