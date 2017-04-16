@@ -1,12 +1,15 @@
-﻿using AppliedProject4thYear.MemoryLevels;
+﻿using _4thYearAppliedProject;
+using AppliedProject4thYear.MemoryLevels;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Threading.Tasks;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI;
+using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -47,26 +50,36 @@ namespace AppliedProject4thYear.MemoryLevels
         int rightItemSequenceIndex = 0;
         int userItemSequenceIndex = 0;
 
+        int onInList = 0;
+        List<int> shoppingList = new List<int>();
+        Random rand = new Random();
+
         //- Variables to keep track of the game state.
+        bool playingBack = false;
         Boolean isUserTurn = true;
         Boolean isListRight = false;
         Boolean isGameStarted = false;
         Boolean isDoingAnimation = false;
-        private object Colors;
+        //private object Colors;
 
         public ShoppingList()
         {
             this.InitializeComponent();
 
+            btnStart.Visibility = Visibility.Visible;
             randNum = new Random();
+            shoppingList.Add(rand.Next(1, 11));
 
             rightItemSequence = new int[MAX_ITEM_COUNT];
             userItemSequence = new int[MAX_ITEM_COUNT];
             initItemSequence();
 
-            txtBlkRoundNum.Opacity = 0;
-            Correct.Opacity = 0;
-            Incorrect.Opacity = 0;
+            txtbScore.Opacity = 0;
+            //Correct.Opacity = 0;
+            //Incorrect.Opacity = 0;
+
+            GlobalClassVariables.score = 0;
+            GlobalClassVariables.gameName = "(Shopping List Score) " + "\n";
         }//- End of ShoppingList()
 
         private void initItemSequence()
@@ -78,14 +91,14 @@ namespace AppliedProject4thYear.MemoryLevels
                 userItemSequence[i] = 0;
             }//- End of for
         }//- End of initItemSequence()
-
+/*
         private void gameStart()
         {
             shoppingListItemCount = 0;
-            txtBlkRoundNum.Text = shoppingListItemCount.ToString();
+            txtbScore.Text = shoppingListItemCount.ToString();
             //txtBlkRoundNum.Foreground = new SolidColorBrush(Colors.Black);
-            txtBlkRoundNum.Opacity = 100;
-            txtBlkRoundNum.Opacity = 0;
+            txtbScore.Opacity = 100;
+            txtbScore.Opacity = 0;
             Correct.Opacity = 0;
             Incorrect.Opacity = 0;
             isGameStarted = true;
@@ -122,7 +135,7 @@ namespace AppliedProject4thYear.MemoryLevels
                     if (shoppingListItemCount < MAX_ITEM_COUNT)
                     {
                         //- If the current sequenceCount is less than the max then display the count.
-                        txtBlkRoundNum.Text = shoppingListItemCount.ToString();
+                        txtbScore.Text = shoppingListItemCount.ToString();
                     }
                     else
                     {
@@ -149,39 +162,117 @@ namespace AppliedProject4thYear.MemoryLevels
         private void gameOver(String gameOverMessage)
         {
             isGameStarted = false;
-            txtBlkStart.Text = gameOverMessage;
-            txtBlkStart.Opacity = 100;
+            btnStart.Visibility = Visibility.Visible;
+            //txtBlkStart.Text = gameOverMessage;
+            //txtBlkStart.Opacity = 100;
             //txtBlkRoundNum.Foreground = new SolidColorBrush(Colors.Grey);
-            txtBlkRoundNum.Opacity = 40;
+            txtbScore.Opacity = 40;
             isUserTurn = true;
         }//- End of gameOver()
+*/
 
-        /*        private void doStartAnimation() //Not finished!!
+         private async void testCorrect(int Item)
+        {
+            txtbScore.Text = onInList.ToString();
+            if (playingBack)
+                return;
+
+            if (shoppingList[onInList] == Item)
+            onInList++;
+
+            else
+            {
+                GlobalClassVariables.score = shoppingList.Count;
+                var dialog = new MessageDialog("Wrong Item! Game Over. Final Score: " + shoppingList.Count.ToString());
+                await dialog.ShowAsync();
+                //Go back to SQLiteScores
+                Frame.Navigate(typeof(SQLiteScores));
+                
+            }//- End of if/else
+
+            if (onInList >= shoppingList.Count)
+            {
+                shoppingList.Add(rand.Next(1, 11));
+                onInList = 0;
+                playback();
+            }//- End of if
+
+            txtBlkRoundNum.Text = (shoppingList.Count.ToString());
+        }//- End of testCorrect()
+
+        private async void playback()
+        {
+            playingBack = true;
+            foreach (int item in shoppingList)
+            {
+                switch (item)
                 {
-                    switch (rightItemSequence[rightItemSequenceIndex])
-                    {
-                        case 1:
-                            storyboardRedRectangle.Begin();
-                            isDoingAnimation = true;
-                            break;
-                        case 2:
-                            storyboardBlueRectangle.Begin();
-                            isDoingAnimation = true;
-                            break;
-                        case 3:
-                            storyboardYellowRectangle.Begin();
-                            isDoingAnimation = true;
-                            break;
-                        case 4:
-                            storyboardGreenRectangle.Begin();
-                            isDoingAnimation = true;
-                            break;
-                        default:
-                            break;
-                    }//- End of switch
+                    case 1:
+                        storyboardCarrot.Begin();
+                        //blueRectangle.Opacity = 0;
+                        await Task.Delay(200);
+                        //blueRectangle.Opacity = 100;
+                        break;
+                    case 2:
+                        storyboardSteak.Begin();
+                        //yellowRectangle.Opacity = 0;
+                        await Task.Delay(200);
+                        //yellowRectangle.Opacity = 100;
+                        break;
+                    case 3:
+                        storyboardMilk.Begin();
+                        //greenRectangle.Opacity = 0;
+                        await Task.Delay(200);
+                        //greenRectangle.Opacity = 100;
+                        break;
+                    case 4:
+                        storyboardBread.Begin();
+                        //blueRectangle.Opacity = 0;
+                        await Task.Delay(200);
+                        //blueRectangle.Opacity = 100;
+                        break;
+                    case 5:
+                        storyboardCookies.Begin();
+                        //blueRectangle.Opacity = 0;
+                        await Task.Delay(200);
+                        //blueRectangle.Opacity = 100;
+                        break;
+                    case 6:
+                        storyboardJuice.Begin();
+                        //blueRectangle.Opacity = 0;
+                        await Task.Delay(200);
+                        //blueRectangle.Opacity = 100;
+                        break;
+                    case 7:
+                        storyboardCereal.Begin();
+                        //blueRectangle.Opacity = 0;
+                        await Task.Delay(200);
+                        //blueRectangle.Opacity = 100;
+                        break;
+                    case 8:
+                        storyboardOrange.Begin();
+                        //blueRectangle.Opacity = 0;
+                        await Task.Delay(200);
+                        //blueRectangle.Opacity = 100;
+                        break;
+                    case 9:
+                        storyboardPasta.Begin();
+                        //blueRectangle.Opacity = 0;
+                        await Task.Delay(200);
+                        //blueRectangle.Opacity = 100;
+                        break;
+                    case 10:
+                        storyboardChocolate.Begin();
+                        //blueRectangle.Opacity = 0;
+                        await Task.Delay(200);
+                        //blueRectangle.Opacity = 100;
+                        break;
+                }//- End of switch
+                await Task.Delay(200);
+            }//- end of foreach
 
-                    rightItemSequenceIndex++;
-                }//- End of doNextAnimation()*/
+            playingBack = false;
+        }//- End of playback()
 
         private void MainMenuAppBarBtn_Click(object sender, RoutedEventArgs e)
         {
@@ -193,6 +284,71 @@ namespace AppliedProject4thYear.MemoryLevels
             Frame.Navigate(typeof(MemoryNav));
         }//- End of BackAppBarBtn_Click
 
+        private void btnStart_Click(object sender, RoutedEventArgs e)
+        {
+            btnStart.Visibility = Visibility.Collapsed;
+            txtBlkRoundNum.Text = ("0");
+            playback();
+        }
 
+        private void CarrotImage_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            storyboardCarrotPlayer.Begin();
+            testCorrect(1);
+        }
+
+        private void SteakImage_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            storyboardSteakPlayer.Begin();
+            testCorrect(2);
+        }
+
+        private void MilkImage_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            storyboardMilkPlayer.Begin();
+            testCorrect(3);
+        }
+
+        private void BreadImage_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            storyboardBreadPlayer.Begin();
+            testCorrect(4);
+        }
+
+        private void CookiesImage_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            storyboardCookiesPlayer.Begin();
+            testCorrect(5);
+        }
+
+        private void JuiceImage_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            storyboardJuicePlayer.Begin();
+            testCorrect(6);
+        }
+
+        private void CerealImage_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            storyboardCerealPlayer.Begin();
+            testCorrect(7);
+        }
+
+        private void OrangeImage_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            storyboardOrangePlayer.Begin();
+            testCorrect(8);
+        }
+
+        private void PastaImage_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            storyboardPastaPlayer.Begin();
+            testCorrect(9);
+        }
+
+        private void ChocolateImage_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            storyboardChocolatePlayer.Begin();
+            testCorrect(10);
+        }
     }//- End of ShoppingList
 }//- End of AppliedProject4thYear.Memory

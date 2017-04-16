@@ -75,7 +75,7 @@ namespace AppliedProject4thYear.MemoryLevels
         {
             storyboardYellowRectanglePlayer.Begin();
             testCorrect(2);
-        }//- End of yellowRectangle_Tapped
+        }//- End of yellowRectangle_Tapped 
 
         private void greenRectangle_Tapped(object sender, TappedRoutedEventArgs e)
         {

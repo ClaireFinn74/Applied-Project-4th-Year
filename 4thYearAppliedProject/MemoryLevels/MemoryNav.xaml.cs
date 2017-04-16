@@ -14,8 +14,6 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-// The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
-
 namespace AppliedProject4thYear.MemoryLevels
 {
     public sealed partial class MemoryNav : Page
@@ -30,11 +28,6 @@ namespace AppliedProject4thYear.MemoryLevels
             Frame.Navigate(typeof(MainPage));
         }
 
-        private void btnOnceAndNeverAgain_Click(object sender, RoutedEventArgs e)
-        {
-            //Frame.Navigate(typeof(OnceAndNeverAgain));
-        }
-
         private void btnSequential_Click(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(Sequential));
@@ -44,10 +37,6 @@ namespace AppliedProject4thYear.MemoryLevels
         {
             Frame.Navigate(typeof(ShoppingList));
         }
-
-        private void btnTwosAPair_Click(object sender, RoutedEventArgs e)
-        {
-            //Frame.Navigate(typeof(TwosAPair));
-        }
+        
     }
 }
