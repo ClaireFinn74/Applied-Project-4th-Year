@@ -56,7 +56,12 @@ namespace AppliedProject4thYear.SpeedLevels
 
         private void btnBack_Click(object sender, RoutedEventArgs e)
         {
+        }
+
+        private void BackBtn_Click(object sender, RoutedEventArgs e)
+        {
             Frame.Navigate(typeof(MainPage));
+
         }
     }
 }

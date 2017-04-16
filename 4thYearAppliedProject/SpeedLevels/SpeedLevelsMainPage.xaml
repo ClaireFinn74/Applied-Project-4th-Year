@@ -73,6 +73,15 @@
                 <Button x:Name="btnGoWithTheBuffLow" Opacity="1" Content="Go With The BuffLow" Margin="190,150,0,0" Background="SaddleBrown" BorderBrush="Black" Foreground="White" IsEnabled="True" Height="60" Width="171" RenderTransformOrigin="0.5,0.5" Click="btnGoWithTheBuffLow_Click"/>
                 <Button x:Name="btnSpotTheDifference" Opacity="1" Content="Spot The Difference" Margin="370,150,0,0" Background="White" BorderBrush="Crimson" IsEnabled="True" Height="60" Width="171" RenderTransformOrigin="0.5,0.5" Click="btnSpotTheDifference_Click"/>
                 <Button x:Name="btnBack" Opacity="0.5" Content="Back" HorizontalAlignment="Right" Margin="0,-135,-20,0" VerticalAlignment="Top" Background="White" Foreground="Gray" IsEnabled="True" Height="30" Width="120" RenderTransformOrigin="0.5,0.5" Click="btnBack_Click"/>
+                <Button x:Name="BackBtn" Content="Go Back" HorizontalAlignment="Left" Margin="209,650,0,0" VerticalAlignment="Top" Height="50" Width="116"  BorderBrush="#FF171717" Foreground="White" Click="BackBtn_Click">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFF12424" Offset="0"/>
+                            <GradientStop Color="#FFFB2E2E" Offset="1"/>
+                            <GradientStop Color="#FFD41C1C" Offset="0.022"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
             </Grid>
         </ScrollViewer>
 
