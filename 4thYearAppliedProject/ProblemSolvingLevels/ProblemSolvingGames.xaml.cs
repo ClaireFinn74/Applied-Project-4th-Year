@@ -41,5 +41,10 @@ namespace AppliedProject4thYear
         {
             Frame.Navigate(typeof(HigherOrLower));
         }
+
+        private void BackBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(MainPage));
+        }
     }
 }

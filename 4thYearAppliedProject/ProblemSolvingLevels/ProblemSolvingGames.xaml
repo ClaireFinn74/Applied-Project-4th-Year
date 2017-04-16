@@ -19,5 +19,6 @@
         <Button x:Name="HigherOrLowerGameBtn" Content="Higher or Lower" HorizontalAlignment="Left" Height="177" Margin="113,253,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.424,0.554" Width="165" Click="HigherOrLowerGameBtn_Click" VerticalContentAlignment="Bottom"/>
         <Button x:Name="ManicMathsbtn" Content="Manic Maths" HorizontalAlignment="Left" Height="177" Margin="106,38,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.424,0.554" Click="ManicMathsbtn_Click" VerticalContentAlignment="Bottom" Width="165"/>
         <Button x:Name="QuickRPG" Content="Quick RPG" HorizontalAlignment="Left" Margin="120,456,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.424,0.554" Width="165" Click="QuickRPG_Click" VerticalContentAlignment="Bottom" Height="177"/>
+        <Button x:Name="BackBtn" Content="Go Back" HorizontalAlignment="Left" Margin="140,650,0,0" VerticalAlignment="Top" Height="50" Width="116" Click="BackBtn_Click"/>
     </Grid>
 </Page>
