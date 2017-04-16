@@ -34,7 +34,7 @@ namespace AppliedProject4thYear.MainPages
 
         private void btnPorpoise_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(Everything_Has_A_Purpoise));
+            Frame.Navigate(typeof(MainPage));
         }
 
         private void btnPicturePerfect_Click(object sender, RoutedEventArgs e)
