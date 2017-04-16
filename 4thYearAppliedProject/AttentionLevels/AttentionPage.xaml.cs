@@ -24,7 +24,7 @@ namespace AppliedProject4thYear.MainPages
 
         private void btnAttention_Click(object sender, RoutedEventArgs e)
         {
-
+            Frame.Navigate(typeof(MainPage));
         }
 
         private void btnAttention_Click_1(object sender, RoutedEventArgs e)
@@ -34,7 +34,7 @@ namespace AppliedProject4thYear.MainPages
 
         private void btnPorpoise_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(MainPage));
+            Frame.Navigate(typeof(Everything_Has_A_Purpoise));
         }
 
         private void btnPicturePerfect_Click(object sender, RoutedEventArgs e)

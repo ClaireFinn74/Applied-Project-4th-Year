@@ -22,6 +22,6 @@
         <StackPanel>
             <Image x:Name="imgAttentionPorpoiseMainPage" Source="/Images/imgporpoise.png" HorizontalAlignment="Left" Margin="45,150,0,780" Width="200" Height="150" RenderTransformOrigin="0.234,1.445" />
         </StackPanel>
-        <Button x:Name="btnBack" Opacity="1" Content="Go Back" HorizontalAlignment="Left" Margin="30,34,0,0" VerticalAlignment="Top" Background="#FFA8BDD6" Click="btnPorpoise_Click" IsEnabled="True" Height="86" Width="115" RenderTransformOrigin="0.547,1.844"/>
+        <Button x:Name="btnBack" Opacity="1" Content="Go Back" HorizontalAlignment="Left" Margin="30,34,0,0" VerticalAlignment="Top" Background="#FFA8BDD6" Click="btnAttention_Click" IsEnabled="True" Height="86" Width="115" RenderTransformOrigin="0.547,1.844"/>
     </Grid>
 </Page>
