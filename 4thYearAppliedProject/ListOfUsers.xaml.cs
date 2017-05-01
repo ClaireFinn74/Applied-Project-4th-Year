@@ -42,8 +42,8 @@ namespace _4thYearAppliedProject
         }
         public static async Task<String> GetRequest()
         {
-            //Uri geturi = new Uri("http://13.65.27.59/db/GroupDBTest/users.json"); //replace your url
-            Uri geturi = new Uri("http://13.65.27.59/query/test.json"); //replace your url
+            //Uri geturi = new Uri("http://13.74.32.62/db/GroupDBTest/users.json"); //replace your url
+            Uri geturi = new Uri("http://13.74.32.62/query/SelectUsername.json"); //replace your url
 
             System.Net.Http.HttpClient client = new System.Net.Http.HttpClient();
             System.Net.Http.HttpResponseMessage responseGet = await client.GetAsync(geturi);
